@@ -1,0 +1,4 @@
+D:/Dropbox/Program/ForMicrochip/test/test_5PinDisplay_16F13145/_build/test_5PinDisplay_16F13145/default/CMakeFiles/test_5PinDisplay_16F13145_default_default_XC8_compile.dir
+D:/Dropbox/Program/ForMicrochip/test/test_5PinDisplay_16F13145/_build/test_5PinDisplay_16F13145/default/CMakeFiles/test_5PinDisplay_16F13145_default_image_TBVXbvT2.dir
+D:/Dropbox/Program/ForMicrochip/test/test_5PinDisplay_16F13145/_build/test_5PinDisplay_16F13145/default/CMakeFiles/edit_cache.dir
+D:/Dropbox/Program/ForMicrochip/test/test_5PinDisplay_16F13145/_build/test_5PinDisplay_16F13145/default/CMakeFiles/rebuild_cache.dir

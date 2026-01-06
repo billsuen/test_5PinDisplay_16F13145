@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\out\test_5PinDisplay_16F13145\default.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>8192</length>
+      <used>314</used>
+      <free>7878</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1024</length>
+      <used>14</used>
+      <free>1010</free>
+    </memory>
+  </executable>
+</project>
