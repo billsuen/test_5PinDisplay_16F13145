@@ -11,8 +11,8 @@ extern volatile uint16_t IND_FlashCnt;
 
 extern volatile uint8_t num;
 
-#define IND_FLASH_PERIOD	600
-#define IND_FLASH_DUTY		300
+#define IND_FLASH_PERIOD	300
+#define IND_FLASH_DUTY		150
 
 #define IND_ON	0
 #define IND_OFF	1

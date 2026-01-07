@@ -1,6 +1,8 @@
 #include "fivePinDisplay.h"
 #include "mcc_generated_files/system/pins.h"
 
+bool placePoint = ONCE_PLACE;
+
 void displayOncePlaceNum(uint8_t number)
 {
 	switch(number)
@@ -33,6 +35,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 
@@ -56,6 +59,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 			
@@ -85,6 +89,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -114,6 +119,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -144,6 +150,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -176,6 +183,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -205,6 +213,7 @@ void displayOncePlaceNum(uint8_t number)
 					break; 
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -228,6 +237,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -263,6 +273,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -296,6 +307,7 @@ void displayOncePlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = TENS_PLACE;
 			}
 			break;
 		
@@ -322,6 +334,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 2:
@@ -349,6 +362,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 3:
@@ -376,6 +390,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 4:
@@ -398,6 +413,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 5:
@@ -424,6 +440,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 6:
@@ -443,6 +460,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 7:
@@ -464,6 +482,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 8:
@@ -493,6 +512,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 9:
@@ -520,6 +540,7 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		case 10:
@@ -550,10 +571,12 @@ void displayTensPlaceNum(uint8_t number)
 					break;
 				default:
 					displayClock = 0;
+					placePoint = ONCE_PLACE;
 			}
 			break;
 		default:
 			AllHighZ();
+			placePoint = ONCE_PLACE;
 			break;
 	}
 }

@@ -79,6 +79,9 @@ int main(void)
 			IND_Y_LAT = IND_ON;
 		}
 
-		displayOncePlaceNum(num);
+		if(placePoint == ONCE_PLACE)
+			displayOncePlaceNum(num % 10);
+		else
+			displayTensPlaceNum(num / 10);
     }    
 }

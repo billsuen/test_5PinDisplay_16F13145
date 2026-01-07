@@ -684,7 +684,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "12
 [e ++ _IND_FlashCnt -> -> 1 `i `Vus ]
 "13
-[e $ ! >= -> _IND_FlashCnt `ui -> -> 600 `i `ui 882  ]
+[e $ ! >= -> _IND_FlashCnt `ui -> -> 300 `i `ui 882  ]
 "14
 {
 "15
@@ -692,7 +692,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "17
 [e ++ _num -> -> 1 `i `Vuc ]
 "18
-[e $ ! > -> _num `i -> 9 `i 883  ]
+[e $ ! > -> _num `i -> 100 `i 883  ]
 "19
 [e = _num -> -> 0 `i `uc ]
 [e :U 883 ]
@@ -702,7 +702,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22
 [e ++ _displayDelay -> -> 1 `i `Vuc ]
 "23
-[e $ ! >= -> _displayDelay `i -> 3 `i 884  ]
+[e $ ! >= -> _displayDelay `i -> 2 `i 884  ]
 "24
 {
 "25

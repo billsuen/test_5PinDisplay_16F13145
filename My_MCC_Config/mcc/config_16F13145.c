@@ -15,7 +15,7 @@ void USER_TMR0_ISR()
 		IND_FlashCnt = 0;
 
 		num++;
-		if(num > 9)
+		if(num > 100)
 			num = 0;
 	}
 

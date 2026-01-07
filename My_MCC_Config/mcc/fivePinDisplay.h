@@ -11,7 +11,10 @@ void AllHighZ(void);
 extern volatile uint8_t displayClock;
 extern volatile uint8_t displayDelay;
 
+extern bool placePoint;
 
-#define DISPLAY_DELAY_SETTING	3
+#define DISPLAY_DELAY_SETTING	2
+#define ONCE_PLACE	0
+#define TENS_PLACE	1
 
 #endif
