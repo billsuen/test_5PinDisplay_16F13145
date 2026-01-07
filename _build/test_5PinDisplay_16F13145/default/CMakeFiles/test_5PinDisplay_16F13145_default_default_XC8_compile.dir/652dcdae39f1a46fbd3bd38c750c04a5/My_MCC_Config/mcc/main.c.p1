@@ -30,6 +30,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S44 . . ]
 "686
 [v _LATAbits `VS44 ~T0 @X0 0 e@24 ]
+"7 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/fivePinDisplay.h
+[v _displayOncePlaceNum `(v ~T0 @X0 0 ef1`uc ]
+"12 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
+[v _num `Vuc ~T0 @X0 0 e ]
 "38 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [; <" INDF0 equ 00h ;# ">
 "58
@@ -687,53 +691,55 @@ Version 4.0 HI-TECH Software Intermediate Code
 "17927
 [; <" TOSH equ 01FEFh ;# ">
 [v $root$_main `(v ~T0 @X0 0 e ]
-"44 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
+"45 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
 [v _main `(i ~T0 @X0 1 ef ]
-"45
+"46
 {
 [e :U _main ]
 [f ]
-"46
+"47
 [e ( _SYSTEM_Initialize ..  ]
-"48
-[e ( _ADC_ThresholdCallbackRegister (1 &U _USER_ADC_THRESHOLD_ISR ]
 "49
+[e ( _ADC_ThresholdCallbackRegister (1 &U _USER_ADC_THRESHOLD_ISR ]
+"50
 [e ( _TMR0_PeriodMatchCallbackRegister (1 &U _USER_TMR0_ISR ]
-"56
+"57
 [e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
-"62
+"63
 [e = . . _INTCONbits 0 2 -> -> 1 `i `uc ]
-"68
-[e :U 883 ]
 "69
-{
+[e :U 883 ]
 "70
-[e $ ! < -> _IND_FlashCnt `ui -> -> 300 `i `ui 885  ]
-"71
 {
+"71
+[e $ ! < -> _IND_FlashCnt `ui -> -> 300 `i `ui 885  ]
 "72
-[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
+{
 "73
-[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
 "74
+[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
+"75
 }
 [e $U 886  ]
-"75
-[e :U 885 ]
 "76
-{
+[e :U 885 ]
 "77
-[e = . . _LATAbits 0 0 -> -> 1 `i `uc ]
+{
 "78
-[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATAbits 0 0 -> -> 1 `i `uc ]
 "79
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+"80
 }
 [e :U 886 ]
-"80
+"82
+[e ( _displayOncePlaceNum (1 _num ]
+"83
 }
 [e :U 882 ]
 [e $U 883  ]
 [e :U 884 ]
-"81
+"84
 [e :UE 881 ]
 }

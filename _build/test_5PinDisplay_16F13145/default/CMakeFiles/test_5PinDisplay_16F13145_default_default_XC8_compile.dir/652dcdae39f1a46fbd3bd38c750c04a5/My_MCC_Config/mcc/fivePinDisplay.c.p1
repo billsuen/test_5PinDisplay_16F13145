@@ -1,0 +1,4485 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"615 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
+[s S43 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S43 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"614
+[u S42 `S43 1 ]
+[n S42 . . ]
+"626
+[v _TRISCbits `VS42 ~T0 @X0 0 e@20 ]
+"761
+[s S49 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"760
+[u S48 `S49 1 ]
+[n S48 . . ]
+"772
+[v _LATCbits `VS48 ~T0 @X0 0 e@26 ]
+"11 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/fivePinDisplay.h
+[v _displayClock `Vuc ~T0 @X0 0 e ]
+"9
+[v _AllHighZ `(v ~T0 @X0 0 ef ]
+"38 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
+[; <" INDF0 equ 00h ;# ">
+"58
+[; <" INDF1 equ 01h ;# ">
+"78
+[; <" PCL equ 02h ;# ">
+"98
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR0L equ 04h ;# ">
+"181
+[; <" FSR0H equ 05h ;# ">
+"205
+[; <" FSR1L equ 06h ;# ">
+"225
+[; <" FSR1H equ 07h ;# ">
+"245
+[; <" BSR equ 08h ;# ">
+"303
+[; <" WREG equ 09h ;# ">
+"323
+[; <" PCLATH equ 0Ah ;# ">
+"343
+[; <" INTCON equ 0Bh ;# ">
+"376
+[; <" PORTA equ 0Ch ;# ">
+"426
+[; <" PORTB equ 0Dh ;# ">
+"465
+[; <" PORTC equ 0Eh ;# ">
+"527
+[; <" TRISA equ 012h ;# ">
+"572
+[; <" TRISB equ 013h ;# ">
+"611
+[; <" TRISC equ 014h ;# ">
+"673
+[; <" LATA equ 018h ;# ">
+"718
+[; <" LATB equ 019h ;# ">
+"757
+[; <" LATC equ 01Ah ;# ">
+"819
+[; <" PIR0 equ 08Ch ;# ">
+"852
+[; <" PIR1 equ 08Dh ;# ">
+"909
+[; <" PIR2 equ 08Eh ;# ">
+"943
+[; <" PIR3 equ 08Fh ;# ">
+"950
+[; <" PIR4 equ 090h ;# ">
+"1001
+[; <" PIR5 equ 091h ;# ">
+"1041
+[; <" PIR6 equ 092h ;# ">
+"1067
+[; <" PIR7 equ 093h ;# ">
+"1105
+[; <" PIE0 equ 096h ;# ">
+"1138
+[; <" PIE1 equ 097h ;# ">
+"1195
+[; <" PIE2 equ 098h ;# ">
+"1229
+[; <" PIE3 equ 099h ;# ">
+"1236
+[; <" PIE4 equ 09Ah ;# ">
+"1287
+[; <" PIE5 equ 09Bh ;# ">
+"1327
+[; <" PIE6 equ 09Ch ;# ">
+"1353
+[; <" PIE7 equ 09Dh ;# ">
+"1391
+[; <" PMD0 equ 010Ch ;# ">
+"1443
+[; <" PMD1 equ 010Dh ;# ">
+"1483
+[; <" PMD2 equ 010Eh ;# ">
+"1516
+[; <" PMD3 equ 010Fh ;# ">
+"1568
+[; <" PMD4 equ 0110h ;# ">
+"1601
+[; <" PMD5 equ 0111h ;# ">
+"1627
+[; <" WDTCON0 equ 018Ch ;# ">
+"1738
+[; <" WDTCON1 equ 018Dh ;# ">
+"1858
+[; <" WDTPS equ 018Eh ;# ">
+"1865
+[; <" WDTPSL equ 018Eh ;# ">
+"1943
+[; <" WDTPSH equ 018Fh ;# ">
+"2021
+[; <" WDTTMR equ 0190h ;# ">
+"2118
+[; <" BORCON equ 0191h ;# ">
+"2145
+[; <" PCON0 equ 0192h ;# ">
+"2207
+[; <" PCON1 equ 0193h ;# ">
+"2228
+[; <" TMR0L equ 019Ch ;# ">
+"2233
+[; <" TMR0 equ 019Ch ;# ">
+"2366
+[; <" TMR0H equ 019Dh ;# ">
+"2371
+[; <" PR0 equ 019Dh ;# ">
+"2620
+[; <" T0CON0 equ 019Eh ;# ">
+"2744
+[; <" T0CON1 equ 019Fh ;# ">
+"2886
+[; <" FVRCON equ 020Ch ;# ">
+"2975
+[; <" CPCON equ 020Dh ;# ">
+"3020
+[; <" CPUDOZE equ 028Ch ;# ">
+"3065
+[; <" OSCCON1 equ 028Dh ;# ">
+"3135
+[; <" OSCCON2 equ 028Eh ;# ">
+"3205
+[; <" OSCCON3 equ 028Fh ;# ">
+"3239
+[; <" OSCSTAT equ 0290h ;# ">
+"3296
+[; <" OSCEN equ 0291h ;# ">
+"3348
+[; <" OSCTUNE equ 0292h ;# ">
+"3406
+[; <" OSCFRQ equ 0293h ;# ">
+"3446
+[; <" TMR1 equ 030Ch ;# ">
+"3453
+[; <" TMR1L equ 030Ch ;# ">
+"3623
+[; <" TMR1H equ 030Dh ;# ">
+"3743
+[; <" T1CON equ 030Eh ;# ">
+"3839
+[; <" T1GCON equ 030Fh ;# ">
+"3844
+[; <" PR1 equ 030Fh ;# ">
+"4035
+[; <" T1GATE equ 0310h ;# ">
+"4040
+[; <" TMR1GATE equ 0310h ;# ">
+"4201
+[; <" T1CLK equ 0311h ;# ">
+"4206
+[; <" TMR1CLK equ 0311h ;# ">
+"4367
+[; <" T2TMR equ 038Ch ;# ">
+"4372
+[; <" TMR2 equ 038Ch ;# ">
+"4421
+[; <" T2PR equ 038Dh ;# ">
+"4426
+[; <" PR2 equ 038Dh ;# ">
+"4475
+[; <" T2CON equ 038Eh ;# ">
+"4621
+[; <" T2HLT equ 038Fh ;# ">
+"4761
+[; <" T2CLKCON equ 0390h ;# ">
+"4766
+[; <" T2CLK equ 0390h ;# ">
+"4943
+[; <" T2RST equ 0391h ;# ">
+"5035
+[; <" CCPR1 equ 040Ch ;# ">
+"5042
+[; <" CCPR1L equ 040Ch ;# ">
+"5062
+[; <" CCPR1H equ 040Dh ;# ">
+"5082
+[; <" CCP1CON equ 040Eh ;# ">
+"5209
+[; <" CCP1CAP equ 040Fh ;# ">
+"5289
+[; <" CCPR2 equ 0410h ;# ">
+"5296
+[; <" CCPR2L equ 0410h ;# ">
+"5316
+[; <" CCPR2H equ 0411h ;# ">
+"5336
+[; <" CCP2CON equ 0412h ;# ">
+"5463
+[; <" CCP2CAP equ 0413h ;# ">
+"5543
+[; <" CCPTMRS0 equ 041Fh ;# ">
+"5569
+[; <" CLBCON equ 050Ch ;# ">
+"5605
+[; <" CLBSWINU equ 050Dh ;# ">
+"5675
+[; <" CLBSWINH equ 050Eh ;# ">
+"5745
+[; <" CLBSWINM equ 050Fh ;# ">
+"5815
+[; <" CLBSWINL equ 0510h ;# ">
+"5885
+[; <" CLBCLK equ 0515h ;# ">
+"5931
+[; <" CLBPPSCON4 equ 0516h ;# ">
+"5957
+[; <" CLBPPSCON3 equ 0517h ;# ">
+"5983
+[; <" CLBPPSCON2 equ 0518h ;# ">
+"6009
+[; <" CLBPPSCON1 equ 0519h ;# ">
+"6035
+[; <" CLCnCON equ 068Ch ;# ">
+"6100
+[; <" CLCnPOL equ 068Dh ;# ">
+"6145
+[; <" CLCnSEL0 equ 068Eh ;# ">
+"6209
+[; <" CLCnSEL1 equ 068Fh ;# ">
+"6273
+[; <" CLCnSEL2 equ 0690h ;# ">
+"6337
+[; <" CLCnSEL3 equ 0691h ;# ">
+"6401
+[; <" CLCnGLS0 equ 0692h ;# ">
+"6463
+[; <" CLCnGLS1 equ 0693h ;# ">
+"6525
+[; <" CLCnGLS2 equ 0694h ;# ">
+"6587
+[; <" CLCnGLS3 equ 0695h ;# ">
+"6649
+[; <" CLCSELECT equ 0696h ;# ">
+"6683
+[; <" CLCDATA equ 0697h ;# ">
+"6721
+[; <" RC1REG equ 070Ch ;# ">
+"6741
+[; <" TX1REG equ 070Dh ;# ">
+"6761
+[; <" SP1BRG equ 070Eh ;# ">
+"6768
+[; <" SP1BRGL equ 070Eh ;# ">
+"6788
+[; <" SP1BRGH equ 070Fh ;# ">
+"6808
+[; <" RC1STA equ 0710h ;# ">
+"6870
+[; <" TX1STA equ 0711h ;# ">
+"6932
+[; <" BAUD1CON equ 0712h ;# ">
+"6984
+[; <" SSP1BUF equ 078Ch ;# ">
+"7004
+[; <" SSP1ADD equ 078Dh ;# ">
+"7124
+[; <" SSP1MSK equ 078Eh ;# ">
+"7194
+[; <" SSP1STAT equ 078Fh ;# ">
+"7558
+[; <" SSP1CON1 equ 0790h ;# ">
+"7678
+[; <" SSP1CON2 equ 0791h ;# ">
+"7865
+[; <" SSP1CON3 equ 0792h ;# ">
+"7927
+[; <" CM1CON0 equ 080Ch ;# ">
+"8019
+[; <" CM1CON1 equ 080Dh ;# ">
+"8059
+[; <" CM1NCH equ 080Eh ;# ">
+"8119
+[; <" CM1PCH equ 080Fh ;# ">
+"8179
+[; <" CM2CON0 equ 0810h ;# ">
+"8271
+[; <" CM2CON1 equ 0811h ;# ">
+"8311
+[; <" CM2NCH equ 0812h ;# ">
+"8371
+[; <" CM2PCH equ 0813h ;# ">
+"8431
+[; <" CMOUT equ 081Fh ;# ">
+"8457
+[; <" PWM1DC equ 0820h ;# ">
+"8464
+[; <" PWM1DCL equ 0820h ;# ">
+"8485
+[; <" PWM1DCH equ 0821h ;# ">
+"8505
+[; <" PWM1CON equ 0822h ;# ">
+"8561
+[; <" PWM2DC equ 0823h ;# ">
+"8568
+[; <" PWM2DCL equ 0823h ;# ">
+"8589
+[; <" PWM2DCH equ 0824h ;# ">
+"8609
+[; <" PWM2CON equ 0825h ;# ">
+"8665
+[; <" PWMTMRS0 equ 082Fh ;# ">
+"8691
+[; <" DAC1CON equ 088Ch ;# ">
+"8757
+[; <" DAC1DATL equ 088Dh ;# ">
+"8785
+[; <" NVMADR equ 01C8Ch ;# ">
+"8792
+[; <" NVMADRL equ 01C8Ch ;# ">
+"8862
+[; <" NVMADRH equ 01C8Dh ;# ">
+"8926
+[; <" NVMDAT equ 01C8Eh ;# ">
+"8933
+[; <" NVMDATL equ 01C8Eh ;# ">
+"9003
+[; <" NVMDATH equ 01C8Fh ;# ">
+"9061
+[; <" NVMCON1 equ 01C90h ;# ">
+"9117
+[; <" NVMCON2 equ 01C91h ;# ">
+"9137
+[; <" SCANCON0 equ 01C92h ;# ">
+"9202
+[; <" SCANLADR equ 01C93h ;# ">
+"9209
+[; <" SCANLADRL equ 01C93h ;# ">
+"9229
+[; <" SCANLADRH equ 01C94h ;# ">
+"9249
+[; <" SCANHADR equ 01C96h ;# ">
+"9256
+[; <" SCANHADRL equ 01C96h ;# ">
+"9276
+[; <" SCANHADRH equ 01C97h ;# ">
+"9296
+[; <" SCANDPS equ 01C99h ;# ">
+"9316
+[; <" SCANTRIG equ 01C9Ah ;# ">
+"9336
+[; <" CRCDATA equ 01C9Dh ;# ">
+"9343
+[; <" CRCDATAL equ 01C9Dh ;# ">
+"9413
+[; <" CRCDATAH equ 01C9Eh ;# ">
+"9483
+[; <" CRCDATAU equ 01C9Fh ;# ">
+"9553
+[; <" CRCDATAT equ 01CA0h ;# ">
+"9623
+[; <" CRCOUT equ 01CA1h ;# ">
+"9628
+[; <" CRCSHFT equ 01CA1h ;# ">
+"9632
+[; <" CRCXOR equ 01CA1h ;# ">
+"9639
+[; <" CRCOUTL equ 01CA1h ;# ">
+"9709
+[; <" CRCSHFTL equ 01CA1h ;# ">
+"9714
+[; <" CRCSHIFTL equ 01CA1h ;# ">
+"9847
+[; <" CRCXORL equ 01CA1h ;# ">
+"9917
+[; <" CRCOUTH equ 01CA2h ;# ">
+"9987
+[; <" CRCSHFTH equ 01CA2h ;# ">
+"9992
+[; <" CRCSHIFTH equ 01CA2h ;# ">
+"10125
+[; <" CRCXORH equ 01CA2h ;# ">
+"10195
+[; <" CRCOUTU equ 01CA3h ;# ">
+"10265
+[; <" CRCSHFTU equ 01CA3h ;# ">
+"10270
+[; <" CRCSHIFTU equ 01CA3h ;# ">
+"10403
+[; <" CRCXORU equ 01CA3h ;# ">
+"10473
+[; <" CRCOUTT equ 01CA4h ;# ">
+"10543
+[; <" CRCSHFTT equ 01CA4h ;# ">
+"10548
+[; <" CRCSHIFTT equ 01CA4h ;# ">
+"10681
+[; <" CRCXORT equ 01CA4h ;# ">
+"10751
+[; <" CRCCON0 equ 01CA5h ;# ">
+"10852
+[; <" CRCCON1 equ 01CA6h ;# ">
+"10904
+[; <" CRCCON2 equ 01CA7h ;# ">
+"10956
+[; <" ADLTH equ 01D0Ch ;# ">
+"10963
+[; <" ADLTHL equ 01D0Ch ;# ">
+"11091
+[; <" ADLTHH equ 01D0Dh ;# ">
+"11219
+[; <" ADUTH equ 01D0Eh ;# ">
+"11226
+[; <" ADUTHL equ 01D0Eh ;# ">
+"11354
+[; <" ADUTHH equ 01D0Fh ;# ">
+"11482
+[; <" ADERR equ 01D10h ;# ">
+"11489
+[; <" ADERRL equ 01D10h ;# ">
+"11617
+[; <" ADERRH equ 01D11h ;# ">
+"11745
+[; <" ADSTPT equ 01D12h ;# ">
+"11752
+[; <" ADSTPTL equ 01D12h ;# ">
+"11880
+[; <" ADSTPTH equ 01D13h ;# ">
+"12008
+[; <" ADFLTR equ 01D14h ;# ">
+"12015
+[; <" ADFLTRL equ 01D14h ;# ">
+"12143
+[; <" ADFLTRH equ 01D15h ;# ">
+"12273
+[; <" ADACC equ 01D16h ;# ">
+"12280
+[; <" ADACCL equ 01D16h ;# ">
+"12408
+[; <" ADACCH equ 01D17h ;# ">
+"12536
+[; <" ADACCU equ 01D18h ;# ">
+"12592
+[; <" ADCNT equ 01D19h ;# ">
+"12720
+[; <" ADRPT equ 01D1Ah ;# ">
+"12848
+[; <" ADPREV equ 01D1Bh ;# ">
+"12855
+[; <" ADPREVL equ 01D1Bh ;# ">
+"12983
+[; <" ADPREVH equ 01D1Ch ;# ">
+"13111
+[; <" ADRES equ 01D1Dh ;# ">
+"13118
+[; <" ADRESL equ 01D1Dh ;# ">
+"13246
+[; <" ADRESH equ 01D1Eh ;# ">
+"13366
+[; <" ADPCH equ 01D1Fh ;# ">
+"13424
+[; <" ADACQ equ 01D21h ;# ">
+"13431
+[; <" ADACQL equ 01D21h ;# ">
+"13559
+[; <" ADACQH equ 01D22h ;# ">
+"13651
+[; <" ADCAP equ 01D23h ;# ">
+"13703
+[; <" ADPRE equ 01D24h ;# ">
+"13710
+[; <" ADPREL equ 01D24h ;# ">
+"13838
+[; <" ADPREH equ 01D25h ;# ">
+"13930
+[; <" ADCON0 equ 01D26h ;# ">
+"14040
+[; <" ADCON1 equ 01D27h ;# ">
+"14112
+[; <" ADCON2 equ 01D28h ;# ">
+"14254
+[; <" ADCON3 equ 01D29h ;# ">
+"14384
+[; <" ADSTAT equ 01D2Ah ;# ">
+"14516
+[; <" ADREF equ 01D2Bh ;# ">
+"14572
+[; <" ADACT equ 01D2Ch ;# ">
+"14676
+[; <" ADCLK equ 01D2Dh ;# ">
+"14780
+[; <" ADCG1A equ 01D2Eh ;# ">
+"14825
+[; <" ADCG1B equ 01D2Fh ;# ">
+"14864
+[; <" ADCG1C equ 01D30h ;# ">
+"14926
+[; <" RA0PPS equ 01D8Ch ;# ">
+"14946
+[; <" RA1PPS equ 01D8Dh ;# ">
+"14966
+[; <" RA2PPS equ 01D8Eh ;# ">
+"14986
+[; <" RA4PPS equ 01D90h ;# ">
+"15006
+[; <" RA5PPS equ 01D91h ;# ">
+"15026
+[; <" RB4PPS equ 01D98h ;# ">
+"15046
+[; <" RB5PPS equ 01D99h ;# ">
+"15066
+[; <" RB6PPS equ 01D9Ah ;# ">
+"15086
+[; <" RB7PPS equ 01D9Bh ;# ">
+"15106
+[; <" RC0PPS equ 01D9Ch ;# ">
+"15126
+[; <" RC1PPS equ 01D9Dh ;# ">
+"15146
+[; <" RC2PPS equ 01D9Eh ;# ">
+"15166
+[; <" RC3PPS equ 01D9Fh ;# ">
+"15186
+[; <" RC4PPS equ 01DA0h ;# ">
+"15206
+[; <" RC5PPS equ 01DA1h ;# ">
+"15226
+[; <" RC6PPS equ 01DA2h ;# ">
+"15246
+[; <" RC7PPS equ 01DA3h ;# ">
+"15266
+[; <" PPSLOCK equ 01E0Ch ;# ">
+"15286
+[; <" INTPPS equ 01E0Dh ;# ">
+"15338
+[; <" T0CKIPPS equ 01E0Eh ;# ">
+"15390
+[; <" T1CKIPPS equ 01E0Fh ;# ">
+"15442
+[; <" T1GPPS equ 01E10h ;# ">
+"15494
+[; <" T2INPPS equ 01E19h ;# ">
+"15546
+[; <" CCP1PPS equ 01E1Eh ;# ">
+"15598
+[; <" CCP2PPS equ 01E1Fh ;# ">
+"15650
+[; <" CLCIN0PPS equ 01E3Dh ;# ">
+"15702
+[; <" CLCIN1PPS equ 01E3Eh ;# ">
+"15754
+[; <" CLCIN2PPS equ 01E3Fh ;# ">
+"15806
+[; <" CLCIN3PPS equ 01E40h ;# ">
+"15858
+[; <" CK1PPS equ 01E41h ;# ">
+"15863
+[; <" RX1DTPPS equ 01E41h ;# ">
+"15896
+[; <" RX1PPS equ 01E42h ;# ">
+"15901
+[; <" TX1CKPPS equ 01E42h ;# ">
+"15934
+[; <" SSP1CLKPPS equ 01E47h ;# ">
+"15986
+[; <" SSP1DATPPS equ 01E48h ;# ">
+"16038
+[; <" SSP1SSPPS equ 01E49h ;# ">
+"16090
+[; <" ADACTPPS equ 01E50h ;# ">
+"16110
+[; <" CLBIN0PPS equ 01E57h ;# ">
+"16130
+[; <" CLBIN1PPS equ 01E58h ;# ">
+"16150
+[; <" CLBIN2PPS equ 01E59h ;# ">
+"16170
+[; <" CLBIN3PPS equ 01E5Ah ;# ">
+"16190
+[; <" ANSELA equ 01E8Ch ;# ">
+"16268
+[; <" WPUA equ 01E8Dh ;# ">
+"16318
+[; <" ODCONA equ 01E8Eh ;# ">
+"16363
+[; <" SLRCONA equ 01E8Fh ;# ">
+"16408
+[; <" INLVLA equ 01E90h ;# ">
+"16458
+[; <" IOCAP equ 01E91h ;# ">
+"16508
+[; <" IOCAN equ 01E92h ;# ">
+"16558
+[; <" IOCAF equ 01E93h ;# ">
+"16608
+[; <" ANSELB equ 01E96h ;# ">
+"16674
+[; <" WPUB equ 01E97h ;# ">
+"16713
+[; <" ODCONB equ 01E98h ;# ">
+"16752
+[; <" SLRCONB equ 01E99h ;# ">
+"16791
+[; <" INLVLB equ 01E9Ah ;# ">
+"16830
+[; <" IOCBP equ 01E9Bh ;# ">
+"16869
+[; <" IOCBN equ 01E9Ch ;# ">
+"16908
+[; <" IOCBF equ 01E9Dh ;# ">
+"16947
+[; <" ANSELC equ 01EA0h ;# ">
+"17059
+[; <" WPUC equ 01EA1h ;# ">
+"17121
+[; <" ODCONC equ 01EA2h ;# ">
+"17183
+[; <" SLRCONC equ 01EA3h ;# ">
+"17245
+[; <" INLVLC equ 01EA4h ;# ">
+"17307
+[; <" IOCCP equ 01EA5h ;# ">
+"17369
+[; <" IOCCN equ 01EA6h ;# ">
+"17431
+[; <" IOCCF equ 01EA7h ;# ">
+"17493
+[; <" RB4I2C equ 01EE5h ;# ">
+"17526
+[; <" RB6I2C equ 01EE7h ;# ">
+"17559
+[; <" UMTOAP equ 01F0Ch ;# ">
+"17579
+[; <" UMTOAL equ 01F0Dh ;# ">
+"17599
+[; <" UMTOAH equ 01F0Eh ;# ">
+"17619
+[; <" STATUS_SHAD equ 01FE4h ;# ">
+"17659
+[; <" WREG_SHAD equ 01FE5h ;# ">
+"17679
+[; <" BSR_SHAD equ 01FE6h ;# ">
+"17699
+[; <" PCLATH_SHAD equ 01FE7h ;# ">
+"17719
+[; <" FSR0_SHAD equ 01FE8h ;# ">
+"17726
+[; <" FSR0L_SHAD equ 01FE8h ;# ">
+"17746
+[; <" FSR0H_SHAD equ 01FE9h ;# ">
+"17766
+[; <" FSR1_SHAD equ 01FEAh ;# ">
+"17773
+[; <" FSR1L_SHAD equ 01FEAh ;# ">
+"17793
+[; <" FSR1H_SHAD equ 01FEBh ;# ">
+"17813
+[; <" STKPTR equ 01FEDh ;# ">
+"17857
+[; <" TOSL equ 01FEEh ;# ">
+"17927
+[; <" TOSH equ 01FEFh ;# ">
+"4 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\fivePinDisplay.c
+[v _displayOncePlaceNum `(v ~T0 @X0 1 ef1`uc ]
+"5
+{
+[e :U _displayOncePlaceNum ]
+"4
+[v _number `uc ~T0 @X0 1 r1 ]
+"5
+[f ]
+"6
+[e $U 883  ]
+"7
+{
+"8
+[e :U 884 ]
+"9
+[e $U 886  ]
+"10
+{
+"11
+[e :U 887 ]
+"12
+[e :U 890 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 889 ]
+"13
+[e :U 893 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 892 ]
+[e :U 896 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 895 ]
+"14
+[e :U 899 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 898 ]
+[e :U 902 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 901 ]
+"15
+[e :U 905 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 904 ]
+[e :U 908 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 907 ]
+"16
+[e :U 911 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 910 ]
+[e :U 914 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 913 ]
+"17
+[e $U 885  ]
+"18
+[e :U 915 ]
+"19
+[e :U 918 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 917 ]
+[e :U 921 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 920 ]
+[e :U 924 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 923 ]
+"20
+[e :U 927 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 926 ]
+[e :U 930 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 929 ]
+"21
+[e :U 933 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 932 ]
+[e :U 936 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 935 ]
+"22
+[e $U 885  ]
+"23
+[e :U 937 ]
+"24
+[e :U 940 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 939 ]
+[e :U 943 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 942 ]
+"25
+[e :U 946 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 945 ]
+[e :U 949 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 948 ]
+"26
+[e :U 952 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 951 ]
+[e :U 955 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 954 ]
+"27
+[e :U 958 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 957 ]
+[e :U 961 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 960 ]
+"28
+[e $U 885  ]
+"29
+[e :U 962 ]
+"30
+[e :U 965 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 964 ]
+[e :U 968 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 967 ]
+[e :U 971 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 970 ]
+"31
+[e :U 974 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 973 ]
+[e :U 977 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 976 ]
+"32
+[e :U 980 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 979 ]
+[e :U 983 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 982 ]
+"33
+[e $U 885  ]
+"34
+[e :U 984 ]
+"35
+[e = _displayClock -> -> 0 `i `uc ]
+"36
+}
+[e $U 885  ]
+[e :U 886 ]
+[e [\ _displayClock , $ -> 0 `i 887
+ , $ -> 1 `i 915
+ , $ -> 2 `i 937
+ , $ -> 3 `i 962
+ 984 ]
+[e :U 885 ]
+"37
+[e $U 882  ]
+"39
+[e :U 985 ]
+"40
+[e $U 987  ]
+"41
+{
+"42
+[e :U 988 ]
+"43
+[e :U 991 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 990 ]
+[e :U 994 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 993 ]
+[e :U 997 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 996 ]
+"44
+[e :U 1000 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 999 ]
+[e :U 1003 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1002 ]
+"45
+[e :U 1006 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1005 ]
+[e :U 1009 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1008 ]
+"46
+[e $U 986  ]
+"47
+[e :U 1010 ]
+"48
+[e :U 1013 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1012 ]
+[e :U 1016 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1015 ]
+[e :U 1019 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1018 ]
+"49
+[e :U 1022 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1021 ]
+[e :U 1025 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1024 ]
+"50
+[e :U 1028 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1027 ]
+[e :U 1031 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1030 ]
+"51
+[e $U 986  ]
+"52
+[e :U 1032 ]
+"53
+[e :U 1035 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1034 ]
+[e :U 1038 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1037 ]
+[e :U 1041 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1040 ]
+"54
+[e :U 1044 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1043 ]
+[e :U 1047 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1046 ]
+"55
+[e :U 1050 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1049 ]
+[e :U 1053 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1052 ]
+"56
+[e $U 986  ]
+"57
+[e :U 1054 ]
+"58
+[e = _displayClock -> -> 0 `i `uc ]
+"59
+}
+[e $U 986  ]
+[e :U 987 ]
+[e [\ _displayClock , $ -> 0 `i 988
+ , $ -> 1 `i 1010
+ , $ -> 2 `i 1032
+ 1054 ]
+[e :U 986 ]
+"60
+[e $U 882  ]
+"62
+[e :U 1055 ]
+"63
+[e $U 1057  ]
+{
+"64
+[e :U 1058 ]
+"65
+[e :U 1061 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1060 ]
+[e :U 1064 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1063 ]
+"66
+[e :U 1067 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1066 ]
+[e :U 1070 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1069 ]
+"67
+[e :U 1073 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1072 ]
+[e :U 1076 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1075 ]
+"68
+[e :U 1079 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1078 ]
+[e :U 1082 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1081 ]
+"69
+[e $U 1056  ]
+"70
+[e :U 1083 ]
+"71
+[e :U 1086 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1085 ]
+[e :U 1089 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1088 ]
+[e :U 1092 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1091 ]
+"72
+[e :U 1095 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1094 ]
+[e :U 1098 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1097 ]
+"73
+[e :U 1101 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1100 ]
+[e :U 1104 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1103 ]
+"74
+[e $U 1056  ]
+"75
+[e :U 1105 ]
+"76
+[e :U 1108 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1107 ]
+[e :U 1111 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1110 ]
+"77
+[e :U 1114 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1113 ]
+[e :U 1117 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1116 ]
+"78
+[e :U 1120 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1119 ]
+[e :U 1123 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1122 ]
+"79
+[e :U 1126 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1125 ]
+[e :U 1129 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1128 ]
+"80
+[e $U 1056  ]
+"81
+[e :U 1130 ]
+"82
+[e :U 1133 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1132 ]
+[e :U 1136 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1135 ]
+[e :U 1139 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1138 ]
+"83
+[e :U 1142 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1141 ]
+[e :U 1145 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1144 ]
+"84
+[e :U 1148 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1147 ]
+[e :U 1151 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1150 ]
+"85
+[e $U 1056  ]
+"86
+[e :U 1152 ]
+"87
+[e = _displayClock -> -> 0 `i `uc ]
+"88
+}
+[e $U 1056  ]
+[e :U 1057 ]
+[e [\ _displayClock , $ -> 0 `i 1058
+ , $ -> 1 `i 1083
+ , $ -> 2 `i 1105
+ , $ -> 3 `i 1130
+ 1152 ]
+[e :U 1056 ]
+"89
+[e $U 882  ]
+"91
+[e :U 1153 ]
+"92
+[e $U 1155  ]
+{
+"93
+[e :U 1156 ]
+"94
+[e :U 1159 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1158 ]
+[e :U 1162 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1161 ]
+"95
+[e :U 1165 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1164 ]
+[e :U 1168 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1167 ]
+"96
+[e :U 1171 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1170 ]
+[e :U 1174 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1173 ]
+"97
+[e :U 1177 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1176 ]
+[e :U 1180 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1179 ]
+"98
+[e $U 1154  ]
+"99
+[e :U 1181 ]
+"100
+[e :U 1184 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1183 ]
+[e :U 1187 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1186 ]
+[e :U 1190 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1189 ]
+"101
+[e :U 1193 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1192 ]
+[e :U 1196 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1195 ]
+"102
+[e :U 1199 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1198 ]
+[e :U 1202 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1201 ]
+"103
+[e $U 1154  ]
+"104
+[e :U 1203 ]
+"105
+[e :U 1206 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1205 ]
+[e :U 1209 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1208 ]
+"106
+[e :U 1212 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1211 ]
+[e :U 1215 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1214 ]
+"107
+[e :U 1218 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1217 ]
+[e :U 1221 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1220 ]
+"108
+[e :U 1224 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1223 ]
+[e :U 1227 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1226 ]
+"109
+[e $U 1154  ]
+"110
+[e :U 1228 ]
+"111
+[e :U 1231 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1230 ]
+[e :U 1234 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1233 ]
+[e :U 1237 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1236 ]
+"112
+[e :U 1240 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1239 ]
+[e :U 1243 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1242 ]
+"113
+[e :U 1246 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1245 ]
+[e :U 1249 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1248 ]
+"114
+[e $U 1154  ]
+"115
+[e :U 1250 ]
+"116
+[e = _displayClock -> -> 0 `i `uc ]
+"117
+}
+[e $U 1154  ]
+[e :U 1155 ]
+[e [\ _displayClock , $ -> 0 `i 1156
+ , $ -> 1 `i 1181
+ , $ -> 2 `i 1203
+ , $ -> 3 `i 1228
+ 1250 ]
+[e :U 1154 ]
+"118
+[e $U 882  ]
+"120
+[e :U 1251 ]
+"121
+[e $U 1253  ]
+{
+"122
+[e :U 1254 ]
+"123
+[e :U 1257 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1256 ]
+[e :U 1260 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1259 ]
+[e :U 1263 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1262 ]
+"124
+[e :U 1266 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1265 ]
+[e :U 1269 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1268 ]
+"125
+[e :U 1272 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1271 ]
+[e :U 1275 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1274 ]
+"126
+[e $U 1252  ]
+"127
+[e :U 1276 ]
+"128
+[e :U 1279 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1278 ]
+[e :U 1282 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1281 ]
+[e :U 1285 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1284 ]
+"129
+[e :U 1288 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1287 ]
+[e :U 1291 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1290 ]
+"130
+[e :U 1294 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1293 ]
+[e :U 1297 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1296 ]
+"131
+[e $U 1252  ]
+"132
+[e :U 1298 ]
+"133
+[e ( _AllHighZ ..  ]
+"134
+[e $U 1252  ]
+"135
+[e :U 1299 ]
+"136
+[e :U 1302 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1301 ]
+[e :U 1305 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1304 ]
+[e :U 1308 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1307 ]
+"137
+[e :U 1311 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1310 ]
+[e :U 1314 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1313 ]
+"138
+[e :U 1317 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1316 ]
+[e :U 1320 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1319 ]
+"139
+[e $U 1252  ]
+"140
+[e :U 1321 ]
+"141
+[e :U 1324 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1323 ]
+[e :U 1327 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1326 ]
+[e :U 1330 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1329 ]
+"142
+[e :U 1333 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1332 ]
+[e :U 1336 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1335 ]
+"143
+[e :U 1339 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1338 ]
+[e :U 1342 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1341 ]
+"144
+[e $U 1252  ]
+"145
+[e :U 1343 ]
+"146
+[e = _displayClock -> -> 0 `i `uc ]
+"147
+}
+[e $U 1252  ]
+[e :U 1253 ]
+[e [\ _displayClock , $ -> 0 `i 1254
+ , $ -> 1 `i 1276
+ , $ -> 2 `i 1298
+ , $ -> 3 `i 1299
+ , $ -> 4 `i 1321
+ 1343 ]
+[e :U 1252 ]
+"148
+[e $U 882  ]
+"150
+[e :U 1344 ]
+"151
+[e $U 1346  ]
+{
+"152
+[e :U 1347 ]
+"153
+[e :U 1350 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1349 ]
+[e :U 1353 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1352 ]
+"154
+[e :U 1356 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1355 ]
+[e :U 1359 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1358 ]
+"155
+[e :U 1362 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1361 ]
+[e :U 1365 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1364 ]
+"156
+[e :U 1368 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1367 ]
+[e :U 1371 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1370 ]
+"157
+[e $U 1345  ]
+"158
+[e :U 1372 ]
+"159
+[e ( _AllHighZ ..  ]
+"160
+[e $U 1345  ]
+"161
+[e :U 1373 ]
+"162
+[e :U 1376 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1375 ]
+[e :U 1379 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1378 ]
+"163
+[e :U 1382 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1381 ]
+[e :U 1385 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1384 ]
+"164
+[e :U 1388 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1387 ]
+[e :U 1391 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1390 ]
+"165
+[e :U 1394 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1393 ]
+[e :U 1397 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1396 ]
+"166
+[e $U 1345  ]
+"167
+[e :U 1398 ]
+"168
+[e :U 1401 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1400 ]
+[e :U 1404 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1403 ]
+[e :U 1407 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1406 ]
+"169
+[e :U 1410 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1409 ]
+[e :U 1413 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1412 ]
+"170
+[e :U 1416 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1415 ]
+[e :U 1419 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1418 ]
+"171
+[e $U 1345  ]
+"172
+[e :U 1420 ]
+"173
+[e :U 1423 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1422 ]
+[e :U 1426 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1425 ]
+[e :U 1429 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1428 ]
+"174
+[e :U 1432 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1431 ]
+[e :U 1435 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1434 ]
+"175
+[e :U 1438 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1437 ]
+[e :U 1441 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1440 ]
+"176
+[e $U 1345  ]
+"177
+[e :U 1442 ]
+"178
+[e = _displayClock -> -> 0 `i `uc ]
+"179
+}
+[e $U 1345  ]
+[e :U 1346 ]
+[e [\ _displayClock , $ -> 0 `i 1347
+ , $ -> 1 `i 1372
+ , $ -> 2 `i 1373
+ , $ -> 3 `i 1398
+ , $ -> 4 `i 1420
+ 1442 ]
+[e :U 1345 ]
+"180
+[e $U 882  ]
+"182
+[e :U 1443 ]
+"183
+[e $U 1445  ]
+{
+"184
+[e :U 1446 ]
+"185
+[e :U 1449 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1448 ]
+[e :U 1452 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1451 ]
+"186
+[e :U 1455 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1454 ]
+[e :U 1458 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1457 ]
+"187
+[e :U 1461 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1460 ]
+[e :U 1464 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1463 ]
+"188
+[e :U 1467 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1466 ]
+[e :U 1470 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1469 ]
+"189
+[e $U 1444  ]
+"190
+[e :U 1471 ]
+"191
+[e :U 1474 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1473 ]
+[e :U 1477 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1476 ]
+"192
+[e :U 1480 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1479 ]
+[e :U 1483 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1482 ]
+"193
+[e :U 1486 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1485 ]
+[e :U 1489 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1488 ]
+"194
+[e :U 1492 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1491 ]
+[e :U 1495 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1494 ]
+"195
+[e $U 1444  ]
+"196
+[e :U 1496 ]
+"197
+[e :U 1499 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1498 ]
+[e :U 1502 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1501 ]
+[e :U 1505 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1504 ]
+"198
+[e :U 1508 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1507 ]
+[e :U 1511 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1510 ]
+"199
+[e :U 1514 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1513 ]
+[e :U 1517 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1516 ]
+"200
+[e $U 1444  ]
+"201
+[e :U 1518 ]
+"202
+[e :U 1521 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1520 ]
+[e :U 1524 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1523 ]
+[e :U 1527 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1526 ]
+"203
+[e :U 1530 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1529 ]
+[e :U 1533 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1532 ]
+"204
+[e :U 1536 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1535 ]
+[e :U 1539 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1538 ]
+"205
+[e $U 1444  ]
+"206
+[e :U 1540 ]
+"207
+[e = _displayClock -> -> 0 `i `uc ]
+"208
+}
+[e $U 1444  ]
+[e :U 1445 ]
+[e [\ _displayClock , $ -> 0 `i 1446
+ , $ -> 1 `i 1471
+ , $ -> 2 `i 1496
+ , $ -> 3 `i 1518
+ 1540 ]
+[e :U 1444 ]
+"209
+[e $U 882  ]
+"211
+[e :U 1541 ]
+"212
+[e $U 1543  ]
+{
+"213
+[e :U 1544 ]
+"214
+[e :U 1547 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1546 ]
+[e :U 1550 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1549 ]
+"215
+[e :U 1553 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1552 ]
+[e :U 1556 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1555 ]
+"216
+[e :U 1559 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1558 ]
+[e :U 1562 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1561 ]
+"217
+[e :U 1565 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1564 ]
+[e :U 1568 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1567 ]
+"218
+[e $U 1542  ]
+"219
+[e :U 1569 ]
+"220
+[e :U 1572 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1571 ]
+[e :U 1575 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1574 ]
+[e :U 1578 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1577 ]
+"221
+[e :U 1581 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1580 ]
+[e :U 1584 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1583 ]
+"222
+[e :U 1587 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1586 ]
+[e :U 1590 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1589 ]
+"223
+[e $U 1542  ]
+"224
+[e :U 1591 ]
+"225
+[e :U 1594 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1593 ]
+[e :U 1597 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1596 ]
+[e :U 1600 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1599 ]
+"226
+[e :U 1603 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1602 ]
+[e :U 1606 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1605 ]
+"227
+[e :U 1609 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1608 ]
+[e :U 1612 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1611 ]
+"228
+[e $U 1542  ]
+"229
+[e :U 1613 ]
+"230
+[e = _displayClock -> -> 0 `i `uc ]
+"231
+}
+[e $U 1542  ]
+[e :U 1543 ]
+[e [\ _displayClock , $ -> 0 `i 1544
+ , $ -> 1 `i 1569
+ , $ -> 2 `i 1591
+ 1613 ]
+[e :U 1542 ]
+"232
+[e $U 882  ]
+"234
+[e :U 1614 ]
+"235
+[e $U 1616  ]
+{
+"236
+[e :U 1617 ]
+"237
+[e :U 1620 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1619 ]
+"238
+[e :U 1623 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1622 ]
+[e :U 1626 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1625 ]
+"239
+[e :U 1629 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1628 ]
+[e :U 1632 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1631 ]
+"240
+[e :U 1635 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1634 ]
+[e :U 1638 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1637 ]
+"241
+[e :U 1641 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1640 ]
+[e :U 1644 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1643 ]
+"242
+[e $U 1615  ]
+"243
+[e :U 1645 ]
+"244
+[e :U 1648 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1647 ]
+[e :U 1651 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1650 ]
+[e :U 1654 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1653 ]
+"245
+[e :U 1657 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1656 ]
+[e :U 1660 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1659 ]
+"246
+[e :U 1663 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1662 ]
+[e :U 1666 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1665 ]
+"247
+[e $U 1615  ]
+"248
+[e :U 1667 ]
+"249
+[e :U 1670 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1669 ]
+[e :U 1673 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1672 ]
+"250
+[e :U 1676 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1675 ]
+[e :U 1679 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1678 ]
+"251
+[e :U 1682 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1681 ]
+[e :U 1685 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1684 ]
+"252
+[e :U 1688 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1687 ]
+[e :U 1691 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1690 ]
+"253
+[e $U 1615  ]
+"254
+[e :U 1692 ]
+"255
+[e :U 1695 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1694 ]
+[e :U 1698 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1697 ]
+[e :U 1701 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1700 ]
+"256
+[e :U 1704 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1703 ]
+[e :U 1707 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1706 ]
+"257
+[e :U 1710 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1709 ]
+[e :U 1713 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1712 ]
+"258
+[e $U 1615  ]
+"259
+[e :U 1714 ]
+"260
+[e :U 1717 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1716 ]
+[e :U 1720 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1719 ]
+[e :U 1723 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1722 ]
+"261
+[e :U 1726 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1725 ]
+[e :U 1729 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1728 ]
+"262
+[e :U 1732 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1731 ]
+[e :U 1735 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1734 ]
+"263
+[e $U 1615  ]
+"264
+[e :U 1736 ]
+"265
+[e = _displayClock -> -> 0 `i `uc ]
+"266
+}
+[e $U 1615  ]
+[e :U 1616 ]
+[e [\ _displayClock , $ -> 0 `i 1617
+ , $ -> 1 `i 1645
+ , $ -> 2 `i 1667
+ , $ -> 3 `i 1692
+ , $ -> 4 `i 1714
+ 1736 ]
+[e :U 1615 ]
+"267
+[e $U 882  ]
+"269
+[e :U 1737 ]
+"270
+[e $U 1739  ]
+{
+"271
+[e :U 1740 ]
+"272
+[e :U 1743 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1742 ]
+[e :U 1746 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1745 ]
+"273
+[e :U 1749 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1748 ]
+[e :U 1752 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1751 ]
+"274
+[e :U 1755 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1754 ]
+[e :U 1758 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1757 ]
+"275
+[e :U 1761 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1760 ]
+[e :U 1764 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1763 ]
+"276
+[e $U 1738  ]
+"277
+[e :U 1765 ]
+"278
+[e :U 1768 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1767 ]
+[e :U 1771 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1770 ]
+[e :U 1774 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1773 ]
+"279
+[e :U 1777 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1776 ]
+[e :U 1780 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1779 ]
+"280
+[e :U 1783 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1782 ]
+[e :U 1786 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1785 ]
+"281
+[e $U 1738  ]
+"282
+[e :U 1787 ]
+"283
+[e :U 1790 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1789 ]
+[e :U 1793 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1792 ]
+[e :U 1796 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1795 ]
+"284
+[e :U 1799 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1798 ]
+[e :U 1802 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1801 ]
+"285
+[e :U 1805 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1804 ]
+[e :U 1808 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1807 ]
+"286
+[e $U 1738  ]
+"287
+[e :U 1809 ]
+"288
+[e :U 1812 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1811 ]
+[e :U 1815 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1814 ]
+[e :U 1818 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1817 ]
+"289
+[e :U 1821 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1820 ]
+[e :U 1824 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1823 ]
+"290
+[e :U 1827 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1826 ]
+[e :U 1830 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1829 ]
+"291
+[e $U 1738  ]
+"292
+[e :U 1831 ]
+"293
+[e :U 1834 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1833 ]
+[e :U 1837 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1836 ]
+[e :U 1840 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1839 ]
+"294
+[e :U 1843 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1842 ]
+[e :U 1846 ]
+{
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1845 ]
+"295
+[e :U 1849 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1848 ]
+[e :U 1852 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1851 ]
+"296
+[e $U 1738  ]
+"297
+[e :U 1853 ]
+"298
+[e = _displayClock -> -> 0 `i `uc ]
+"299
+}
+[e $U 1738  ]
+[e :U 1739 ]
+[e [\ _displayClock , $ -> 0 `i 1740
+ , $ -> 1 `i 1765
+ , $ -> 2 `i 1787
+ , $ -> 3 `i 1809
+ , $ -> 4 `i 1831
+ 1853 ]
+[e :U 1738 ]
+"300
+[e $U 882  ]
+"302
+[e :U 1854 ]
+"303
+[e ( _AllHighZ ..  ]
+"304
+[e $U 882  ]
+"305
+}
+[e $U 882  ]
+[e :U 883 ]
+[e [\ _number , $ -> 0 `i 884
+ , $ -> 1 `i 985
+ , $ -> 2 `i 1055
+ , $ -> 3 `i 1153
+ , $ -> 4 `i 1251
+ , $ -> 5 `i 1344
+ , $ -> 6 `i 1443
+ , $ -> 7 `i 1541
+ , $ -> 8 `i 1614
+ , $ -> 9 `i 1737
+ 1854 ]
+[e :U 882 ]
+"306
+[e :UE 881 ]
+}
+"308
+[v _displayTensPlaceNum `(v ~T0 @X0 1 ef1`uc ]
+"309
+{
+[e :U _displayTensPlaceNum ]
+"308
+[v _number `uc ~T0 @X0 1 r1 ]
+"309
+[f ]
+"310
+[e $U 1857  ]
+{
+"311
+[e :U 1858 ]
+"312
+[e $U 1860  ]
+{
+"313
+[e :U 1861 ]
+"314
+[e :U 1864 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1863 ]
+[e :U 1867 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1866 ]
+[e :U 1870 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1869 ]
+"315
+[e :U 1873 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1872 ]
+[e :U 1876 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1875 ]
+"316
+[e :U 1879 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1878 ]
+[e :U 1882 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1881 ]
+"317
+[e $U 1859  ]
+"318
+[e :U 1883 ]
+"319
+[e :U 1886 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1885 ]
+[e :U 1889 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1888 ]
+[e :U 1892 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1891 ]
+"320
+[e :U 1895 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1894 ]
+[e :U 1898 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1897 ]
+"321
+[e :U 1901 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1900 ]
+[e :U 1904 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1903 ]
+"322
+[e $U 1859  ]
+"323
+[e :U 1905 ]
+"324
+[e = _displayClock -> -> 0 `i `uc ]
+"325
+}
+[e $U 1859  ]
+[e :U 1860 ]
+[e [\ _displayClock , $ -> 0 `i 1861
+ , $ -> 1 `i 1883
+ 1905 ]
+[e :U 1859 ]
+"326
+[e $U 1856  ]
+"327
+[e :U 1906 ]
+"328
+[e $U 1908  ]
+{
+"329
+[e :U 1909 ]
+"330
+[e :U 1912 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1911 ]
+[e :U 1915 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1914 ]
+[e :U 1918 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1917 ]
+"331
+[e :U 1921 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1920 ]
+[e :U 1924 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1923 ]
+"332
+[e :U 1927 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1926 ]
+[e :U 1930 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1929 ]
+"333
+[e $U 1907  ]
+"334
+[e :U 1931 ]
+"335
+[e :U 1934 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1933 ]
+[e :U 1937 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1936 ]
+[e :U 1940 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1939 ]
+"336
+[e :U 1943 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1942 ]
+[e :U 1946 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1945 ]
+"337
+[e :U 1949 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1948 ]
+[e :U 1952 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1951 ]
+"338
+[e $U 1907  ]
+"339
+[e :U 1953 ]
+"340
+[e :U 1956 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1955 ]
+[e :U 1959 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1958 ]
+[e :U 1962 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1961 ]
+"341
+[e :U 1965 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1964 ]
+[e :U 1968 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1967 ]
+"342
+[e :U 1971 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1970 ]
+[e :U 1974 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1973 ]
+"343
+[e $U 1907  ]
+"344
+[e :U 1975 ]
+"345
+[e :U 1978 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1977 ]
+[e :U 1981 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1980 ]
+"346
+[e :U 1984 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1983 ]
+[e :U 1987 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1986 ]
+"347
+[e :U 1990 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1989 ]
+[e :U 1993 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1992 ]
+"348
+[e :U 1996 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 1995 ]
+[e :U 1999 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1998 ]
+"349
+[e $U 1907  ]
+"350
+[e :U 2000 ]
+"351
+[e = _displayClock -> -> 0 `i `uc ]
+"352
+}
+[e $U 1907  ]
+[e :U 1908 ]
+[e [\ _displayClock , $ -> 0 `i 1909
+ , $ -> 1 `i 1931
+ , $ -> 2 `i 1953
+ , $ -> 3 `i 1975
+ 2000 ]
+[e :U 1907 ]
+"353
+[e $U 1856  ]
+"354
+[e :U 2001 ]
+"355
+[e $U 2003  ]
+{
+"356
+[e :U 2004 ]
+"357
+[e :U 2007 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2006 ]
+[e :U 2010 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2009 ]
+[e :U 2013 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2012 ]
+"358
+[e :U 2016 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2015 ]
+[e :U 2019 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2018 ]
+"359
+[e :U 2022 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2021 ]
+[e :U 2025 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2024 ]
+"360
+[e $U 2002  ]
+"361
+[e :U 2026 ]
+"362
+[e :U 2029 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2028 ]
+[e :U 2032 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2031 ]
+[e :U 2035 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2034 ]
+"363
+[e :U 2038 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2037 ]
+[e :U 2041 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2040 ]
+"364
+[e :U 2044 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2043 ]
+[e :U 2047 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2046 ]
+"365
+[e $U 2002  ]
+"366
+[e :U 2048 ]
+"367
+[e :U 2051 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2050 ]
+[e :U 2054 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2053 ]
+"368
+[e :U 2057 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2056 ]
+[e :U 2060 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2059 ]
+"369
+[e :U 2063 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2062 ]
+[e :U 2066 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2065 ]
+"370
+[e :U 2069 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2068 ]
+[e :U 2072 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2071 ]
+"371
+[e $U 2002  ]
+"372
+[e :U 2073 ]
+"373
+[e :U 2076 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2075 ]
+[e :U 2079 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2078 ]
+[e :U 2082 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2081 ]
+"374
+[e :U 2085 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2084 ]
+[e :U 2088 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2087 ]
+"375
+[e :U 2091 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2090 ]
+[e :U 2094 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2093 ]
+"376
+[e $U 2002  ]
+"377
+[e :U 2095 ]
+"378
+[e = _displayClock -> -> 0 `i `uc ]
+"379
+}
+[e $U 2002  ]
+[e :U 2003 ]
+[e [\ _displayClock , $ -> 0 `i 2004
+ , $ -> 1 `i 2026
+ , $ -> 2 `i 2048
+ , $ -> 3 `i 2073
+ 2095 ]
+[e :U 2002 ]
+"380
+[e $U 1856  ]
+"381
+[e :U 2096 ]
+"382
+[e $U 2098  ]
+{
+"383
+[e :U 2099 ]
+"384
+[e :U 2102 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2101 ]
+[e :U 2105 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2104 ]
+[e :U 2108 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2107 ]
+"385
+[e :U 2111 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2110 ]
+[e :U 2114 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2113 ]
+"386
+[e :U 2117 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2116 ]
+[e :U 2120 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2119 ]
+"387
+[e $U 2097  ]
+"388
+[e :U 2121 ]
+"389
+[e :U 2124 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2123 ]
+[e :U 2127 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2126 ]
+[e :U 2130 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2129 ]
+"390
+[e :U 2133 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2132 ]
+[e :U 2136 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2135 ]
+"391
+[e :U 2139 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2138 ]
+[e :U 2142 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2141 ]
+"392
+[e $U 2097  ]
+"393
+[e :U 2143 ]
+"394
+[e :U 2146 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2145 ]
+[e :U 2149 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2148 ]
+"395
+[e :U 2152 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2151 ]
+[e :U 2155 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2154 ]
+"396
+[e :U 2158 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2157 ]
+[e :U 2161 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2160 ]
+"397
+[e :U 2164 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2163 ]
+[e :U 2167 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2166 ]
+"398
+[e $U 2097  ]
+"399
+[e :U 2168 ]
+"400
+[e = _displayClock -> -> 0 `i `uc ]
+"401
+}
+[e $U 2097  ]
+[e :U 2098 ]
+[e [\ _displayClock , $ -> 0 `i 2099
+ , $ -> 1 `i 2121
+ , $ -> 2 `i 2143
+ 2168 ]
+[e :U 2097 ]
+"402
+[e $U 1856  ]
+"403
+[e :U 2169 ]
+"404
+[e $U 2171  ]
+{
+"405
+[e :U 2172 ]
+"406
+[e :U 2175 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2174 ]
+[e :U 2178 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2177 ]
+[e :U 2181 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2180 ]
+"407
+[e :U 2184 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2183 ]
+[e :U 2187 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2186 ]
+"408
+[e :U 2190 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2189 ]
+[e :U 2193 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2192 ]
+"409
+[e $U 2170  ]
+"410
+[e :U 2194 ]
+"411
+[e ( _AllHighZ ..  ]
+"412
+[e $U 2170  ]
+"413
+[e :U 2195 ]
+"414
+[e :U 2198 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2197 ]
+[e :U 2201 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2200 ]
+"415
+[e :U 2204 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2203 ]
+[e :U 2207 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2206 ]
+"416
+[e :U 2210 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2209 ]
+[e :U 2213 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2212 ]
+"417
+[e :U 2216 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2215 ]
+[e :U 2219 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2218 ]
+"418
+[e $U 2170  ]
+"419
+[e :U 2220 ]
+"420
+[e :U 2223 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2222 ]
+[e :U 2226 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2225 ]
+"421
+[e :U 2229 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2228 ]
+[e :U 2232 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2231 ]
+"422
+[e :U 2235 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2234 ]
+[e :U 2238 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2237 ]
+"423
+[e :U 2241 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2240 ]
+[e :U 2244 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2243 ]
+"424
+[e $U 2170  ]
+"425
+[e :U 2245 ]
+"426
+[e = _displayClock -> -> 0 `i `uc ]
+"427
+}
+[e $U 2170  ]
+[e :U 2171 ]
+[e [\ _displayClock , $ -> 0 `i 2172
+ , $ -> 1 `i 2194
+ , $ -> 2 `i 2195
+ , $ -> 3 `i 2220
+ 2245 ]
+[e :U 2170 ]
+"428
+[e $U 1856  ]
+"429
+[e :U 2246 ]
+"430
+[e $U 2248  ]
+{
+"431
+[e :U 2249 ]
+"432
+[e :U 2252 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2251 ]
+[e :U 2255 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2254 ]
+"433
+[e :U 2258 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2257 ]
+[e :U 2261 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2260 ]
+"434
+[e :U 2264 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2263 ]
+[e :U 2267 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2266 ]
+"435
+[e :U 2270 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2269 ]
+[e :U 2273 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2272 ]
+"436
+[e $U 2247  ]
+"437
+[e :U 2274 ]
+"438
+[e :U 2277 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2276 ]
+"439
+[e :U 2280 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2279 ]
+[e :U 2283 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2282 ]
+"440
+[e :U 2286 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2285 ]
+[e :U 2289 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2288 ]
+"441
+[e :U 2292 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2291 ]
+[e :U 2295 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2294 ]
+"442
+[e :U 2298 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2297 ]
+[e :U 2301 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2300 ]
+"443
+[e $U 2247  ]
+"444
+[e :U 2302 ]
+"445
+[e = _displayClock -> -> 0 `i `uc ]
+"446
+}
+[e $U 2247  ]
+[e :U 2248 ]
+[e [\ _displayClock , $ -> 0 `i 2249
+ , $ -> 1 `i 2274
+ 2302 ]
+[e :U 2247 ]
+"447
+[e $U 1856  ]
+"448
+[e :U 2303 ]
+"449
+[e $U 2305  ]
+{
+"450
+[e :U 2306 ]
+"451
+[e :U 2309 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2308 ]
+[e :U 2312 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2311 ]
+[e :U 2315 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2314 ]
+"452
+[e :U 2318 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2317 ]
+[e :U 2321 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2320 ]
+"453
+[e :U 2324 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2323 ]
+[e :U 2327 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2326 ]
+"454
+[e $U 2304  ]
+"455
+[e :U 2328 ]
+"456
+[e :U 2331 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2330 ]
+[e :U 2334 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2333 ]
+[e :U 2337 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2336 ]
+"457
+[e :U 2340 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2339 ]
+[e :U 2343 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2342 ]
+"458
+[e :U 2346 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2345 ]
+[e :U 2349 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2348 ]
+"459
+[e $U 2304  ]
+"460
+[e :U 2350 ]
+"461
+[e :U 2353 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2352 ]
+[e :U 2356 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2355 ]
+[e :U 2359 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2358 ]
+"462
+[e :U 2362 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2361 ]
+[e :U 2365 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2364 ]
+"463
+[e :U 2368 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2367 ]
+[e :U 2371 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2370 ]
+"464
+[e $U 2304  ]
+"465
+[e :U 2372 ]
+"466
+[e = _displayClock -> -> 0 `i `uc ]
+"467
+}
+[e $U 2304  ]
+[e :U 2305 ]
+[e [\ _displayClock , $ -> 0 `i 2306
+ , $ -> 1 `i 2328
+ , $ -> 2 `i 2350
+ 2372 ]
+[e :U 2304 ]
+"468
+[e $U 1856  ]
+"469
+[e :U 2373 ]
+"470
+[e $U 2375  ]
+{
+"471
+[e :U 2376 ]
+"472
+[e :U 2379 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2378 ]
+[e :U 2382 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2381 ]
+[e :U 2385 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2384 ]
+"473
+[e :U 2388 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2387 ]
+[e :U 2391 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2390 ]
+"474
+[e :U 2394 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2393 ]
+[e :U 2397 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2396 ]
+"475
+[e $U 2374  ]
+"476
+[e :U 2398 ]
+"477
+[e :U 2401 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2400 ]
+[e :U 2404 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2403 ]
+[e :U 2407 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2406 ]
+"478
+[e :U 2410 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2409 ]
+[e :U 2413 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2412 ]
+"479
+[e :U 2416 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2415 ]
+[e :U 2419 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2418 ]
+"480
+[e $U 2374  ]
+"481
+[e :U 2420 ]
+"482
+[e :U 2423 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2422 ]
+[e :U 2426 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2425 ]
+"483
+[e :U 2429 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2428 ]
+[e :U 2432 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2431 ]
+"484
+[e :U 2435 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2434 ]
+[e :U 2438 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2437 ]
+"485
+[e :U 2441 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2440 ]
+[e :U 2444 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2443 ]
+"486
+[e $U 2374  ]
+"487
+[e :U 2445 ]
+"488
+[e :U 2448 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2447 ]
+"489
+[e :U 2451 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2450 ]
+[e :U 2454 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2453 ]
+"490
+[e :U 2457 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2456 ]
+[e :U 2460 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2459 ]
+"491
+[e :U 2463 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2462 ]
+[e :U 2466 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2465 ]
+"492
+[e :U 2469 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2468 ]
+[e :U 2472 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2471 ]
+"493
+[e $U 2374  ]
+"494
+[e :U 2473 ]
+"495
+[e = _displayClock -> -> 0 `i `uc ]
+"496
+}
+[e $U 2374  ]
+[e :U 2375 ]
+[e [\ _displayClock , $ -> 0 `i 2376
+ , $ -> 1 `i 2398
+ , $ -> 2 `i 2420
+ , $ -> 3 `i 2445
+ 2473 ]
+[e :U 2374 ]
+"497
+[e $U 1856  ]
+"498
+[e :U 2474 ]
+"499
+[e $U 2476  ]
+{
+"500
+[e :U 2477 ]
+"501
+[e :U 2480 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2479 ]
+[e :U 2483 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2482 ]
+[e :U 2486 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2485 ]
+"502
+[e :U 2489 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2488 ]
+[e :U 2492 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2491 ]
+"503
+[e :U 2495 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2494 ]
+[e :U 2498 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2497 ]
+"504
+[e $U 2475  ]
+"505
+[e :U 2499 ]
+"506
+[e :U 2502 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2501 ]
+[e :U 2505 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2504 ]
+[e :U 2508 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2507 ]
+"507
+[e :U 2511 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2510 ]
+[e :U 2514 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2513 ]
+"508
+[e :U 2517 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2516 ]
+[e :U 2520 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2519 ]
+"509
+[e $U 2475  ]
+"510
+[e :U 2521 ]
+"511
+[e :U 2524 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2523 ]
+[e :U 2527 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2526 ]
+[e :U 2530 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2529 ]
+"512
+[e :U 2533 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2532 ]
+[e :U 2536 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2535 ]
+"513
+[e :U 2539 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2538 ]
+[e :U 2542 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2541 ]
+"514
+[e $U 2475  ]
+"515
+[e :U 2543 ]
+"516
+[e :U 2546 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2545 ]
+[e :U 2549 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2548 ]
+"517
+[e :U 2552 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2551 ]
+[e :U 2555 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2554 ]
+"518
+[e :U 2558 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2557 ]
+[e :U 2561 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2560 ]
+"519
+[e :U 2564 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2563 ]
+[e :U 2567 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2566 ]
+"520
+[e $U 2475  ]
+"521
+[e :U 2568 ]
+"522
+[e = _displayClock -> -> 0 `i `uc ]
+"523
+}
+[e $U 2475  ]
+[e :U 2476 ]
+[e [\ _displayClock , $ -> 0 `i 2477
+ , $ -> 1 `i 2499
+ , $ -> 2 `i 2521
+ , $ -> 3 `i 2543
+ 2568 ]
+[e :U 2475 ]
+"524
+[e $U 1856  ]
+"525
+[e :U 2569 ]
+"526
+[e $U 2571  ]
+{
+"527
+[e :U 2572 ]
+"528
+[e :U 2575 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2574 ]
+[e :U 2578 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2577 ]
+"529
+[e :U 2581 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2580 ]
+[e :U 2584 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2583 ]
+"530
+[e :U 2587 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2586 ]
+[e :U 2590 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2589 ]
+"531
+[e :U 2593 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2592 ]
+[e :U 2596 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2595 ]
+"532
+[e $U 2570  ]
+"533
+[e :U 2597 ]
+"534
+[e :U 2600 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2599 ]
+[e :U 2603 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2602 ]
+"535
+[e :U 2606 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2605 ]
+[e :U 2609 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2608 ]
+"536
+[e :U 2612 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2611 ]
+[e :U 2615 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2614 ]
+"537
+[e :U 2618 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2617 ]
+[e :U 2621 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2620 ]
+"538
+[e $U 2570  ]
+"539
+[e :U 2622 ]
+"540
+[e :U 2625 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2624 ]
+[e :U 2628 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2627 ]
+"541
+[e :U 2631 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2630 ]
+[e :U 2634 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2633 ]
+"542
+[e :U 2637 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2636 ]
+[e :U 2640 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2639 ]
+"543
+[e :U 2643 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2642 ]
+[e :U 2646 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2645 ]
+"544
+[e $U 2570  ]
+"545
+[e :U 2647 ]
+"546
+[e :U 2650 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2649 ]
+[e :U 2653 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2652 ]
+"547
+[e :U 2656 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2655 ]
+[e :U 2659 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2658 ]
+"548
+[e :U 2662 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2661 ]
+[e :U 2665 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2664 ]
+"549
+[e :U 2668 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2667 ]
+[e :U 2671 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2670 ]
+"550
+[e $U 2570  ]
+"551
+[e :U 2672 ]
+"552
+[e = _displayClock -> -> 0 `i `uc ]
+"553
+}
+[e $U 2570  ]
+[e :U 2571 ]
+[e [\ _displayClock , $ -> 0 `i 2572
+ , $ -> 1 `i 2597
+ , $ -> 2 `i 2622
+ , $ -> 3 `i 2647
+ 2672 ]
+[e :U 2570 ]
+"554
+[e $U 1856  ]
+"555
+[e :U 2673 ]
+"556
+[e ( _AllHighZ ..  ]
+"557
+[e $U 1856  ]
+"558
+}
+[e $U 1856  ]
+[e :U 1857 ]
+[e [\ _number , $ -> 1 `i 1858
+ , $ -> 2 `i 1906
+ , $ -> 3 `i 2001
+ , $ -> 4 `i 2096
+ , $ -> 5 `i 2169
+ , $ -> 6 `i 2246
+ , $ -> 7 `i 2303
+ , $ -> 8 `i 2373
+ , $ -> 9 `i 2474
+ , $ -> 10 `i 2569
+ 2673 ]
+[e :U 1856 ]
+"559
+[e :UE 1855 ]
+}
+"561
+[v _AllHighZ `(v ~T0 @X0 1 ef ]
+"562
+{
+[e :U _AllHighZ ]
+[f ]
+"563
+[e :U 2677 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2676 ]
+"564
+[e :U 2680 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2679 ]
+"565
+[e :U 2683 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2682 ]
+"566
+[e :U 2686 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2685 ]
+"567
+[e :U 2689 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2688 ]
+"568
+[e :UE 2674 ]
+}

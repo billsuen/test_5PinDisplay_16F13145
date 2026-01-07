@@ -86,11 +86,15 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "4 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
-"6 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+"10 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
 [v _USER_TMR0_ISR USER_TMR0_ISR `(v  1 e 1 0 ]
-"14
+"30
 [v _USER_ADC_THRESHOLD_ISR USER_ADC_THRESHOLD_ISR `(v  1 e 1 0 ]
-"44 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
+"4 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\fivePinDisplay.c
+[v _displayOncePlaceNum displayOncePlaceNum `(v  1 e 1 0 ]
+"561
+[v _AllHighZ AllHighZ `(v  1 e 1 0 ]
+"45 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
 [v _main main `(i  1 e 2 0 ]
 "44 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\adc\src\adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
@@ -124,23 +128,35 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v _TMR0_PeriodMatchCallbackRegister TMR0_PeriodMatchCallbackRegister `(v  1 e 1 0 ]
 "140
 [v _TMR0_DefaultCallback TMR0_DefaultCallback `(v  1 s 1 TMR0_DefaultCallback ]
-[s S43 . 1 `uc 1 INTEDG 1 0 :1:0 
+[s S114 . 1 `uc 1 INTEDG 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
 "354 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
-[u S48 . 1 `S43 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES48  1 e 1 @11 ]
+[u S119 . 1 `S114 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES119  1 e 1 @11 ]
 "525
 [v _TRISA TRISA `VEuc  1 e 1 @18 ]
 "570
 [v _TRISB TRISB `VEuc  1 e 1 @19 ]
 "609
 [v _TRISC TRISC `VEuc  1 e 1 @20 ]
+[s S28 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"626
+[u S37 . 1 `S28 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES37  1 e 1 @20 ]
 "671
 [v _LATA LATA `VEuc  1 e 1 @24 ]
-[s S57 . 1 `uc 1 LATA0 1 0 :1:0 
+[s S128 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -148,72 +164,84 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 LATA5 1 0 :1:5 
 ]
 "686
-[u S64 . 1 `S57 1 . 1 0 ]
-[v _LATAbits LATAbits `VES64  1 e 1 @24 ]
+[u S135 . 1 `S128 1 . 1 0 ]
+[v _LATAbits LATAbits `VES135  1 e 1 @24 ]
 "716
 [v _LATB LATB `VEuc  1 e 1 @25 ]
 "755
 [v _LATC LATC `VEuc  1 e 1 @26 ]
-[s S604 . 1 `uc 1 INTF 1 0 :1:0 
+[s S49 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"772
+[u S58 . 1 `S49 1 . 1 0 ]
+[v _LATCbits LATCbits `VES58  1 e 1 @26 ]
+[s S678 . 1 `uc 1 INTF 1 0 :1:0 
 `uc 1 . 1 0 :3:1 
 `uc 1 IOCIF 1 0 :1:4 
 `uc 1 TMR0IF 1 0 :1:5 
 ]
 "830
-[u S609 . 1 `S604 1 . 1 0 ]
-[v _PIR0bits PIR0bits `VES609  1 e 1 @140 ]
-[s S177 . 1 `uc 1 ADIF 1 0 :1:0 
+[u S683 . 1 `S678 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES683  1 e 1 @140 ]
+[s S251 . 1 `uc 1 ADIF 1 0 :1:0 
 `uc 1 ADTIF 1 0 :1:1 
 ]
 "1050
-[u S180 . 1 `S177 1 . 1 0 ]
-[v _PIR6bits PIR6bits `VES180  1 e 1 @146 ]
-[s S649 . 1 `uc 1 INTE 1 0 :1:0 
+[u S254 . 1 `S251 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES254  1 e 1 @146 ]
+[s S723 . 1 `uc 1 INTE 1 0 :1:0 
 `uc 1 . 1 0 :3:1 
 `uc 1 IOCIE 1 0 :1:4 
 `uc 1 TMR0IE 1 0 :1:5 
 ]
 "1116
-[u S654 . 1 `S649 1 . 1 0 ]
-[v _PIE0bits PIE0bits `VES654  1 e 1 @150 ]
-[s S186 . 1 `uc 1 ADIE 1 0 :1:0 
+[u S728 . 1 `S723 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES728  1 e 1 @150 ]
+[s S260 . 1 `uc 1 ADIE 1 0 :1:0 
 `uc 1 ADTIE 1 0 :1:1 
 ]
 "1336
-[u S189 . 1 `S186 1 . 1 0 ]
-[v _PIE6bits PIE6bits `VES189  1 e 1 @156 ]
+[u S263 . 1 `S260 1 . 1 0 ]
+[v _PIE6bits PIE6bits `VES263  1 e 1 @156 ]
 "2226
 [v _TMR0L TMR0L `VEuc  1 e 1 @412 ]
 "2364
 [v _TMR0H TMR0H `VEuc  1 e 1 @413 ]
 "2618
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @414 ]
-[s S770 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S844 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 MD16 1 0 :1:4 
 `uc 1 OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
 "2652
-[s S776 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S850 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T0MD16 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
-[s S782 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S856 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
 `uc 1 T016BIT 1 0 :1:4 
 ]
-[s S788 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+[s S862 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
 `uc 1 T0OUTPS1 1 0 :1:1 
 `uc 1 T0OUTPS2 1 0 :1:2 
 `uc 1 T0OUTPS3 1 0 :1:3 
 ]
-[u S793 . 1 `S770 1 . 1 0 `S776 1 . 1 0 `S782 1 . 1 0 `S788 1 . 1 0 ]
-[v _T0CON0bits T0CON0bits `VES793  1 e 1 @414 ]
+[u S867 . 1 `S844 1 . 1 0 `S850 1 . 1 0 `S856 1 . 1 0 `S862 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES867  1 e 1 @414 ]
 "2742
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @415 ]
 "3063
@@ -278,7 +306,7 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v _ADPREH ADPREH `VEuc  1 e 1 @7461 ]
 "13928
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @7462 ]
-[s S91 . 1 `uc 1 GO 1 0 :1:0 
+[s S165 . 1 `uc 1 GO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM 1 0 :2:2 
 `uc 1 CS 1 0 :1:4 
@@ -287,7 +315,7 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 ON 1 0 :1:7 
 ]
 "13963
-[s S99 . 1 `uc 1 ADGO 1 0 :1:0 
+[s S173 . 1 `uc 1 ADGO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM 1 0 :2:2 
 `uc 1 ADCS 1 0 :1:4 
@@ -295,19 +323,19 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 ADCONT 1 0 :1:6 
 `uc 1 ADON 1 0 :1:7 
 ]
-[s S107 . 1 `uc 1 DONE 1 0 :1:0 
+[s S181 . 1 `uc 1 DONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM0 1 0 :1:2 
 ]
-[s S111 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+[s S185 . 1 `uc 1 GO_nDONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM0 1 0 :1:2 
 ]
-[u S115 . 1 `S91 1 . 1 0 `S99 1 . 1 0 `S107 1 . 1 0 `S111 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES115  1 e 1 @7462 ]
+[u S189 . 1 `S165 1 . 1 0 `S173 1 . 1 0 `S181 1 . 1 0 `S185 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES189  1 e 1 @7462 ]
 "14038
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @7463 ]
-[s S395 . 1 `uc 1 DSEN 1 0 :1:0 
+[s S469 . 1 `uc 1 DSEN 1 0 :1:0 
 `uc 1 PCSC 1 0 :1:1 
 `uc 1 . 1 0 :3:2 
 `uc 1 GPOL 1 0 :1:5 
@@ -315,23 +343,23 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 PPOL 1 0 :1:7 
 ]
 "14060
-[s S402 . 1 `uc 1 ADDSEN 1 0 :1:0 
+[s S476 . 1 `uc 1 ADDSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 ADGPOL 1 0 :1:5 
 `uc 1 ADIPEN 1 0 :1:6 
 `uc 1 ADPPOL 1 0 :1:7 
 ]
-[u S408 . 1 `S395 1 . 1 0 `S402 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES408  1 e 1 @7463 ]
+[u S482 . 1 `S469 1 . 1 0 `S476 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES482  1 e 1 @7463 ]
 "14110
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @7464 ]
-[s S210 . 1 `uc 1 MD 1 0 :3:0 
+[s S284 . 1 `uc 1 MD 1 0 :3:0 
 `uc 1 ACLR 1 0 :1:3 
 `uc 1 CRS 1 0 :3:4 
 `uc 1 PSIS 1 0 :1:7 
 ]
 "14147
-[s S215 . 1 `uc 1 ADMD0 1 0 :1:0 
+[s S289 . 1 `uc 1 ADMD0 1 0 :1:0 
 `uc 1 ADMD1 1 0 :1:1 
 `uc 1 ADMD2 1 0 :1:2 
 `uc 1 ADACLR 1 0 :1:3 
@@ -340,11 +368,11 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 ADCRS2 1 0 :1:6 
 `uc 1 ADPSIS 1 0 :1:7 
 ]
-[s S224 . 1 `uc 1 ADMD 1 0 :3:0 
+[s S298 . 1 `uc 1 ADMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCRS 1 0 :3:4 
 ]
-[s S228 . 1 `uc 1 MD0 1 0 :1:0 
+[s S302 . 1 `uc 1 MD0 1 0 :1:0 
 `uc 1 MD1 1 0 :1:1 
 `uc 1 MD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -352,16 +380,16 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 CRS1 1 0 :1:5 
 `uc 1 CRS2 1 0 :1:6 
 ]
-[u S236 . 1 `S210 1 . 1 0 `S215 1 . 1 0 `S224 1 . 1 0 `S228 1 . 1 0 ]
-[v _ADCON2bits ADCON2bits `VES236  1 e 1 @7464 ]
+[u S310 . 1 `S284 1 . 1 0 `S289 1 . 1 0 `S298 1 . 1 0 `S302 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES310  1 e 1 @7464 ]
 "14252
 [v _ADCON3 ADCON3 `VEuc  1 e 1 @7465 ]
-[s S277 . 1 `uc 1 TMD 1 0 :3:0 
+[s S351 . 1 `uc 1 TMD 1 0 :3:0 
 `uc 1 SOI 1 0 :1:3 
 `uc 1 CALC 1 0 :3:4 
 ]
 "14287
-[s S281 . 1 `uc 1 ADTMD0 1 0 :1:0 
+[s S355 . 1 `uc 1 ADTMD0 1 0 :1:0 
 `uc 1 ADTMD1 1 0 :1:1 
 `uc 1 ADTMD2 1 0 :1:2 
 `uc 1 ADSOI 1 0 :1:3 
@@ -369,11 +397,11 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 ADCALC1 1 0 :1:5 
 `uc 1 ADCALC2 1 0 :1:6 
 ]
-[s S289 . 1 `uc 1 ADTMD 1 0 :3:0 
+[s S363 . 1 `uc 1 ADTMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCALC 1 0 :3:4 
 ]
-[s S293 . 1 `uc 1 TMD0 1 0 :1:0 
+[s S367 . 1 `uc 1 TMD0 1 0 :1:0 
 `uc 1 TMD1 1 0 :1:1 
 `uc 1 TMD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -381,11 +409,11 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 CALC1 1 0 :1:5 
 `uc 1 CALC2 1 0 :1:6 
 ]
-[u S301 . 1 `S277 1 . 1 0 `S281 1 . 1 0 `S289 1 . 1 0 `S293 1 . 1 0 ]
-[v _ADCON3bits ADCON3bits `VES301  1 e 1 @7465 ]
+[u S375 . 1 `S351 1 . 1 0 `S355 1 . 1 0 `S363 1 . 1 0 `S367 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES375  1 e 1 @7465 ]
 "14382
 [v _ADSTAT ADSTAT `VEuc  1 e 1 @7466 ]
-[s S331 . 1 `uc 1 STAT 1 0 :3:0 
+[s S405 . 1 `uc 1 STAT 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 MATH 1 0 :1:4 
 `uc 1 LTHR 1 0 :1:5 
@@ -393,7 +421,7 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 AOV 1 0 :1:7 
 ]
 "14419
-[s S338 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+[s S412 . 1 `uc 1 ADSTAT0 1 0 :1:0 
 `uc 1 ADSTAT1 1 0 :1:1 
 `uc 1 ADSTAT2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -402,18 +430,18 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 `uc 1 ADUTHR 1 0 :1:6 
 `uc 1 ADAOV 1 0 :1:7 
 ]
-[s S347 . 1 `uc 1 ADSTAT 1 0 :3:0 
+[s S421 . 1 `uc 1 ADSTAT 1 0 :3:0 
 `uc 1 . 1 0 :4:3 
 `uc 1 ADOV 1 0 :1:7 
 ]
-[s S351 . 1 `uc 1 STAT0 1 0 :1:0 
+[s S425 . 1 `uc 1 STAT0 1 0 :1:0 
 `uc 1 STAT1 1 0 :1:1 
 `uc 1 STAT2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 OV 1 0 :1:7 
 ]
-[u S357 . 1 `S331 1 . 1 0 `S338 1 . 1 0 `S347 1 . 1 0 `S351 1 . 1 0 ]
-[v _ADSTATbits ADSTATbits `VES357  1 e 1 @7466 ]
+[u S431 . 1 `S405 1 . 1 0 `S412 1 . 1 0 `S421 1 . 1 0 `S425 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES431  1 e 1 @7466 ]
 "14514
 [v _ADREF ADREF `VEuc  1 e 1 @7467 ]
 "14570
@@ -474,8 +502,14 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v _IOCCN IOCCN `VEuc  1 e 1 @7846 ]
 "17429
 [v _IOCCF IOCCF `VEuc  1 e 1 @7847 ]
-"4 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+"5 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
 [v _IND_FlashCnt IND_FlashCnt `VEus  1 e 2 0 ]
+"6
+[v _displayClock displayClock `VEuc  1 e 1 0 ]
+"7
+[v _displayDelay displayDelay `VEuc  1 e 1 0 ]
+"8
+[v _num num `VEuc  1 e 1 0 ]
 "41 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\adc\src\adc.c
 [v _ADC_ConversionDoneCallback ADC_ConversionDoneCallback `*.37(v  1 s 2 ADC_ConversionDoneCallback ]
 "42
@@ -484,10 +518,23 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
 "38 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\timer\src\tmr0.c
 [v _TMR0_PeriodMatchCallback TMR0_PeriodMatchCallback `*.37(v  1 s 2 TMR0_PeriodMatchCallback ]
-"44 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
+"45 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"81
+"84
+} 0
+"4 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\fivePinDisplay.c
+[v _displayOncePlaceNum displayOncePlaceNum `(v  1 e 1 0 ]
+{
+[v displayOncePlaceNum@number number `uc  1 p 1 wreg ]
+[v displayOncePlaceNum@number number `uc  1 p 1 wreg ]
+[v displayOncePlaceNum@number number `uc  1 p 1 0 ]
+"306
+} 1
+"561
+[v _AllHighZ AllHighZ `(v  1 e 1 0 ]
+{
+"568
 } 0
 "135 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\timer\src\tmr0.c
 [v _TMR0_PeriodMatchCallbackRegister TMR0_PeriodMatchCallbackRegister `(v  1 e 1 0 ]
@@ -552,20 +599,20 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 {
 "143
 } 0
-"6 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+"10 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
 [v _USER_TMR0_ISR USER_TMR0_ISR `(v  1 e 1 0 ]
 {
-"12
+"28
 } 0
 "423 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\adc\src\adc.c
 [v _ADC_ThresholdISR ADC_ThresholdISR `(v  1 e 1 0 ]
 {
 "435
 } 0
-"14 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+"30 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
 [v _USER_ADC_THRESHOLD_ISR USER_ADC_THRESHOLD_ISR `(v  1 e 1 0 ]
 {
-"17
+"33
 } 0
 "410 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\adc\src\adc.c
 [v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]

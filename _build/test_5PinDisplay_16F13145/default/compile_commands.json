@@ -7,6 +7,12 @@
 },
 {
   "directory": "D:/Dropbox/Program/ForMicrochip/test/test_5PinDisplay_16F13145/_build/test_5PinDisplay_16F13145/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F13145__ -D__DEBUG=1 -c -mcpu=16F13145 -mdfp=C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\test_5PinDisplay_16F13145_default_default_XC8_compile.dir\\652dcdae39f1a46fbd3bd38c750c04a5\\My_MCC_Config\\mcc\\fivePinDisplay.c.p1 -c D:\\Dropbox\\Program\\ForMicrochip\\test\\test_5PinDisplay_16F13145\\My_MCC_Config\\mcc\\fivePinDisplay.c",
+  "file": "D:\\Dropbox\\Program\\ForMicrochip\\test\\test_5PinDisplay_16F13145\\My_MCC_Config\\mcc\\fivePinDisplay.c",
+  "output": "CMakeFiles\\test_5PinDisplay_16F13145_default_default_XC8_compile.dir\\652dcdae39f1a46fbd3bd38c750c04a5\\My_MCC_Config\\mcc\\fivePinDisplay.c.p1"
+},
+{
+  "directory": "D:/Dropbox/Program/ForMicrochip/test/test_5PinDisplay_16F13145/_build/test_5PinDisplay_16F13145/default",
   "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F13145__ -D__DEBUG=1 -c -mcpu=16F13145 -mdfp=C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\test_5PinDisplay_16F13145_default_default_XC8_compile.dir\\652dcdae39f1a46fbd3bd38c750c04a5\\My_MCC_Config\\mcc\\main.c.p1 -c D:\\Dropbox\\Program\\ForMicrochip\\test\\test_5PinDisplay_16F13145\\My_MCC_Config\\mcc\\main.c",
   "file": "D:\\Dropbox\\Program\\ForMicrochip\\test\\test_5PinDisplay_16F13145\\My_MCC_Config\\mcc\\main.c",
   "output": "CMakeFiles\\test_5PinDisplay_16F13145_default_default_XC8_compile.dir\\652dcdae39f1a46fbd3bd38c750c04a5\\My_MCC_Config\\mcc\\main.c.p1"

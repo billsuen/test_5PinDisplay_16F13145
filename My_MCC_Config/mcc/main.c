@@ -33,6 +33,7 @@
     THIS SOFTWARE.
 */
 #include "config_16F13145.h"
+#include "fivePinDisplay.h"
 #include "mcc_generated_files/system/pins.h"
 #include "mcc_generated_files/system/system.h"
 #include "mcc_generated_files/timer/tmr0_deprecated.h"
@@ -77,5 +78,7 @@ int main(void)
 			IND_R_LAT = IND_OFF;
 			IND_Y_LAT = IND_ON;
 		}
+
+		displayOncePlaceNum(num);
     }    
 }

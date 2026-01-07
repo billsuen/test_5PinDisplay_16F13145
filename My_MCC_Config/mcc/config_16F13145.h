@@ -9,6 +9,8 @@ void USER_ADC_THRESHOLD_ISR(void);
 
 extern volatile uint16_t IND_FlashCnt;
 
+extern volatile uint8_t num;
+
 #define IND_FLASH_PERIOD	600
 #define IND_FLASH_DUTY		300
 
