@@ -190,9 +190,10 @@ void displayOncePlaceNum(uint8_t number)
 		case 6:
 			switch(displayClock){
 				case 0:
-					PIN5_SetDigitalInput();	PIN2_SetDigitalInput();
+					PIN5_SetDigitalInput();
 					PIN4_SetDigitalOutput();	PIN4_SetLow();
 					PIN3_SetDigitalOutput();	PIN3_SetLow();
+					PIN2_SetDigitalOutput();	PIN2_SetLow();
 					PIN1_SetDigitalOutput();	PIN1_SetHigh();
 					break;
 				case 1:

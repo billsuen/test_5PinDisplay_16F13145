@@ -42,6 +42,8 @@ void SYSTEM_Initialize(void)
     PIN_MANAGER_Initialize();
     ADC_Initialize();
     TMR0_Initialize();
+    EUSART1_Initialize();
+    FVR_Initialize();
     INTERRUPT_Initialize();
 }
 

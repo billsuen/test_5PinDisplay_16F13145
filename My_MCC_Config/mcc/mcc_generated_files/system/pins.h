@@ -125,6 +125,44 @@
 #define VR_SetOpenDrain()       do { ODCONAbits.ODCA4 = 1; } while(0)
 #define VR_SetAnalogMode()      do { ANSELAbits.ANSA4 = 1; } while(0)
 #define VR_SetDigitalMode()     do { ANSELAbits.ANSA4 = 0; } while(0)
+// get/set IO_RB5 aliases
+#define RX_TRIS                 TRISBbits.TRISB5
+#define RX_LAT                  LATBbits.LATB5
+#define RX_PORT                 PORTBbits.RB5
+#define RX_WPU                  WPUBbits.WPUB5
+#define RX_OD                   ODCONBbits.ODCB5
+#define RX_ANS                  ANSELBbits.ANSB5
+#define RX_SetHigh()            do { LATBbits.LATB5 = 1; } while(0)
+#define RX_SetLow()             do { LATBbits.LATB5 = 0; } while(0)
+#define RX_Toggle()             do { LATBbits.LATB5 = ~LATBbits.LATB5; } while(0)
+#define RX_GetValue()           PORTBbits.RB5
+#define RX_SetDigitalInput()    do { TRISBbits.TRISB5 = 1; } while(0)
+#define RX_SetDigitalOutput()   do { TRISBbits.TRISB5 = 0; } while(0)
+#define RX_SetPullup()          do { WPUBbits.WPUB5 = 1; } while(0)
+#define RX_ResetPullup()        do { WPUBbits.WPUB5 = 0; } while(0)
+#define RX_SetPushPull()        do { ODCONBbits.ODCB5 = 0; } while(0)
+#define RX_SetOpenDrain()       do { ODCONBbits.ODCB5 = 1; } while(0)
+#define RX_SetAnalogMode()      do { ANSELBbits.ANSB5 = 1; } while(0)
+#define RX_SetDigitalMode()     do { ANSELBbits.ANSB5 = 0; } while(0)
+// get/set IO_RB6 aliases
+#define TX_TRIS                 TRISBbits.TRISB6
+#define TX_LAT                  LATBbits.LATB6
+#define TX_PORT                 PORTBbits.RB6
+#define TX_WPU                  WPUBbits.WPUB6
+#define TX_OD                   ODCONBbits.ODCB6
+#define TX_ANS                  ANSELBbits.ANSB6
+#define TX_SetHigh()            do { LATBbits.LATB6 = 1; } while(0)
+#define TX_SetLow()             do { LATBbits.LATB6 = 0; } while(0)
+#define TX_Toggle()             do { LATBbits.LATB6 = ~LATBbits.LATB6; } while(0)
+#define TX_GetValue()           PORTBbits.RB6
+#define TX_SetDigitalInput()    do { TRISBbits.TRISB6 = 1; } while(0)
+#define TX_SetDigitalOutput()   do { TRISBbits.TRISB6 = 0; } while(0)
+#define TX_SetPullup()          do { WPUBbits.WPUB6 = 1; } while(0)
+#define TX_ResetPullup()        do { WPUBbits.WPUB6 = 0; } while(0)
+#define TX_SetPushPull()        do { ODCONBbits.ODCB6 = 0; } while(0)
+#define TX_SetOpenDrain()       do { ODCONBbits.ODCB6 = 1; } while(0)
+#define TX_SetAnalogMode()      do { ANSELBbits.ANSB6 = 1; } while(0)
+#define TX_SetDigitalMode()     do { ANSELBbits.ANSB6 = 0; } while(0)
 // get/set IO_RC0 aliases
 #define PIN1_TRIS                 TRISCbits.TRISC0
 #define PIN1_LAT                  LATCbits.LATC0

@@ -690,1198 +690,1193 @@ Version 4.0 HI-TECH Software Intermediate Code
 "7
 [f ]
 "8
-[e $U 883  ]
+[e $U 886  ]
 "9
 {
 "10
-[e :U 884 ]
+[e :U 887 ]
 "11
-[e $U 886  ]
+[e $U 889  ]
 "12
 {
 "13
-[e :U 887 ]
-"14
 [e :U 890 ]
+"14
+[e :U 893 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 889 ]
+[e :U 892 ]
 "15
-[e :U 893 ]
+[e :U 896 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
-[e :U 892 ]
-[e :U 896 ]
+[e :U 895 ]
+[e :U 899 ]
 {
 [e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
-[e :U 895 ]
+[e :U 898 ]
 "16
-[e :U 899 ]
+[e :U 902 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 898 ]
-[e :U 902 ]
+[e :U 901 ]
+[e :U 905 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 901 ]
+[e :U 904 ]
 "17
-[e :U 905 ]
+[e :U 908 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 904 ]
-[e :U 908 ]
+[e :U 907 ]
+[e :U 911 ]
 {
 [e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 907 ]
+[e :U 910 ]
 "18
-[e :U 911 ]
+[e :U 914 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 910 ]
-[e :U 914 ]
+[e :U 913 ]
+[e :U 917 ]
 {
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 913 ]
+[e :U 916 ]
 "19
-[e $U 885  ]
+[e $U 888  ]
 "20
-[e :U 915 ]
-"21
 [e :U 918 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 917 ]
+"21
 [e :U 921 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 920 ]
 [e :U 924 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 923 ]
-"22
 [e :U 927 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 926 ]
+"22
+[e :U 930 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 926 ]
-[e :U 930 ]
+[e :U 929 ]
+[e :U 933 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 929 ]
+[e :U 932 ]
 "23
-[e :U 933 ]
+[e :U 936 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 932 ]
-[e :U 936 ]
+[e :U 935 ]
+[e :U 939 ]
 {
 [e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 935 ]
+[e :U 938 ]
 "24
-[e $U 885  ]
+[e $U 888  ]
 "25
-[e :U 937 ]
-"26
 [e :U 940 ]
+"26
+[e :U 943 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 939 ]
-[e :U 943 ]
+[e :U 942 ]
+[e :U 946 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 942 ]
+[e :U 945 ]
 "27
-[e :U 946 ]
+[e :U 949 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 945 ]
-[e :U 949 ]
+[e :U 948 ]
+[e :U 952 ]
 {
 [e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 948 ]
+[e :U 951 ]
 "28
-[e :U 952 ]
+[e :U 955 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 951 ]
-[e :U 955 ]
+[e :U 954 ]
+[e :U 958 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 954 ]
+[e :U 957 ]
 "29
-[e :U 958 ]
+[e :U 961 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 957 ]
-[e :U 961 ]
+[e :U 960 ]
+[e :U 964 ]
 {
 [e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 960 ]
+[e :U 963 ]
 "30
-[e $U 885  ]
+[e $U 888  ]
 "31
-[e :U 962 ]
-"32
 [e :U 965 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 964 ]
+"32
 [e :U 968 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 967 ]
 [e :U 971 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 970 ]
-"33
 [e :U 974 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 973 ]
+"33
+[e :U 977 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 973 ]
-[e :U 977 ]
+[e :U 976 ]
+[e :U 980 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 976 ]
+[e :U 979 ]
 "34
-[e :U 980 ]
+[e :U 983 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
-[e :U 979 ]
-[e :U 983 ]
+[e :U 982 ]
+[e :U 986 ]
 {
 [e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 982 ]
+[e :U 985 ]
 "35
-[e $U 885  ]
+[e $U 888  ]
 "36
-[e :U 984 ]
+[e :U 987 ]
 "37
 [e = _displayClock -> -> 0 `i `uc ]
 "38
 [e = _placePoint -> -> 1 `i `a ]
 "39
 }
-[e $U 885  ]
-[e :U 886 ]
-[e [\ _displayClock , $ -> 0 `i 887
- , $ -> 1 `i 915
- , $ -> 2 `i 937
- , $ -> 3 `i 962
- 984 ]
-[e :U 885 ]
+[e $U 888  ]
+[e :U 889 ]
+[e [\ _displayClock , $ -> 0 `i 890
+ , $ -> 1 `i 918
+ , $ -> 2 `i 940
+ , $ -> 3 `i 965
+ 987 ]
+[e :U 888 ]
 "40
-[e $U 882  ]
+[e $U 885  ]
 "42
-[e :U 985 ]
+[e :U 988 ]
 "43
-[e $U 987  ]
+[e $U 990  ]
 "44
 {
 "45
-[e :U 988 ]
-"46
 [e :U 991 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 990 ]
+"46
 [e :U 994 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 993 ]
 [e :U 997 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 996 ]
-"47
 [e :U 1000 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 999 ]
+"47
+[e :U 1003 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 999 ]
-[e :U 1003 ]
+[e :U 1002 ]
+[e :U 1006 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1002 ]
+[e :U 1005 ]
 "48
-[e :U 1006 ]
+[e :U 1009 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1005 ]
-[e :U 1009 ]
+[e :U 1008 ]
+[e :U 1012 ]
 {
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 1008 ]
+[e :U 1011 ]
 "49
-[e $U 986  ]
+[e $U 989  ]
 "50
-[e :U 1010 ]
-"51
 [e :U 1013 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1012 ]
+"51
 [e :U 1016 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1015 ]
 [e :U 1019 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1018 ]
-"52
 [e :U 1022 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1021 ]
+"52
+[e :U 1025 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1021 ]
-[e :U 1025 ]
+[e :U 1024 ]
+[e :U 1028 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1024 ]
+[e :U 1027 ]
 "53
-[e :U 1028 ]
+[e :U 1031 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1027 ]
-[e :U 1031 ]
+[e :U 1030 ]
+[e :U 1034 ]
 {
 [e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 1030 ]
+[e :U 1033 ]
 "54
-[e $U 986  ]
+[e $U 989  ]
 "55
-[e :U 1032 ]
-"56
 [e :U 1035 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1034 ]
+"56
 [e :U 1038 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1037 ]
 [e :U 1041 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1040 ]
-"57
 [e :U 1044 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1043 ]
+"57
+[e :U 1047 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1043 ]
-[e :U 1047 ]
+[e :U 1046 ]
+[e :U 1050 ]
 {
 [e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1046 ]
+[e :U 1049 ]
 "58
-[e :U 1050 ]
+[e :U 1053 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1049 ]
-[e :U 1053 ]
+[e :U 1052 ]
+[e :U 1056 ]
 {
 [e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 1052 ]
+[e :U 1055 ]
 "59
-[e $U 986  ]
+[e $U 989  ]
 "60
-[e :U 1054 ]
+[e :U 1057 ]
 "61
 [e = _displayClock -> -> 0 `i `uc ]
 "62
 [e = _placePoint -> -> 1 `i `a ]
 "63
 }
-[e $U 986  ]
-[e :U 987 ]
-[e [\ _displayClock , $ -> 0 `i 988
- , $ -> 1 `i 1010
- , $ -> 2 `i 1032
- 1054 ]
-[e :U 986 ]
+[e $U 989  ]
+[e :U 990 ]
+[e [\ _displayClock , $ -> 0 `i 991
+ , $ -> 1 `i 1013
+ , $ -> 2 `i 1035
+ 1057 ]
+[e :U 989 ]
 "64
-[e $U 882  ]
+[e $U 885  ]
 "66
-[e :U 1055 ]
+[e :U 1058 ]
 "67
-[e $U 1057  ]
+[e $U 1060  ]
 {
 "68
-[e :U 1058 ]
-"69
 [e :U 1061 ]
+"69
+[e :U 1064 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1060 ]
-[e :U 1064 ]
+[e :U 1063 ]
+[e :U 1067 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 1063 ]
+[e :U 1066 ]
 "70
-[e :U 1067 ]
+[e :U 1070 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
-[e :U 1066 ]
-[e :U 1070 ]
+[e :U 1069 ]
+[e :U 1073 ]
 {
 [e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
-[e :U 1069 ]
+[e :U 1072 ]
 "71
-[e :U 1073 ]
+[e :U 1076 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1072 ]
-[e :U 1076 ]
+[e :U 1075 ]
+[e :U 1079 ]
 {
 [e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1075 ]
+[e :U 1078 ]
 "72
-[e :U 1079 ]
+[e :U 1082 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1078 ]
-[e :U 1082 ]
+[e :U 1081 ]
+[e :U 1085 ]
 {
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 1081 ]
+[e :U 1084 ]
 "73
-[e $U 1056  ]
+[e $U 1059  ]
 "74
-[e :U 1083 ]
-"75
 [e :U 1086 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1085 ]
+"75
 [e :U 1089 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1088 ]
 [e :U 1092 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1091 ]
-"76
 [e :U 1095 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1094 ]
+"76
+[e :U 1098 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1094 ]
-[e :U 1098 ]
+[e :U 1097 ]
+[e :U 1101 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1097 ]
+[e :U 1100 ]
 "77
-[e :U 1101 ]
+[e :U 1104 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1100 ]
-[e :U 1104 ]
+[e :U 1103 ]
+[e :U 1107 ]
 {
 [e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 1103 ]
+[e :U 1106 ]
 "78
-[e $U 1056  ]
+[e $U 1059  ]
 "79
-[e :U 1105 ]
-"80
 [e :U 1108 ]
+"80
+[e :U 1111 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1107 ]
-[e :U 1111 ]
+[e :U 1110 ]
+[e :U 1114 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 1110 ]
+[e :U 1113 ]
 "81
-[e :U 1114 ]
+[e :U 1117 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1113 ]
-[e :U 1117 ]
+[e :U 1116 ]
+[e :U 1120 ]
 {
 [e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1116 ]
+[e :U 1119 ]
 "82
-[e :U 1120 ]
+[e :U 1123 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1119 ]
-[e :U 1123 ]
+[e :U 1122 ]
+[e :U 1126 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1122 ]
+[e :U 1125 ]
 "83
-[e :U 1126 ]
+[e :U 1129 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1125 ]
-[e :U 1129 ]
+[e :U 1128 ]
+[e :U 1132 ]
 {
 [e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 1128 ]
+[e :U 1131 ]
 "84
-[e $U 1056  ]
+[e $U 1059  ]
 "85
-[e :U 1130 ]
-"86
 [e :U 1133 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1132 ]
+"86
 [e :U 1136 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1135 ]
 [e :U 1139 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1138 ]
-"87
 [e :U 1142 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1141 ]
+"87
+[e :U 1145 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1141 ]
-[e :U 1145 ]
+[e :U 1144 ]
+[e :U 1148 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1144 ]
+[e :U 1147 ]
 "88
-[e :U 1148 ]
+[e :U 1151 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1147 ]
-[e :U 1151 ]
+[e :U 1150 ]
+[e :U 1154 ]
 {
 [e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1150 ]
+[e :U 1153 ]
 "89
-[e $U 1056  ]
+[e $U 1059  ]
 "90
-[e :U 1152 ]
+[e :U 1155 ]
 "91
 [e = _displayClock -> -> 0 `i `uc ]
 "92
 [e = _placePoint -> -> 1 `i `a ]
 "93
 }
-[e $U 1056  ]
-[e :U 1057 ]
-[e [\ _displayClock , $ -> 0 `i 1058
- , $ -> 1 `i 1083
- , $ -> 2 `i 1105
- , $ -> 3 `i 1130
- 1152 ]
-[e :U 1056 ]
+[e $U 1059  ]
+[e :U 1060 ]
+[e [\ _displayClock , $ -> 0 `i 1061
+ , $ -> 1 `i 1086
+ , $ -> 2 `i 1108
+ , $ -> 3 `i 1133
+ 1155 ]
+[e :U 1059 ]
 "94
-[e $U 882  ]
+[e $U 885  ]
 "96
-[e :U 1153 ]
+[e :U 1156 ]
 "97
-[e $U 1155  ]
+[e $U 1158  ]
 {
 "98
-[e :U 1156 ]
-"99
 [e :U 1159 ]
+"99
+[e :U 1162 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1158 ]
-[e :U 1162 ]
+[e :U 1161 ]
+[e :U 1165 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1161 ]
+[e :U 1164 ]
 "100
-[e :U 1165 ]
+[e :U 1168 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1164 ]
-[e :U 1168 ]
+[e :U 1167 ]
+[e :U 1171 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1167 ]
+[e :U 1170 ]
 "101
-[e :U 1171 ]
+[e :U 1174 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1170 ]
-[e :U 1174 ]
+[e :U 1173 ]
+[e :U 1177 ]
 {
 [e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1173 ]
+[e :U 1176 ]
 "102
-[e :U 1177 ]
+[e :U 1180 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1176 ]
-[e :U 1180 ]
+[e :U 1179 ]
+[e :U 1183 ]
 {
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 1179 ]
+[e :U 1182 ]
 "103
-[e $U 1154  ]
+[e $U 1157  ]
 "104
-[e :U 1181 ]
-"105
 [e :U 1184 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1183 ]
+"105
 [e :U 1187 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1186 ]
 [e :U 1190 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1189 ]
-"106
 [e :U 1193 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1192 ]
+"106
+[e :U 1196 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1192 ]
-[e :U 1196 ]
+[e :U 1195 ]
+[e :U 1199 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1195 ]
+[e :U 1198 ]
 "107
-[e :U 1199 ]
+[e :U 1202 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1198 ]
-[e :U 1202 ]
+[e :U 1201 ]
+[e :U 1205 ]
 {
 [e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 1201 ]
+[e :U 1204 ]
 "108
-[e $U 1154  ]
+[e $U 1157  ]
 "109
-[e :U 1203 ]
-"110
 [e :U 1206 ]
+"110
+[e :U 1209 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1205 ]
-[e :U 1209 ]
+[e :U 1208 ]
+[e :U 1212 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 1208 ]
+[e :U 1211 ]
 "111
-[e :U 1212 ]
+[e :U 1215 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1211 ]
-[e :U 1215 ]
+[e :U 1214 ]
+[e :U 1218 ]
 {
 [e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1214 ]
+[e :U 1217 ]
 "112
-[e :U 1218 ]
+[e :U 1221 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1217 ]
-[e :U 1221 ]
+[e :U 1220 ]
+[e :U 1224 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1220 ]
+[e :U 1223 ]
 "113
-[e :U 1224 ]
+[e :U 1227 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1223 ]
-[e :U 1227 ]
+[e :U 1226 ]
+[e :U 1230 ]
 {
 [e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 1226 ]
+[e :U 1229 ]
 "114
-[e $U 1154  ]
+[e $U 1157  ]
 "115
-[e :U 1228 ]
-"116
 [e :U 1231 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1230 ]
+"116
 [e :U 1234 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1233 ]
 [e :U 1237 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1236 ]
-"117
 [e :U 1240 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1239 ]
+"117
+[e :U 1243 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1239 ]
-[e :U 1243 ]
+[e :U 1242 ]
+[e :U 1246 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1242 ]
+[e :U 1245 ]
 "118
-[e :U 1246 ]
+[e :U 1249 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1245 ]
-[e :U 1249 ]
+[e :U 1248 ]
+[e :U 1252 ]
 {
 [e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1248 ]
+[e :U 1251 ]
 "119
-[e $U 1154  ]
+[e $U 1157  ]
 "120
-[e :U 1250 ]
+[e :U 1253 ]
 "121
 [e = _displayClock -> -> 0 `i `uc ]
 "122
 [e = _placePoint -> -> 1 `i `a ]
 "123
 }
-[e $U 1154  ]
-[e :U 1155 ]
-[e [\ _displayClock , $ -> 0 `i 1156
- , $ -> 1 `i 1181
- , $ -> 2 `i 1203
- , $ -> 3 `i 1228
- 1250 ]
-[e :U 1154 ]
+[e $U 1157  ]
+[e :U 1158 ]
+[e [\ _displayClock , $ -> 0 `i 1159
+ , $ -> 1 `i 1184
+ , $ -> 2 `i 1206
+ , $ -> 3 `i 1231
+ 1253 ]
+[e :U 1157 ]
 "124
-[e $U 882  ]
+[e $U 885  ]
 "126
-[e :U 1251 ]
+[e :U 1254 ]
 "127
-[e $U 1253  ]
+[e $U 1256  ]
 {
 "128
-[e :U 1254 ]
-"129
 [e :U 1257 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1256 ]
+"129
 [e :U 1260 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1259 ]
 [e :U 1263 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1262 ]
-"130
 [e :U 1266 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1265 ]
+"130
+[e :U 1269 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1265 ]
-[e :U 1269 ]
+[e :U 1268 ]
+[e :U 1272 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1268 ]
+[e :U 1271 ]
 "131
-[e :U 1272 ]
+[e :U 1275 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1271 ]
-[e :U 1275 ]
+[e :U 1274 ]
+[e :U 1278 ]
 {
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 1274 ]
+[e :U 1277 ]
 "132
-[e $U 1252  ]
+[e $U 1255  ]
 "133
-[e :U 1276 ]
-"134
 [e :U 1279 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1278 ]
+"134
 [e :U 1282 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1281 ]
 [e :U 1285 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1284 ]
-"135
 [e :U 1288 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1287 ]
+"135
+[e :U 1291 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1287 ]
-[e :U 1291 ]
+[e :U 1290 ]
+[e :U 1294 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1290 ]
+[e :U 1293 ]
 "136
-[e :U 1294 ]
+[e :U 1297 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1293 ]
-[e :U 1297 ]
+[e :U 1296 ]
+[e :U 1300 ]
 {
 [e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 1296 ]
+[e :U 1299 ]
 "137
-[e $U 1252  ]
+[e $U 1255  ]
 "138
-[e :U 1298 ]
+[e :U 1301 ]
 "139
 [e ( _AllHighZ ..  ]
 "140
-[e $U 1252  ]
+[e $U 1255  ]
 "141
-[e :U 1299 ]
-"142
 [e :U 1302 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1301 ]
+"142
 [e :U 1305 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1304 ]
 [e :U 1308 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1307 ]
-"143
 [e :U 1311 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1310 ]
+"143
+[e :U 1314 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1310 ]
-[e :U 1314 ]
+[e :U 1313 ]
+[e :U 1317 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1313 ]
+[e :U 1316 ]
 "144
-[e :U 1317 ]
+[e :U 1320 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
-[e :U 1316 ]
-[e :U 1320 ]
+[e :U 1319 ]
+[e :U 1323 ]
 {
 [e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1319 ]
+[e :U 1322 ]
 "145
-[e $U 1252  ]
+[e $U 1255  ]
 "146
-[e :U 1321 ]
-"147
 [e :U 1324 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1323 ]
+"147
 [e :U 1327 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1326 ]
 [e :U 1330 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1329 ]
-"148
 [e :U 1333 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1332 ]
+"148
+[e :U 1336 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1332 ]
-[e :U 1336 ]
+[e :U 1335 ]
+[e :U 1339 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1335 ]
+[e :U 1338 ]
 "149
-[e :U 1339 ]
+[e :U 1342 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1338 ]
-[e :U 1342 ]
+[e :U 1341 ]
+[e :U 1345 ]
 {
 [e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1341 ]
+[e :U 1344 ]
 "150
-[e $U 1252  ]
+[e $U 1255  ]
 "151
-[e :U 1343 ]
+[e :U 1346 ]
 "152
 [e = _displayClock -> -> 0 `i `uc ]
 "153
 [e = _placePoint -> -> 1 `i `a ]
 "154
 }
-[e $U 1252  ]
-[e :U 1253 ]
-[e [\ _displayClock , $ -> 0 `i 1254
- , $ -> 1 `i 1276
- , $ -> 2 `i 1298
- , $ -> 3 `i 1299
- , $ -> 4 `i 1321
- 1343 ]
-[e :U 1252 ]
+[e $U 1255  ]
+[e :U 1256 ]
+[e [\ _displayClock , $ -> 0 `i 1257
+ , $ -> 1 `i 1279
+ , $ -> 2 `i 1301
+ , $ -> 3 `i 1302
+ , $ -> 4 `i 1324
+ 1346 ]
+[e :U 1255 ]
 "155
-[e $U 882  ]
+[e $U 885  ]
 "157
-[e :U 1344 ]
+[e :U 1347 ]
 "158
-[e $U 1346  ]
+[e $U 1349  ]
 {
 "159
-[e :U 1347 ]
-"160
 [e :U 1350 ]
+"160
+[e :U 1353 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1349 ]
-[e :U 1353 ]
+[e :U 1352 ]
+[e :U 1356 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1352 ]
+[e :U 1355 ]
 "161
-[e :U 1356 ]
+[e :U 1359 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1355 ]
-[e :U 1359 ]
+[e :U 1358 ]
+[e :U 1362 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1358 ]
+[e :U 1361 ]
 "162
-[e :U 1362 ]
+[e :U 1365 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1361 ]
-[e :U 1365 ]
+[e :U 1364 ]
+[e :U 1368 ]
 {
 [e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 1364 ]
+[e :U 1367 ]
 "163
-[e :U 1368 ]
+[e :U 1371 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1367 ]
-[e :U 1371 ]
+[e :U 1370 ]
+[e :U 1374 ]
 {
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 1370 ]
+[e :U 1373 ]
 "164
-[e $U 1345  ]
+[e $U 1348  ]
 "165
-[e :U 1372 ]
+[e :U 1375 ]
 "166
 [e ( _AllHighZ ..  ]
 "167
-[e $U 1345  ]
+[e $U 1348  ]
 "168
-[e :U 1373 ]
-"169
 [e :U 1376 ]
+"169
+[e :U 1379 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1375 ]
-[e :U 1379 ]
+[e :U 1378 ]
+[e :U 1382 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 1378 ]
+[e :U 1381 ]
 "170
-[e :U 1382 ]
+[e :U 1385 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1381 ]
-[e :U 1385 ]
+[e :U 1384 ]
+[e :U 1388 ]
 {
 [e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1384 ]
+[e :U 1387 ]
 "171
-[e :U 1388 ]
+[e :U 1391 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1387 ]
-[e :U 1391 ]
+[e :U 1390 ]
+[e :U 1394 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1390 ]
+[e :U 1393 ]
 "172
-[e :U 1394 ]
+[e :U 1397 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1393 ]
-[e :U 1397 ]
+[e :U 1396 ]
+[e :U 1400 ]
 {
 [e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 1396 ]
+[e :U 1399 ]
 "173
-[e $U 1345  ]
+[e $U 1348  ]
 "174
-[e :U 1398 ]
-"175
 [e :U 1401 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1400 ]
+"175
 [e :U 1404 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1403 ]
 [e :U 1407 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1406 ]
-"176
 [e :U 1410 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1409 ]
+"176
+[e :U 1413 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1409 ]
-[e :U 1413 ]
+[e :U 1412 ]
+[e :U 1416 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1412 ]
+[e :U 1415 ]
 "177
-[e :U 1416 ]
+[e :U 1419 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
-[e :U 1415 ]
-[e :U 1419 ]
+[e :U 1418 ]
+[e :U 1422 ]
 {
 [e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1418 ]
+[e :U 1421 ]
 "178
-[e $U 1345  ]
+[e $U 1348  ]
 "179
-[e :U 1420 ]
-"180
 [e :U 1423 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1422 ]
+"180
 [e :U 1426 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1425 ]
 [e :U 1429 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1428 ]
-"181
 [e :U 1432 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1431 ]
+"181
+[e :U 1435 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1431 ]
-[e :U 1435 ]
+[e :U 1434 ]
+[e :U 1438 ]
 {
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
-[e :U 1434 ]
+[e :U 1437 ]
 "182
-[e :U 1438 ]
+[e :U 1441 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 1437 ]
-[e :U 1441 ]
+[e :U 1440 ]
+[e :U 1444 ]
 {
 [e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1440 ]
+[e :U 1443 ]
 "183
-[e $U 1345  ]
+[e $U 1348  ]
 "184
-[e :U 1442 ]
+[e :U 1445 ]
 "185
 [e = _displayClock -> -> 0 `i `uc ]
 "186
 [e = _placePoint -> -> 1 `i `a ]
 "187
 }
-[e $U 1345  ]
-[e :U 1346 ]
-[e [\ _displayClock , $ -> 0 `i 1347
- , $ -> 1 `i 1372
- , $ -> 2 `i 1373
- , $ -> 3 `i 1398
- , $ -> 4 `i 1420
- 1442 ]
-[e :U 1345 ]
+[e $U 1348  ]
+[e :U 1349 ]
+[e [\ _displayClock , $ -> 0 `i 1350
+ , $ -> 1 `i 1375
+ , $ -> 2 `i 1376
+ , $ -> 3 `i 1401
+ , $ -> 4 `i 1423
+ 1445 ]
+[e :U 1348 ]
 "188
-[e $U 882  ]
+[e $U 885  ]
 "190
-[e :U 1443 ]
+[e :U 1446 ]
 "191
-[e $U 1445  ]
+[e $U 1448  ]
 {
 "192
-[e :U 1446 ]
-"193
 [e :U 1449 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 1448 ]
+"193
 [e :U 1452 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1451 ]
 "194
@@ -1909,2624 +1904,2635 @@ Version 4.0 HI-TECH Software Intermediate Code
 "196
 [e :U 1467 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1466 ]
 [e :U 1470 ]
 {
-[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1469 ]
 "197
-[e $U 1444  ]
-"198
-[e :U 1471 ]
-"199
-[e :U 1474 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
 [e :U 1473 ]
-[e :U 1477 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
+[e :U 1472 ]
 [e :U 1476 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1475 ]
+"198
+[e $U 1447  ]
+"199
+[e :U 1477 ]
 "200
 [e :U 1480 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1479 ]
 [e :U 1483 ]
 {
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1482 ]
 "201
 [e :U 1486 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1485 ]
 [e :U 1489 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1488 ]
 "202
 [e :U 1492 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1491 ]
 [e :U 1495 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1494 ]
 "203
-[e $U 1444  ]
+[e :U 1498 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1497 ]
+[e :U 1501 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1500 ]
 "204
-[e :U 1496 ]
+[e $U 1447  ]
 "205
-[e :U 1499 ]
+[e :U 1502 ]
+"206
+[e :U 1505 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1498 ]
-[e :U 1502 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 1501 ]
-[e :U 1505 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 1504 ]
-"206
 [e :U 1508 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1507 ]
 [e :U 1511 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1510 ]
 "207
 [e :U 1514 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1513 ]
 [e :U 1517 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1516 ]
 "208
-[e $U 1444  ]
+[e :U 1520 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1519 ]
+[e :U 1523 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1522 ]
 "209
-[e :U 1518 ]
+[e $U 1447  ]
 "210
-[e :U 1521 ]
+[e :U 1524 ]
+"211
+[e :U 1527 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1520 ]
-[e :U 1524 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 1523 ]
-[e :U 1527 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 1526 ]
-"211
 [e :U 1530 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1529 ]
 [e :U 1533 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1532 ]
 "212
 [e :U 1536 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1535 ]
 [e :U 1539 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1538 ]
 "213
-[e $U 1444  ]
-"214
-[e :U 1540 ]
-"215
-[e = _displayClock -> -> 0 `i `uc ]
-"216
-[e = _placePoint -> -> 1 `i `a ]
-"217
+[e :U 1542 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e $U 1444  ]
-[e :U 1445 ]
-[e [\ _displayClock , $ -> 0 `i 1446
- , $ -> 1 `i 1471
- , $ -> 2 `i 1496
- , $ -> 3 `i 1518
- 1540 ]
-[e :U 1444 ]
-"218
-[e $U 882  ]
-"220
 [e :U 1541 ]
-"221
-[e $U 1543  ]
+[e :U 1545 ]
 {
-"222
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 1544 ]
-"223
-[e :U 1547 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
+"214
+[e $U 1447  ]
+"215
 [e :U 1546 ]
-[e :U 1550 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+"216
+[e = _displayClock -> -> 0 `i `uc ]
+"217
+[e = _placePoint -> -> 1 `i `a ]
+"218
 }
-[e :U 1549 ]
+[e $U 1447  ]
+[e :U 1448 ]
+[e [\ _displayClock , $ -> 0 `i 1449
+ , $ -> 1 `i 1477
+ , $ -> 2 `i 1502
+ , $ -> 3 `i 1524
+ 1546 ]
+[e :U 1447 ]
+"219
+[e $U 885  ]
+"221
+[e :U 1547 ]
+"222
+[e $U 1549  ]
+{
+"223
+[e :U 1550 ]
 "224
 [e :U 1553 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1552 ]
 [e :U 1556 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1555 ]
 "225
 [e :U 1559 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1558 ]
 [e :U 1562 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1561 ]
 "226
 [e :U 1565 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1564 ]
 [e :U 1568 ]
 {
-[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1567 ]
 "227
-[e $U 1542  ]
+[e :U 1571 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1570 ]
+[e :U 1574 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1573 ]
 "228
-[e :U 1569 ]
+[e $U 1548  ]
 "229
-[e :U 1572 ]
+[e :U 1575 ]
+"230
+[e :U 1578 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1571 ]
-[e :U 1575 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1574 ]
-[e :U 1578 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
 [e :U 1577 ]
-"230
 [e :U 1581 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1580 ]
 [e :U 1584 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1583 ]
 "231
 [e :U 1587 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1586 ]
 [e :U 1590 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1589 ]
 "232
-[e $U 1542  ]
+[e :U 1593 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1592 ]
+[e :U 1596 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1595 ]
 "233
-[e :U 1591 ]
+[e $U 1548  ]
 "234
-[e :U 1594 ]
+[e :U 1597 ]
+"235
+[e :U 1600 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1593 ]
-[e :U 1597 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 1596 ]
-[e :U 1600 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 1599 ]
-"235
 [e :U 1603 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1602 ]
 [e :U 1606 ]
 {
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1605 ]
 "236
 [e :U 1609 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1608 ]
 [e :U 1612 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1611 ]
 "237
-[e $U 1542  ]
-"238
-[e :U 1613 ]
-"239
-[e = _displayClock -> -> 0 `i `uc ]
-"240
-[e = _placePoint -> -> 1 `i `a ]
-"241
+[e :U 1615 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e $U 1542  ]
-[e :U 1543 ]
-[e [\ _displayClock , $ -> 0 `i 1544
- , $ -> 1 `i 1569
- , $ -> 2 `i 1591
- 1613 ]
-[e :U 1542 ]
-"242
-[e $U 882  ]
-"244
 [e :U 1614 ]
-"245
-[e $U 1616  ]
+[e :U 1618 ]
 {
-"246
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
 [e :U 1617 ]
-"247
-[e :U 1620 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
+"238
+[e $U 1548  ]
+"239
 [e :U 1619 ]
-"248
-[e :U 1623 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+"240
+[e = _displayClock -> -> 0 `i `uc ]
+"241
+[e = _placePoint -> -> 1 `i `a ]
+"242
 }
-[e :U 1622 ]
+[e $U 1548  ]
+[e :U 1549 ]
+[e [\ _displayClock , $ -> 0 `i 1550
+ , $ -> 1 `i 1575
+ , $ -> 2 `i 1597
+ 1619 ]
+[e :U 1548 ]
+"243
+[e $U 885  ]
+"245
+[e :U 1620 ]
+"246
+[e $U 1622  ]
+{
+"247
+[e :U 1623 ]
+"248
 [e :U 1626 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1625 ]
 "249
 [e :U 1629 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 1628 ]
 [e :U 1632 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 1631 ]
 "250
 [e :U 1635 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1634 ]
 [e :U 1638 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1637 ]
 "251
 [e :U 1641 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1640 ]
 [e :U 1644 ]
 {
-[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1643 ]
 "252
-[e $U 1615  ]
+[e :U 1647 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1646 ]
+[e :U 1650 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1649 ]
 "253
-[e :U 1645 ]
+[e $U 1621  ]
 "254
-[e :U 1648 ]
+[e :U 1651 ]
+"255
+[e :U 1654 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1647 ]
-[e :U 1651 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1650 ]
-[e :U 1654 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
 [e :U 1653 ]
-"255
 [e :U 1657 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1656 ]
 [e :U 1660 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1659 ]
 "256
 [e :U 1663 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1662 ]
 [e :U 1666 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1665 ]
 "257
-[e $U 1615  ]
-"258
-[e :U 1667 ]
-"259
-[e :U 1670 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
 [e :U 1669 ]
-[e :U 1673 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
+[e :U 1668 ]
 [e :U 1672 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1671 ]
+"258
+[e $U 1621  ]
+"259
+[e :U 1673 ]
 "260
 [e :U 1676 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1675 ]
 [e :U 1679 ]
 {
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1678 ]
 "261
 [e :U 1682 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1681 ]
 [e :U 1685 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1684 ]
 "262
 [e :U 1688 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1687 ]
 [e :U 1691 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1690 ]
 "263
-[e $U 1615  ]
+[e :U 1694 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1693 ]
+[e :U 1697 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1696 ]
 "264
-[e :U 1692 ]
+[e $U 1621  ]
 "265
-[e :U 1695 ]
+[e :U 1698 ]
+"266
+[e :U 1701 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1694 ]
-[e :U 1698 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 1697 ]
-[e :U 1701 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 1700 ]
-"266
 [e :U 1704 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1703 ]
 [e :U 1707 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1706 ]
 "267
 [e :U 1710 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1709 ]
 [e :U 1713 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1712 ]
 "268
-[e $U 1615  ]
+[e :U 1716 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1715 ]
+[e :U 1719 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1718 ]
 "269
-[e :U 1714 ]
+[e $U 1621  ]
 "270
-[e :U 1717 ]
+[e :U 1720 ]
+"271
+[e :U 1723 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1716 ]
-[e :U 1720 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 1719 ]
-[e :U 1723 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 1722 ]
-"271
 [e :U 1726 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1725 ]
 [e :U 1729 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1728 ]
 "272
 [e :U 1732 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1731 ]
 [e :U 1735 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1734 ]
 "273
-[e $U 1615  ]
-"274
-[e :U 1736 ]
-"275
-[e = _displayClock -> -> 0 `i `uc ]
-"276
-[e = _placePoint -> -> 1 `i `a ]
-"277
+[e :U 1738 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e $U 1615  ]
-[e :U 1616 ]
-[e [\ _displayClock , $ -> 0 `i 1617
- , $ -> 1 `i 1645
- , $ -> 2 `i 1667
- , $ -> 3 `i 1692
- , $ -> 4 `i 1714
- 1736 ]
-[e :U 1615 ]
-"278
-[e $U 882  ]
-"280
 [e :U 1737 ]
-"281
-[e $U 1739  ]
+[e :U 1741 ]
 {
-"282
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 1740 ]
-"283
-[e :U 1743 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
+"274
+[e $U 1621  ]
+"275
 [e :U 1742 ]
-[e :U 1746 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+"276
+[e = _displayClock -> -> 0 `i `uc ]
+"277
+[e = _placePoint -> -> 1 `i `a ]
+"278
 }
-[e :U 1745 ]
+[e $U 1621  ]
+[e :U 1622 ]
+[e [\ _displayClock , $ -> 0 `i 1623
+ , $ -> 1 `i 1651
+ , $ -> 2 `i 1673
+ , $ -> 3 `i 1698
+ , $ -> 4 `i 1720
+ 1742 ]
+[e :U 1621 ]
+"279
+[e $U 885  ]
+"281
+[e :U 1743 ]
+"282
+[e $U 1745  ]
+{
+"283
+[e :U 1746 ]
 "284
 [e :U 1749 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 1748 ]
 [e :U 1752 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1751 ]
 "285
 [e :U 1755 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1754 ]
 [e :U 1758 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1757 ]
 "286
 [e :U 1761 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1760 ]
 [e :U 1764 ]
 {
-[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1763 ]
 "287
-[e $U 1738  ]
+[e :U 1767 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1766 ]
+[e :U 1770 ]
+{
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1769 ]
 "288
-[e :U 1765 ]
+[e $U 1744  ]
 "289
-[e :U 1768 ]
+[e :U 1771 ]
+"290
+[e :U 1774 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1767 ]
-[e :U 1771 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1770 ]
-[e :U 1774 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
 [e :U 1773 ]
-"290
 [e :U 1777 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1776 ]
 [e :U 1780 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1779 ]
 "291
 [e :U 1783 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1782 ]
 [e :U 1786 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1785 ]
 "292
-[e $U 1738  ]
+[e :U 1789 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1788 ]
+[e :U 1792 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1791 ]
 "293
-[e :U 1787 ]
+[e $U 1744  ]
 "294
-[e :U 1790 ]
+[e :U 1793 ]
+"295
+[e :U 1796 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1789 ]
-[e :U 1793 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 1792 ]
-[e :U 1796 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 1795 ]
-"295
 [e :U 1799 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1798 ]
 [e :U 1802 ]
 {
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1801 ]
 "296
 [e :U 1805 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1804 ]
 [e :U 1808 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 1807 ]
 "297
-[e $U 1738  ]
+[e :U 1811 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1810 ]
+[e :U 1814 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1813 ]
 "298
-[e :U 1809 ]
+[e $U 1744  ]
 "299
-[e :U 1812 ]
+[e :U 1815 ]
+"300
+[e :U 1818 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1811 ]
-[e :U 1815 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 1814 ]
-[e :U 1818 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 1817 ]
-"300
 [e :U 1821 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1820 ]
 [e :U 1824 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1823 ]
 "301
 [e :U 1827 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1826 ]
 [e :U 1830 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1829 ]
 "302
-[e $U 1738  ]
+[e :U 1833 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1832 ]
+[e :U 1836 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1835 ]
 "303
-[e :U 1831 ]
+[e $U 1744  ]
 "304
-[e :U 1834 ]
+[e :U 1837 ]
+"305
+[e :U 1840 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 1833 ]
-[e :U 1837 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 1836 ]
-[e :U 1840 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 1839 ]
-"305
 [e :U 1843 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1842 ]
 [e :U 1846 ]
 {
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1845 ]
 "306
 [e :U 1849 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1848 ]
 [e :U 1852 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
 }
 [e :U 1851 ]
 "307
-[e $U 1738  ]
-"308
-[e :U 1853 ]
-"309
-[e = _displayClock -> -> 0 `i `uc ]
-"310
-[e = _placePoint -> -> 1 `i `a ]
-"311
+[e :U 1855 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e $U 1738  ]
-[e :U 1739 ]
-[e [\ _displayClock , $ -> 0 `i 1740
- , $ -> 1 `i 1765
- , $ -> 2 `i 1787
- , $ -> 3 `i 1809
- , $ -> 4 `i 1831
- 1853 ]
-[e :U 1738 ]
-"312
-[e $U 882  ]
-"314
 [e :U 1854 ]
+[e :U 1858 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 1857 ]
+"308
+[e $U 1744  ]
+"309
+[e :U 1859 ]
+"310
+[e = _displayClock -> -> 0 `i `uc ]
+"311
+[e = _placePoint -> -> 1 `i `a ]
+"312
+}
+[e $U 1744  ]
+[e :U 1745 ]
+[e [\ _displayClock , $ -> 0 `i 1746
+ , $ -> 1 `i 1771
+ , $ -> 2 `i 1793
+ , $ -> 3 `i 1815
+ , $ -> 4 `i 1837
+ 1859 ]
+[e :U 1744 ]
+"313
+[e $U 885  ]
 "315
-[e ( _AllHighZ ..  ]
+[e :U 1860 ]
 "316
-[e $U 882  ]
+[e ( _AllHighZ ..  ]
 "317
-}
-[e $U 882  ]
-[e :U 883 ]
-[e [\ _number , $ -> 0 `i 884
- , $ -> 1 `i 985
- , $ -> 2 `i 1055
- , $ -> 3 `i 1153
- , $ -> 4 `i 1251
- , $ -> 5 `i 1344
- , $ -> 6 `i 1443
- , $ -> 7 `i 1541
- , $ -> 8 `i 1614
- , $ -> 9 `i 1737
- 1854 ]
-[e :U 882 ]
+[e $U 885  ]
 "318
-[e :UE 881 ]
 }
-"320
-[v _displayTensPlaceNum `(v ~T0 @X0 1 ef1`uc ]
+[e $U 885  ]
+[e :U 886 ]
+[e [\ _number , $ -> 0 `i 887
+ , $ -> 1 `i 988
+ , $ -> 2 `i 1058
+ , $ -> 3 `i 1156
+ , $ -> 4 `i 1254
+ , $ -> 5 `i 1347
+ , $ -> 6 `i 1446
+ , $ -> 7 `i 1547
+ , $ -> 8 `i 1620
+ , $ -> 9 `i 1743
+ 1860 ]
+[e :U 885 ]
+"319
+[e :UE 884 ]
+}
 "321
+[v _displayTensPlaceNum `(v ~T0 @X0 1 ef1`uc ]
+"322
 {
 [e :U _displayTensPlaceNum ]
-"320
-[v _number `uc ~T0 @X0 1 r1 ]
 "321
-[f ]
+[v _number `uc ~T0 @X0 1 r1 ]
 "322
-[e $U 1857  ]
-{
+[f ]
 "323
-[e :U 1858 ]
-"324
-[e $U 1860  ]
+[e $U 1863  ]
 {
-"325
-[e :U 1861 ]
-"326
+"324
 [e :U 1864 ]
+"325
+[e $U 1866  ]
+{
+"326
+[e :U 1867 ]
+"327
+[e :U 1870 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1863 ]
-[e :U 1867 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1866 ]
-[e :U 1870 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 1869 ]
-"327
 [e :U 1873 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1872 ]
 [e :U 1876 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1875 ]
 "328
 [e :U 1879 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1878 ]
 [e :U 1882 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1881 ]
 "329
-[e $U 1859  ]
+[e :U 1885 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1884 ]
+[e :U 1888 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1887 ]
 "330
-[e :U 1883 ]
+[e $U 1865  ]
 "331
-[e :U 1886 ]
+[e :U 1889 ]
+"332
+[e :U 1892 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1885 ]
-[e :U 1889 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 1888 ]
-[e :U 1892 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 1891 ]
-"332
 [e :U 1895 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 1894 ]
 [e :U 1898 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1897 ]
 "333
 [e :U 1901 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1900 ]
 [e :U 1904 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1903 ]
 "334
-[e $U 1859  ]
-"335
-[e :U 1905 ]
-"336
-[e = _displayClock -> -> 0 `i `uc ]
-"337
-[e = _placePoint -> -> 0 `i `a ]
-"338
-}
-[e $U 1859  ]
-[e :U 1860 ]
-[e [\ _displayClock , $ -> 0 `i 1861
- , $ -> 1 `i 1883
- 1905 ]
-[e :U 1859 ]
-"339
-[e $U 1856  ]
-"340
-[e :U 1906 ]
-"341
-[e $U 1908  ]
+[e :U 1907 ]
 {
-"342
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 1906 ]
+[e :U 1910 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
 [e :U 1909 ]
-"343
+"335
+[e $U 1865  ]
+"336
+[e :U 1911 ]
+"337
+[e = _displayClock -> -> 0 `i `uc ]
+"338
+[e = _placePoint -> -> 0 `i `a ]
+"339
+}
+[e $U 1865  ]
+[e :U 1866 ]
+[e [\ _displayClock , $ -> 0 `i 1867
+ , $ -> 1 `i 1889
+ 1911 ]
+[e :U 1865 ]
+"340
+[e $U 1862  ]
+"341
 [e :U 1912 ]
+"342
+[e $U 1914  ]
+{
+"343
+[e :U 1915 ]
+"344
+[e :U 1918 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1911 ]
-[e :U 1915 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1914 ]
-[e :U 1918 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 1917 ]
-"344
 [e :U 1921 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1920 ]
 [e :U 1924 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1923 ]
 "345
 [e :U 1927 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1926 ]
 [e :U 1930 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1929 ]
 "346
-[e $U 1907  ]
+[e :U 1933 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 1932 ]
+[e :U 1936 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 1935 ]
 "347
-[e :U 1931 ]
+[e $U 1913  ]
 "348
-[e :U 1934 ]
+[e :U 1937 ]
+"349
+[e :U 1940 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1933 ]
-[e :U 1937 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 1936 ]
-[e :U 1940 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 1939 ]
-"349
 [e :U 1943 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 1942 ]
 [e :U 1946 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1945 ]
 "350
 [e :U 1949 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1948 ]
 [e :U 1952 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1951 ]
 "351
-[e $U 1907  ]
+[e :U 1955 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1954 ]
+[e :U 1958 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1957 ]
 "352
-[e :U 1953 ]
+[e $U 1913  ]
 "353
-[e :U 1956 ]
+[e :U 1959 ]
+"354
+[e :U 1962 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 1955 ]
-[e :U 1959 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 1958 ]
-[e :U 1962 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 1961 ]
-"354
 [e :U 1965 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1964 ]
 [e :U 1968 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1967 ]
 "355
 [e :U 1971 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1970 ]
 [e :U 1974 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1973 ]
 "356
-[e $U 1907  ]
-"357
-[e :U 1975 ]
-"358
-[e :U 1978 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
-}
 [e :U 1977 ]
-[e :U 1981 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 1976 ]
 [e :U 1980 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 1979 ]
+"357
+[e $U 1913  ]
+"358
+[e :U 1981 ]
 "359
 [e :U 1984 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1983 ]
 [e :U 1987 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1986 ]
 "360
 [e :U 1990 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1989 ]
 [e :U 1993 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 1992 ]
 "361
 [e :U 1996 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 1995 ]
 [e :U 1999 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 1998 ]
 "362
-[e $U 1907  ]
-"363
-[e :U 2000 ]
-"364
-[e = _displayClock -> -> 0 `i `uc ]
-"365
-[e = _placePoint -> -> 0 `i `a ]
-"366
-}
-[e $U 1907  ]
-[e :U 1908 ]
-[e [\ _displayClock , $ -> 0 `i 1909
- , $ -> 1 `i 1931
- , $ -> 2 `i 1953
- , $ -> 3 `i 1975
- 2000 ]
-[e :U 1907 ]
-"367
-[e $U 1856  ]
-"368
-[e :U 2001 ]
-"369
-[e $U 2003  ]
+[e :U 2002 ]
 {
-"370
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2001 ]
+[e :U 2005 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 2004 ]
-"371
+"363
+[e $U 1913  ]
+"364
+[e :U 2006 ]
+"365
+[e = _displayClock -> -> 0 `i `uc ]
+"366
+[e = _placePoint -> -> 0 `i `a ]
+"367
+}
+[e $U 1913  ]
+[e :U 1914 ]
+[e [\ _displayClock , $ -> 0 `i 1915
+ , $ -> 1 `i 1937
+ , $ -> 2 `i 1959
+ , $ -> 3 `i 1981
+ 2006 ]
+[e :U 1913 ]
+"368
+[e $U 1862  ]
+"369
 [e :U 2007 ]
+"370
+[e $U 2009  ]
+{
+"371
+[e :U 2010 ]
+"372
+[e :U 2013 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2006 ]
-[e :U 2010 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2009 ]
-[e :U 2013 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2012 ]
-"372
 [e :U 2016 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2015 ]
 [e :U 2019 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2018 ]
 "373
 [e :U 2022 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2021 ]
 [e :U 2025 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2024 ]
 "374
-[e $U 2002  ]
+[e :U 2028 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2027 ]
+[e :U 2031 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2030 ]
 "375
-[e :U 2026 ]
+[e $U 2008  ]
 "376
-[e :U 2029 ]
+[e :U 2032 ]
+"377
+[e :U 2035 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2028 ]
-[e :U 2032 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2031 ]
-[e :U 2035 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2034 ]
-"377
 [e :U 2038 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2037 ]
 [e :U 2041 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2040 ]
 "378
 [e :U 2044 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2043 ]
 [e :U 2047 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2046 ]
 "379
-[e $U 2002  ]
-"380
-[e :U 2048 ]
-"381
-[e :U 2051 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
 [e :U 2050 ]
-[e :U 2054 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
+[e :U 2049 ]
 [e :U 2053 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2052 ]
+"380
+[e $U 2008  ]
+"381
+[e :U 2054 ]
 "382
 [e :U 2057 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2056 ]
 [e :U 2060 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2059 ]
 "383
 [e :U 2063 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2062 ]
 [e :U 2066 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2065 ]
 "384
 [e :U 2069 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2068 ]
 [e :U 2072 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2071 ]
 "385
-[e $U 2002  ]
+[e :U 2075 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2074 ]
+[e :U 2078 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2077 ]
 "386
-[e :U 2073 ]
+[e $U 2008  ]
 "387
-[e :U 2076 ]
+[e :U 2079 ]
+"388
+[e :U 2082 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 2075 ]
-[e :U 2079 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 2078 ]
-[e :U 2082 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2081 ]
-"388
 [e :U 2085 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2084 ]
 [e :U 2088 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2087 ]
 "389
 [e :U 2091 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2090 ]
 [e :U 2094 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2093 ]
 "390
-[e $U 2002  ]
-"391
-[e :U 2095 ]
-"392
-[e = _displayClock -> -> 0 `i `uc ]
-"393
-[e = _placePoint -> -> 0 `i `a ]
-"394
-}
-[e $U 2002  ]
-[e :U 2003 ]
-[e [\ _displayClock , $ -> 0 `i 2004
- , $ -> 1 `i 2026
- , $ -> 2 `i 2048
- , $ -> 3 `i 2073
- 2095 ]
-[e :U 2002 ]
-"395
-[e $U 1856  ]
-"396
-[e :U 2096 ]
-"397
-[e $U 2098  ]
+[e :U 2097 ]
 {
-"398
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2096 ]
+[e :U 2100 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 2099 ]
-"399
+"391
+[e $U 2008  ]
+"392
+[e :U 2101 ]
+"393
+[e = _displayClock -> -> 0 `i `uc ]
+"394
+[e = _placePoint -> -> 0 `i `a ]
+"395
+}
+[e $U 2008  ]
+[e :U 2009 ]
+[e [\ _displayClock , $ -> 0 `i 2010
+ , $ -> 1 `i 2032
+ , $ -> 2 `i 2054
+ , $ -> 3 `i 2079
+ 2101 ]
+[e :U 2008 ]
+"396
+[e $U 1862  ]
+"397
 [e :U 2102 ]
+"398
+[e $U 2104  ]
+{
+"399
+[e :U 2105 ]
+"400
+[e :U 2108 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2101 ]
-[e :U 2105 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2104 ]
-[e :U 2108 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2107 ]
-"400
 [e :U 2111 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2110 ]
 [e :U 2114 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2113 ]
 "401
 [e :U 2117 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2116 ]
 [e :U 2120 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2119 ]
 "402
-[e $U 2097  ]
+[e :U 2123 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2122 ]
+[e :U 2126 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2125 ]
 "403
-[e :U 2121 ]
+[e $U 2103  ]
 "404
-[e :U 2124 ]
+[e :U 2127 ]
+"405
+[e :U 2130 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2123 ]
-[e :U 2127 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 2126 ]
-[e :U 2130 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2129 ]
-"405
 [e :U 2133 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2132 ]
 [e :U 2136 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2135 ]
 "406
 [e :U 2139 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2138 ]
 [e :U 2142 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2141 ]
 "407
-[e $U 2097  ]
-"408
-[e :U 2143 ]
-"409
-[e :U 2146 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 2145 ]
-[e :U 2149 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 2144 ]
 [e :U 2148 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2147 ]
+"408
+[e $U 2103  ]
+"409
+[e :U 2149 ]
 "410
 [e :U 2152 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2151 ]
 [e :U 2155 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2154 ]
 "411
 [e :U 2158 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2157 ]
 [e :U 2161 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2160 ]
 "412
 [e :U 2164 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2163 ]
 [e :U 2167 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2166 ]
 "413
-[e $U 2097  ]
-"414
-[e :U 2168 ]
-"415
-[e = _displayClock -> -> 0 `i `uc ]
-"416
-[e = _placePoint -> -> 0 `i `a ]
-"417
-}
-[e $U 2097  ]
-[e :U 2098 ]
-[e [\ _displayClock , $ -> 0 `i 2099
- , $ -> 1 `i 2121
- , $ -> 2 `i 2143
- 2168 ]
-[e :U 2097 ]
-"418
-[e $U 1856  ]
-"419
-[e :U 2169 ]
-"420
-[e $U 2171  ]
+[e :U 2170 ]
 {
-"421
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2169 ]
+[e :U 2173 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 2172 ]
-"422
+"414
+[e $U 2103  ]
+"415
+[e :U 2174 ]
+"416
+[e = _displayClock -> -> 0 `i `uc ]
+"417
+[e = _placePoint -> -> 0 `i `a ]
+"418
+}
+[e $U 2103  ]
+[e :U 2104 ]
+[e [\ _displayClock , $ -> 0 `i 2105
+ , $ -> 1 `i 2127
+ , $ -> 2 `i 2149
+ 2174 ]
+[e :U 2103 ]
+"419
+[e $U 1862  ]
+"420
 [e :U 2175 ]
+"421
+[e $U 2177  ]
+{
+"422
+[e :U 2178 ]
+"423
+[e :U 2181 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2174 ]
-[e :U 2178 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2177 ]
-[e :U 2181 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2180 ]
-"423
 [e :U 2184 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2183 ]
 [e :U 2187 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2186 ]
 "424
 [e :U 2190 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2189 ]
 [e :U 2193 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2192 ]
 "425
-[e $U 2170  ]
-"426
-[e :U 2194 ]
-"427
-[e ( _AllHighZ ..  ]
-"428
-[e $U 2170  ]
-"429
+[e :U 2196 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
 [e :U 2195 ]
-"430
+[e :U 2199 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
 [e :U 2198 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2197 ]
-[e :U 2201 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
+"426
+[e $U 2176  ]
+"427
 [e :U 2200 ]
+"428
+[e ( _AllHighZ ..  ]
+"429
+[e $U 2176  ]
+"430
+[e :U 2201 ]
 "431
 [e :U 2204 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2203 ]
 [e :U 2207 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2206 ]
 "432
 [e :U 2210 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2209 ]
 [e :U 2213 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2212 ]
 "433
 [e :U 2216 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2215 ]
 [e :U 2219 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2218 ]
 "434
-[e $U 2170  ]
-"435
-[e :U 2220 ]
-"436
-[e :U 2223 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 2222 ]
-[e :U 2226 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 2221 ]
 [e :U 2225 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2224 ]
+"435
+[e $U 2176  ]
+"436
+[e :U 2226 ]
 "437
 [e :U 2229 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2228 ]
 [e :U 2232 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2231 ]
 "438
 [e :U 2235 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2234 ]
 [e :U 2238 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2237 ]
 "439
 [e :U 2241 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2240 ]
 [e :U 2244 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2243 ]
 "440
-[e $U 2170  ]
-"441
-[e :U 2245 ]
-"442
-[e = _displayClock -> -> 0 `i `uc ]
-"443
-[e = _placePoint -> -> 0 `i `a ]
-"444
+[e :U 2247 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e $U 2170  ]
-[e :U 2171 ]
-[e [\ _displayClock , $ -> 0 `i 2172
- , $ -> 1 `i 2194
- , $ -> 2 `i 2195
- , $ -> 3 `i 2220
- 2245 ]
-[e :U 2170 ]
-"445
-[e $U 1856  ]
-"446
 [e :U 2246 ]
-"447
-[e $U 2248  ]
+[e :U 2250 ]
 {
-"448
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 2249 ]
-"449
-[e :U 2252 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
+"441
+[e $U 2176  ]
+"442
 [e :U 2251 ]
-[e :U 2255 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+"443
+[e = _displayClock -> -> 0 `i `uc ]
+"444
+[e = _placePoint -> -> 0 `i `a ]
+"445
 }
-[e :U 2254 ]
+[e $U 2176  ]
+[e :U 2177 ]
+[e [\ _displayClock , $ -> 0 `i 2178
+ , $ -> 1 `i 2200
+ , $ -> 2 `i 2201
+ , $ -> 3 `i 2226
+ 2251 ]
+[e :U 2176 ]
+"446
+[e $U 1862  ]
+"447
+[e :U 2252 ]
+"448
+[e $U 2254  ]
+{
+"449
+[e :U 2255 ]
 "450
 [e :U 2258 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2257 ]
 [e :U 2261 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2260 ]
 "451
 [e :U 2264 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2263 ]
 [e :U 2267 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2266 ]
 "452
 [e :U 2270 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2269 ]
 [e :U 2273 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2272 ]
 "453
-[e $U 2247  ]
-"454
-[e :U 2274 ]
-"455
-[e :U 2277 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2276 ]
-"456
-[e :U 2280 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 2275 ]
 [e :U 2279 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2278 ]
+"454
+[e $U 2253  ]
+"455
+[e :U 2280 ]
+"456
 [e :U 2283 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2282 ]
 "457
 [e :U 2286 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2285 ]
 [e :U 2289 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2288 ]
 "458
 [e :U 2292 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2291 ]
 [e :U 2295 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2294 ]
 "459
 [e :U 2298 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2297 ]
 [e :U 2301 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2300 ]
 "460
-[e $U 2247  ]
-"461
-[e :U 2302 ]
-"462
-[e = _displayClock -> -> 0 `i `uc ]
-"463
-[e = _placePoint -> -> 0 `i `a ]
-"464
-}
-[e $U 2247  ]
-[e :U 2248 ]
-[e [\ _displayClock , $ -> 0 `i 2249
- , $ -> 1 `i 2274
- 2302 ]
-[e :U 2247 ]
-"465
-[e $U 1856  ]
-"466
-[e :U 2303 ]
-"467
-[e $U 2305  ]
+[e :U 2304 ]
 {
-"468
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2303 ]
+[e :U 2307 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 2306 ]
-"469
+"461
+[e $U 2253  ]
+"462
+[e :U 2308 ]
+"463
+[e = _displayClock -> -> 0 `i `uc ]
+"464
+[e = _placePoint -> -> 0 `i `a ]
+"465
+}
+[e $U 2253  ]
+[e :U 2254 ]
+[e [\ _displayClock , $ -> 0 `i 2255
+ , $ -> 1 `i 2280
+ 2308 ]
+[e :U 2253 ]
+"466
+[e $U 1862  ]
+"467
 [e :U 2309 ]
+"468
+[e $U 2311  ]
+{
+"469
+[e :U 2312 ]
+"470
+[e :U 2315 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2308 ]
-[e :U 2312 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2311 ]
-[e :U 2315 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2314 ]
-"470
 [e :U 2318 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2317 ]
 [e :U 2321 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2320 ]
 "471
 [e :U 2324 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2323 ]
 [e :U 2327 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2326 ]
 "472
-[e $U 2304  ]
+[e :U 2330 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2329 ]
+[e :U 2333 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2332 ]
 "473
-[e :U 2328 ]
+[e $U 2310  ]
 "474
-[e :U 2331 ]
+[e :U 2334 ]
+"475
+[e :U 2337 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2330 ]
-[e :U 2334 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2333 ]
-[e :U 2337 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2336 ]
-"475
 [e :U 2340 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2339 ]
 [e :U 2343 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2342 ]
 "476
 [e :U 2346 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2345 ]
 [e :U 2349 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2348 ]
 "477
-[e $U 2304  ]
+[e :U 2352 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2351 ]
+[e :U 2355 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2354 ]
 "478
-[e :U 2350 ]
+[e $U 2310  ]
 "479
-[e :U 2353 ]
+[e :U 2356 ]
+"480
+[e :U 2359 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2352 ]
-[e :U 2356 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 2355 ]
-[e :U 2359 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2358 ]
-"480
 [e :U 2362 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2361 ]
 [e :U 2365 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2364 ]
 "481
 [e :U 2368 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2367 ]
 [e :U 2371 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2370 ]
 "482
-[e $U 2304  ]
-"483
-[e :U 2372 ]
-"484
-[e = _displayClock -> -> 0 `i `uc ]
-"485
-[e = _placePoint -> -> 0 `i `a ]
-"486
-}
-[e $U 2304  ]
-[e :U 2305 ]
-[e [\ _displayClock , $ -> 0 `i 2306
- , $ -> 1 `i 2328
- , $ -> 2 `i 2350
- 2372 ]
-[e :U 2304 ]
-"487
-[e $U 1856  ]
-"488
-[e :U 2373 ]
-"489
-[e $U 2375  ]
+[e :U 2374 ]
 {
-"490
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2373 ]
+[e :U 2377 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
 [e :U 2376 ]
-"491
+"483
+[e $U 2310  ]
+"484
+[e :U 2378 ]
+"485
+[e = _displayClock -> -> 0 `i `uc ]
+"486
+[e = _placePoint -> -> 0 `i `a ]
+"487
+}
+[e $U 2310  ]
+[e :U 2311 ]
+[e [\ _displayClock , $ -> 0 `i 2312
+ , $ -> 1 `i 2334
+ , $ -> 2 `i 2356
+ 2378 ]
+[e :U 2310 ]
+"488
+[e $U 1862  ]
+"489
 [e :U 2379 ]
+"490
+[e $U 2381  ]
+{
+"491
+[e :U 2382 ]
+"492
+[e :U 2385 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2378 ]
-[e :U 2382 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2381 ]
-[e :U 2385 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2384 ]
-"492
 [e :U 2388 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2387 ]
 [e :U 2391 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2390 ]
 "493
 [e :U 2394 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2393 ]
 [e :U 2397 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2396 ]
 "494
-[e $U 2374  ]
+[e :U 2400 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2399 ]
+[e :U 2403 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2402 ]
 "495
-[e :U 2398 ]
+[e $U 2380  ]
 "496
-[e :U 2401 ]
+[e :U 2404 ]
+"497
+[e :U 2407 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2400 ]
-[e :U 2404 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2403 ]
-[e :U 2407 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2406 ]
-"497
 [e :U 2410 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2409 ]
 [e :U 2413 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2412 ]
 "498
 [e :U 2416 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2415 ]
 [e :U 2419 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2418 ]
 "499
-[e $U 2374  ]
-"500
-[e :U 2420 ]
-"501
-[e :U 2423 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
 [e :U 2422 ]
-[e :U 2426 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
+[e :U 2421 ]
 [e :U 2425 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2424 ]
+"500
+[e $U 2380  ]
+"501
+[e :U 2426 ]
 "502
 [e :U 2429 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2428 ]
 [e :U 2432 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2431 ]
 "503
 [e :U 2435 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2434 ]
 [e :U 2438 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2437 ]
 "504
 [e :U 2441 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2440 ]
 [e :U 2444 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2443 ]
 "505
-[e $U 2374  ]
-"506
-[e :U 2445 ]
-"507
-[e :U 2448 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2447 ]
-"508
-[e :U 2451 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 2446 ]
 [e :U 2450 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2449 ]
+"506
+[e $U 2380  ]
+"507
+[e :U 2451 ]
+"508
 [e :U 2454 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2453 ]
 "509
 [e :U 2457 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2456 ]
 [e :U 2460 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2459 ]
 "510
 [e :U 2463 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2462 ]
 [e :U 2466 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2465 ]
 "511
 [e :U 2469 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2468 ]
 [e :U 2472 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2471 ]
 "512
-[e $U 2374  ]
-"513
-[e :U 2473 ]
-"514
-[e = _displayClock -> -> 0 `i `uc ]
-"515
-[e = _placePoint -> -> 0 `i `a ]
-"516
-}
-[e $U 2374  ]
-[e :U 2375 ]
-[e [\ _displayClock , $ -> 0 `i 2376
- , $ -> 1 `i 2398
- , $ -> 2 `i 2420
- , $ -> 3 `i 2445
- 2473 ]
-[e :U 2374 ]
-"517
-[e $U 1856  ]
-"518
-[e :U 2474 ]
-"519
-[e $U 2476  ]
+[e :U 2475 ]
 {
-"520
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2474 ]
+[e :U 2478 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 2477 ]
-"521
+"513
+[e $U 2380  ]
+"514
+[e :U 2479 ]
+"515
+[e = _displayClock -> -> 0 `i `uc ]
+"516
+[e = _placePoint -> -> 0 `i `a ]
+"517
+}
+[e $U 2380  ]
+[e :U 2381 ]
+[e [\ _displayClock , $ -> 0 `i 2382
+ , $ -> 1 `i 2404
+ , $ -> 2 `i 2426
+ , $ -> 3 `i 2451
+ 2479 ]
+[e :U 2380 ]
+"518
+[e $U 1862  ]
+"519
 [e :U 2480 ]
+"520
+[e $U 2482  ]
+{
+"521
+[e :U 2483 ]
+"522
+[e :U 2486 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2479 ]
-[e :U 2483 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2482 ]
-[e :U 2486 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2485 ]
-"522
 [e :U 2489 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2488 ]
 [e :U 2492 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2491 ]
 "523
 [e :U 2495 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2494 ]
 [e :U 2498 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2497 ]
 "524
-[e $U 2475  ]
+[e :U 2501 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2500 ]
+[e :U 2504 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2503 ]
 "525
-[e :U 2499 ]
+[e $U 2481  ]
 "526
-[e :U 2502 ]
+[e :U 2505 ]
+"527
+[e :U 2508 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2501 ]
-[e :U 2505 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2504 ]
-[e :U 2508 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2507 ]
-"527
 [e :U 2511 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2510 ]
 [e :U 2514 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2513 ]
 "528
 [e :U 2517 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2516 ]
 [e :U 2520 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2519 ]
 "529
-[e $U 2475  ]
+[e :U 2523 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2522 ]
+[e :U 2526 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2525 ]
 "530
-[e :U 2521 ]
+[e $U 2481  ]
 "531
-[e :U 2524 ]
+[e :U 2527 ]
+"532
+[e :U 2530 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2523 ]
-[e :U 2527 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 2526 ]
-[e :U 2530 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
 [e :U 2529 ]
-"532
 [e :U 2533 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2532 ]
 [e :U 2536 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2535 ]
 "533
 [e :U 2539 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2538 ]
 [e :U 2542 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2541 ]
 "534
-[e $U 2475  ]
-"535
-[e :U 2543 ]
-"536
-[e :U 2546 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-}
 [e :U 2545 ]
-[e :U 2549 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 2544 ]
 [e :U 2548 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2547 ]
+"535
+[e $U 2481  ]
+"536
+[e :U 2549 ]
 "537
 [e :U 2552 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2551 ]
 [e :U 2555 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2554 ]
 "538
 [e :U 2558 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2557 ]
 [e :U 2561 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2560 ]
 "539
 [e :U 2564 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2563 ]
 [e :U 2567 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2566 ]
 "540
-[e $U 2475  ]
-"541
-[e :U 2568 ]
-"542
-[e = _displayClock -> -> 0 `i `uc ]
-"543
-[e = _placePoint -> -> 0 `i `a ]
-"544
+[e :U 2570 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e $U 2475  ]
-[e :U 2476 ]
-[e [\ _displayClock , $ -> 0 `i 2477
- , $ -> 1 `i 2499
- , $ -> 2 `i 2521
- , $ -> 3 `i 2543
- 2568 ]
-[e :U 2475 ]
-"545
-[e $U 1856  ]
-"546
 [e :U 2569 ]
-"547
-[e $U 2571  ]
+[e :U 2573 ]
 {
-"548
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
 [e :U 2572 ]
-"549
-[e :U 2575 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
+"541
+[e $U 2481  ]
+"542
 [e :U 2574 ]
-[e :U 2578 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+"543
+[e = _displayClock -> -> 0 `i `uc ]
+"544
+[e = _placePoint -> -> 0 `i `a ]
+"545
 }
-[e :U 2577 ]
+[e $U 2481  ]
+[e :U 2482 ]
+[e [\ _displayClock , $ -> 0 `i 2483
+ , $ -> 1 `i 2505
+ , $ -> 2 `i 2527
+ , $ -> 3 `i 2549
+ 2574 ]
+[e :U 2481 ]
+"546
+[e $U 1862  ]
+"547
+[e :U 2575 ]
+"548
+[e $U 2577  ]
+{
+"549
+[e :U 2578 ]
 "550
 [e :U 2581 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2580 ]
 [e :U 2584 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2583 ]
 "551
 [e :U 2587 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2586 ]
 [e :U 2590 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2589 ]
 "552
 [e :U 2593 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2592 ]
 [e :U 2596 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2595 ]
 "553
-[e $U 2570  ]
-"554
-[e :U 2597 ]
-"555
-[e :U 2600 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
 [e :U 2599 ]
-[e :U 2603 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
+[e :U 2598 ]
 [e :U 2602 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2601 ]
+"554
+[e $U 2576  ]
+"555
+[e :U 2603 ]
 "556
 [e :U 2606 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2605 ]
 [e :U 2609 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2608 ]
 "557
 [e :U 2612 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2611 ]
 [e :U 2615 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2614 ]
 "558
 [e :U 2618 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2617 ]
 [e :U 2621 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2620 ]
 "559
-[e $U 2570  ]
-"560
-[e :U 2622 ]
-"561
-[e :U 2625 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
 [e :U 2624 ]
-[e :U 2628 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
+[e :U 2623 ]
 [e :U 2627 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2626 ]
+"560
+[e $U 2576  ]
+"561
+[e :U 2628 ]
 "562
 [e :U 2631 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2630 ]
 [e :U 2634 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2633 ]
 "563
 [e :U 2637 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2636 ]
 [e :U 2640 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2639 ]
 "564
 [e :U 2643 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2642 ]
 [e :U 2646 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2645 ]
 "565
-[e $U 2570  ]
-"566
-[e :U 2647 ]
-"567
-[e :U 2650 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
 [e :U 2649 ]
-[e :U 2653 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 2648 ]
 [e :U 2652 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2651 ]
+"566
+[e $U 2576  ]
+"567
+[e :U 2653 ]
 "568
 [e :U 2656 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2655 ]
 [e :U 2659 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2658 ]
 "569
 [e :U 2662 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2661 ]
 [e :U 2665 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2664 ]
 "570
 [e :U 2668 ]
 {
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2667 ]
 [e :U 2671 ]
 {
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2670 ]
 "571
-[e $U 2570  ]
-"572
-[e :U 2672 ]
-"573
-[e = _displayClock -> -> 0 `i `uc ]
-"574
-[e = _placePoint -> -> 0 `i `a ]
-"575
+[e :U 2674 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e $U 2570  ]
-[e :U 2571 ]
-[e [\ _displayClock , $ -> 0 `i 2572
- , $ -> 1 `i 2597
- , $ -> 2 `i 2622
- , $ -> 3 `i 2647
- 2672 ]
-[e :U 2570 ]
-"576
-[e $U 1856  ]
-"577
 [e :U 2673 ]
-"578
-[e ( _AllHighZ ..  ]
-"579
+[e :U 2677 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2676 ]
+"572
+[e $U 2576  ]
+"573
+[e :U 2678 ]
+"574
+[e = _displayClock -> -> 0 `i `uc ]
+"575
 [e = _placePoint -> -> 0 `i `a ]
+"576
+}
+[e $U 2576  ]
+[e :U 2577 ]
+[e [\ _displayClock , $ -> 0 `i 2578
+ , $ -> 1 `i 2603
+ , $ -> 2 `i 2628
+ , $ -> 3 `i 2653
+ 2678 ]
+[e :U 2576 ]
+"577
+[e $U 1862  ]
+"578
+[e :U 2679 ]
+"579
+[e ( _AllHighZ ..  ]
 "580
-[e $U 1856  ]
+[e = _placePoint -> -> 0 `i `a ]
 "581
-}
-[e $U 1856  ]
-[e :U 1857 ]
-[e [\ _number , $ -> 1 `i 1858
- , $ -> 2 `i 1906
- , $ -> 3 `i 2001
- , $ -> 4 `i 2096
- , $ -> 5 `i 2169
- , $ -> 6 `i 2246
- , $ -> 7 `i 2303
- , $ -> 8 `i 2373
- , $ -> 9 `i 2474
- , $ -> 10 `i 2569
- 2673 ]
-[e :U 1856 ]
+[e $U 1862  ]
 "582
-[e :UE 1855 ]
 }
-"584
-[v _AllHighZ `(v ~T0 @X0 1 ef ]
+[e $U 1862  ]
+[e :U 1863 ]
+[e [\ _number , $ -> 1 `i 1864
+ , $ -> 2 `i 1912
+ , $ -> 3 `i 2007
+ , $ -> 4 `i 2102
+ , $ -> 5 `i 2175
+ , $ -> 6 `i 2252
+ , $ -> 7 `i 2309
+ , $ -> 8 `i 2379
+ , $ -> 9 `i 2480
+ , $ -> 10 `i 2575
+ 2679 ]
+[e :U 1862 ]
+"583
+[e :UE 1861 ]
+}
 "585
+[v _AllHighZ `(v ~T0 @X0 1 ef ]
+"586
 {
 [e :U _AllHighZ ]
 [f ]
-"586
-[e :U 2677 ]
+"587
+[e :U 2683 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2676 ]
-"587
-[e :U 2680 ]
+[e :U 2682 ]
+"588
+[e :U 2686 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 2679 ]
-"588
-[e :U 2683 ]
+[e :U 2685 ]
+"589
+[e :U 2689 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 2682 ]
-"589
-[e :U 2686 ]
+[e :U 2688 ]
+"590
+[e :U 2692 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 2685 ]
-"590
-[e :U 2689 ]
+[e :U 2691 ]
+"591
+[e :U 2695 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 2688 ]
-"591
-[e :UE 2674 ]
+[e :U 2694 ]
+"592
+[e :UE 2680 ]
 }

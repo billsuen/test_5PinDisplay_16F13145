@@ -37,10 +37,12 @@
 #include "mcc_generated_files/system/pins.h"
 #include "mcc_generated_files/system/system.h"
 #include "mcc_generated_files/timer/tmr0_deprecated.h"
-
+#include <stdio.h>
 /*
     Main application
 */
+
+char	buffer[8];
 
 int main(void)
 {
@@ -79,9 +81,25 @@ int main(void)
 			IND_Y_LAT = IND_ON;
 		}
 
+		num = (((tmpBATTvalue - 665)*100)/335);
+
 		if(placePoint == ONCE_PLACE)
 			displayOncePlaceNum(num % 10);
 		else
 			displayTensPlaceNum(num / 10);
+
+		/*
+		if(sendUART)
+		{
+			sendUART = CLEAR;
+
+			sprintf(buffer, "%d\r\n", tmpBATTvalue);
+			for(uint8_t i=0; buffer[i] != '\0'; ++i)
+			{
+				while(!EUSART1_IsTxReady());   // 等待 Buffer 可傳送
+				EUSART1_Write(buffer[i]);
+			}
+		}
+		*/
     }    
 }

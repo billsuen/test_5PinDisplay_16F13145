@@ -61,17 +61,17 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     // interrupt handler
     if(INTCONbits.PEIE == 1)
     {
-        if(PIE6bits.ADIE == 1 && PIR6bits.ADIF == 1)
+        if(PIE0bits.TMR0IE == 1 && PIR0bits.TMR0IF == 1)
+        {
+            TMR0_ISR();
+        } 
+        else if(PIE6bits.ADIE == 1 && PIR6bits.ADIF == 1)
         {
             ADC_ISR();
         } 
         else if(PIE6bits.ADTIE == 1 && PIR6bits.ADTIF == 1)
         {
             ADC_ThresholdISR();
-        } 
-        else if(PIE0bits.TMR0IE == 1 && PIR0bits.TMR0IF == 1)
-        {
-            TMR0_ISR();
         } 
         else
         {

@@ -1,16 +1,16 @@
 Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
-"56 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/mcc_generated_files/system/system.h
+"58 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/mcc_generated_files/system/system.h
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-[v F6659 `(v ~T0 @X0 0 tf ]
+[v F6786 `(v ~T0 @X0 0 tf ]
 "436 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/mcc_generated_files/system/../adc/adc.h
-[v _ADC_ThresholdCallbackRegister `(v ~T0 @X0 0 ef1`*F6659 ]
-"8 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
+[v _ADC_ThresholdCallbackRegister `(v ~T0 @X0 0 ef1`*F6786 ]
+"10 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
 [v _USER_ADC_THRESHOLD_ISR `(v ~T0 @X0 0 ef ]
-[v F6683 `(v ~T0 @X0 0 tf ]
+[v F6810 `(v ~T0 @X0 0 tf ]
 "174 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/mcc_generated_files/system/../timer/tmr0.h
-[v _TMR0_PeriodMatchCallbackRegister `(v ~T0 @X0 0 ef1`*F6683 ]
-"7 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
+[v _TMR0_PeriodMatchCallbackRegister `(v ~T0 @X0 0 ef1`*F6810 ]
+"9 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
 [v _USER_TMR0_ISR `(v ~T0 @X0 0 ef ]
 "347 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [s S31 :1 `uc 1 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -20,7 +20,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S30 . . ]
 "354
 [v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
-"10 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
+"12 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
 [v _IND_FlashCnt `Vus ~T0 @X0 0 e ]
 "677 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [s S45 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -30,13 +30,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S44 . . ]
 "686
 [v _LATAbits `VS44 ~T0 @X0 0 e@24 ]
+"15 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
+[v _num `Vuc ~T0 @X0 0 e ]
+"13
+[v _tmpBATTvalue `Vs ~T0 @X0 0 e ]
 "14 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/fivePinDisplay.h
 [v _placePoint `a ~T0 @X0 0 e ]
 "7
 [v _displayOncePlaceNum `(v ~T0 @X0 0 ef1`uc ]
-"12 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/config_16F13145.h
-[v _num `Vuc ~T0 @X0 0 e ]
-"8 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/fivePinDisplay.h
+"8
 [v _displayTensPlaceNum `(v ~T0 @X0 0 ef1`uc ]
 "38 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [; <" INDF0 equ 00h ;# ">
@@ -694,64 +696,68 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSL equ 01FEEh ;# ">
 "17927
 [; <" TOSH equ 01FEFh ;# ">
-[v $root$_main `(v ~T0 @X0 0 e ]
 "45 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
+[v _buffer `uc ~T0 @X0 -> 8 `i e ]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"47
 [v _main `(i ~T0 @X0 1 ef ]
-"46
+"48
 {
 [e :U _main ]
 [f ]
-"47
-[e ( _SYSTEM_Initialize ..  ]
 "49
+[e ( _SYSTEM_Initialize ..  ]
+"51
 [e ( _ADC_ThresholdCallbackRegister (1 &U _USER_ADC_THRESHOLD_ISR ]
-"50
+"52
 [e ( _TMR0_PeriodMatchCallbackRegister (1 &U _USER_TMR0_ISR ]
-"57
+"59
 [e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
-"63
+"65
 [e = . . _INTCONbits 0 2 -> -> 1 `i `uc ]
-"69
-[e :U 883 ]
-"70
-{
 "71
-[e $ ! < -> _IND_FlashCnt `ui -> -> 150 `i `ui 885  ]
+[e :U 888 ]
 "72
 {
 "73
-[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
+[e $ ! < -> _IND_FlashCnt `ui -> -> 150 `i `ui 890  ]
 "74
-[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
-"75
-}
-[e $U 886  ]
-"76
-[e :U 885 ]
-"77
 {
+"75
+[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
+"76
+[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
+"77
+}
+[e $U 891  ]
 "78
-[e = . . _LATAbits 0 0 -> -> 1 `i `uc ]
+[e :U 890 ]
 "79
-[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+{
 "80
-}
-[e :U 886 ]
+[e = . . _LATAbits 0 0 -> -> 1 `i `uc ]
+"81
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
 "82
-[e $ ! == -> _placePoint `i -> 0 `i 887  ]
-"83
-[e ( _displayOncePlaceNum (1 -> % -> _num `i -> 10 `i `uc ]
-[e $U 888  ]
-"84
-[e :U 887 ]
-"85
-[e ( _displayTensPlaceNum (1 -> / -> _num `i -> 10 `i `uc ]
-[e :U 888 ]
-"86
 }
-[e :U 882 ]
-[e $U 883  ]
-[e :U 884 ]
+[e :U 891 ]
+"84
+[e = _num -> / * - -> _tmpBATTvalue `i -> 665 `i -> 100 `i -> 335 `i `uc ]
+"86
+[e $ ! == -> _placePoint `i -> 0 `i 892  ]
 "87
-[e :UE 881 ]
+[e ( _displayOncePlaceNum (1 -> % -> _num `i -> 10 `i `uc ]
+[e $U 893  ]
+"88
+[e :U 892 ]
+"89
+[e ( _displayTensPlaceNum (1 -> / -> _num `i -> 10 `i `uc ]
+[e :U 893 ]
+"104
+}
+[e :U 887 ]
+[e $U 888  ]
+[e :U 889 ]
+"105
+[e :UE 886 ]
 }

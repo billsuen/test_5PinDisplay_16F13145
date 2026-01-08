@@ -8,5 +8,6 @@
 		"embedded-debug",
 		"gdb",
 		"mplab-core-da"
-	]
+	],
+	"cmake.ignoreCMakeListsMissing": true
 }

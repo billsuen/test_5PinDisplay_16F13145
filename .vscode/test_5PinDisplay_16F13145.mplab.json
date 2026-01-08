@@ -57,7 +57,13 @@
                 "My_MCC_Config/mcc/mcc_generated_files/system/src/pins.c",
                 "My_MCC_Config/mcc/mcc_generated_files/adc/adc.h",
                 "My_MCC_Config/mcc/mcc_generated_files/adc/adc_types.h",
-                "My_MCC_Config/mcc/mcc_generated_files/adc/src/adc.c"
+                "My_MCC_Config/mcc/mcc_generated_files/adc/src/adc.c",
+                "My_MCC_Config/mcc/mcc_generated_files/fvr/fvr.h",
+                "My_MCC_Config/mcc/mcc_generated_files/fvr/src/fvr.c",
+                "My_MCC_Config/mcc/mcc_generated_files/uart/uart_types.h",
+                "My_MCC_Config/mcc/mcc_generated_files/uart/src/eusart1.c",
+                "My_MCC_Config/mcc/mcc_generated_files/uart/uart_drv_interface.h",
+                "My_MCC_Config/mcc/mcc_generated_files/uart/eusart1.h"
             ]
         }
     ]

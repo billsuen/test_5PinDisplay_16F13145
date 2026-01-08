@@ -54,9 +54,9 @@ void ADC_Initialize(void)
 			|(0 << _ADCON1_ADGPOL_POSITION)	/* ADGPOL digital_low(0) */
 			|(0 << _ADCON1_ADIPEN_POSITION)	/* ADIPEN disabled(0) */
 			|(0 << _ADCON1_ADPPOL_POSITION);	/* ADPPOL VSS(0) */
-    ADCON2 = (2 << _ADCON2_ADMD_POSITION)	/* ADMD Average_mode(2) */
+    ADCON2 = (4 << _ADCON2_ADMD_POSITION)	/* ADMD Low_pass_filter_mode(4) */
 			|(1 << _ADCON2_ADACLR_POSITION)	/* ADACLR enabled(1) */
-			|(3 << _ADCON2_ADCRS_POSITION)	/* ADCRS 0x3(3) */
+			|(5 << _ADCON2_ADCRS_POSITION)	/* ADCRS 0x5(5) */
 			|(0 << _ADCON2_ADPSIS_POSITION);	/* ADPSIS ADRES(0) */
     ADCON3 = (2 << _ADCON3_ADTMD_POSITION)	/* ADTMD ADERR >= ADLTH(2) */
 			|(0 << _ADCON3_ADSOI_POSITION)	/* ADSOI ADGO not cleared(0) */
@@ -92,12 +92,12 @@ void ADC_Initialize(void)
     ADCNT = (0 << _ADCNT_ADCNT_POSITION);	/* ADCNT 0x0(0) */ 
     ADRPT = (8 << _ADRPT_ADRPT_POSITION);	/* ADRPT 0x8(8) */       
     ADCAP = (0 << _ADCAP_CAP_POSITION);	/* CAP Additional uC disabled(0) */
-    ADPCH = (4 << _ADPCH_PCH_POSITION);	/* PCH ANA4(4) */ 
+    ADPCH = (2 << _ADPCH_PCH_POSITION);	/* PCH ANA2(2) */ 
     ADACQL = (0 << _ADACQL_ACQ_POSITION);	/* ACQ 0x0(0) */  
     ADACQH = (0 << _ADACQH_ACQ_POSITION);	/* ACQ 0x0(0) */ 
     ADPREL = (0 << _ADPREL_PRE_POSITION);	/* PRE 0x0(0) */ 
     ADPREH = (0 << _ADPREH_PRE_POSITION);	/* PRE 0x0(0) */
-    ADREF = (0 << _ADREF_ADPREF_POSITION);	/* ADPREF VDD(0) */    
+    ADREF = (3 << _ADREF_ADPREF_POSITION);	/* ADPREF FVR_buf1(3) */    
     ADACT = (0 << _ADACT_ADACT_POSITION);	/* ADACT disabled(0) */ 
     ADSTAT =(0 << _ADSTAT_ADMATH_POSITION);	/* ADMATH registers not updated(0) */   
     

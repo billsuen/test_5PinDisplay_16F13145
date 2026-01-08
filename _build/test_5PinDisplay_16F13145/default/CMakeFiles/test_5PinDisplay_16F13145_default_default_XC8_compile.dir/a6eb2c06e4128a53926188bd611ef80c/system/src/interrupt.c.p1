@@ -1,5 +1,5 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F6688 `(v ~T0 @X0 0 tf ]
+[v F6815 `(v ~T0 @X0 0 tf ]
 "823 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [s S51 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S51 . INTF . IOCIF TMR0IF ]
@@ -23,6 +23,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _INT_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
 [t ~ __interrupt . k ]
 [t T1 __interrupt ]
+"1109 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
+[s S65 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S65 . INTE . IOCIE TMR0IE ]
+"1108
+[u S64 `S65 1 ]
+[n S64 . . ]
+"1116
+[v _PIE0bits `VS64 ~T0 @X0 0 e@150 ]
+"166 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\system\src/../../system/../timer/tmr0.h
+[v _TMR0_ISR `(v ~T0 @X0 0 ef ]
 "1331 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [s S75 :1 `uc 1 :1 `uc 1 ]
 [n S75 . ADIE ADTIE ]
@@ -43,21 +53,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _ADC_ISR `(v ~T0 @X0 0 ef ]
 "484
 [v _ADC_ThresholdISR `(v ~T0 @X0 0 ef ]
-"1109 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
-[s S65 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S65 . INTE . IOCIE TMR0IE ]
-"1108
-[u S64 `S65 1 ]
-[n S64 . . ]
-"1116
-[v _PIE0bits `VS64 ~T0 @X0 0 e@150 ]
-"166 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\system\src/../../system/../timer/tmr0.h
-[v _TMR0_ISR `(v ~T0 @X0 0 ef ]
 "148 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\system\src/../../system/interrupt.h
 [v _INT_CallBack `(v ~T0 @X0 0 ef ]
-[v F6694 `(v ~T0 @X0 0 tf ]
-[v F6696 `(v ~T0 @X0 0 tf ]
-[v F6698 `(v ~T0 @X0 0 tf ]
+[v F6821 `(v ~T0 @X0 0 tf ]
+[v F6823 `(v ~T0 @X0 0 tf ]
+[v F6825 `(v ~T0 @X0 0 tf ]
 "38 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [; <" INDF0 equ 00h ;# ">
 "58
@@ -715,7 +715,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "17927
 [; <" TOSH equ 01FEFh ;# ">
 "38 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\mcc_generated_files\system\src\interrupt.c
-[v _INT_InterruptHandler `*F6688 ~T0 @X0 1 e ]
+[v _INT_InterruptHandler `*F6815 ~T0 @X0 1 e ]
 "40
 [v _INTERRUPT_Initialize `(v ~T0 @X0 1 ef ]
 "41
@@ -729,7 +729,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "47
 [e ( _INT_SetInterruptHandler (1 &U _INT_DefaultInterruptHandler ]
 "50
-[e :UE 881 ]
+[e :UE 884 ]
 }
 [v $root$_INTERRUPT_InterruptManager `(v ~T0 @X0 0 e ]
 "59
@@ -739,59 +739,59 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INTERRUPT_InterruptManager ]
 [f ]
 "62
-[e $ ! == -> . . _INTCONbits 0 2 `i -> 1 `i 883  ]
+[e $ ! == -> . . _INTCONbits 0 2 `i -> 1 `i 886  ]
 "63
 {
 "64
-[e $ ! && == -> . . _PIE6bits 0 0 `i -> 1 `i == -> . . _PIR6bits 0 0 `i -> 1 `i 884  ]
+[e $ ! && == -> . . _PIE0bits 0 3 `i -> 1 `i == -> . . _PIR0bits 0 3 `i -> 1 `i 887  ]
 "65
 {
 "66
-[e ( _ADC_ISR ..  ]
+[e ( _TMR0_ISR ..  ]
 "67
 }
-[e $U 885  ]
+[e $U 888  ]
 "68
-[e :U 884 ]
-[e $ ! && == -> . . _PIE6bits 0 1 `i -> 1 `i == -> . . _PIR6bits 0 1 `i -> 1 `i 886  ]
+[e :U 887 ]
+[e $ ! && == -> . . _PIE6bits 0 0 `i -> 1 `i == -> . . _PIR6bits 0 0 `i -> 1 `i 889  ]
 "69
 {
 "70
-[e ( _ADC_ThresholdISR ..  ]
+[e ( _ADC_ISR ..  ]
 "71
 }
-[e $U 887  ]
+[e $U 890  ]
 "72
-[e :U 886 ]
-[e $ ! && == -> . . _PIE0bits 0 3 `i -> 1 `i == -> . . _PIR0bits 0 3 `i -> 1 `i 888  ]
+[e :U 889 ]
+[e $ ! && == -> . . _PIE6bits 0 1 `i -> 1 `i == -> . . _PIR6bits 0 1 `i -> 1 `i 891  ]
 "73
 {
 "74
-[e ( _TMR0_ISR ..  ]
+[e ( _ADC_ThresholdISR ..  ]
 "75
 }
-[e $U 889  ]
+[e $U 892  ]
 "76
-[e :U 888 ]
+[e :U 891 ]
 "77
 {
 "79
 }
-[e :U 889 ]
-[e :U 887 ]
-[e :U 885 ]
+[e :U 892 ]
+[e :U 890 ]
+[e :U 888 ]
 "80
 }
-[e $U 890  ]
+[e $U 893  ]
 "81
-[e :U 883 ]
+[e :U 886 ]
 "82
 {
 "84
 }
-[e :U 890 ]
+[e :U 893 ]
 "85
-[e :UE 882 ]
+[e :UE 885 ]
 }
 "87
 [v _INT_ISR `(v ~T0 @X0 1 ef ]
@@ -804,7 +804,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "92
 [e ( _INT_CallBack ..  ]
 "93
-[e :UE 891 ]
+[e :UE 894 ]
 }
 "96
 [v _INT_CallBack `(v ~T0 @X0 1 ef ]
@@ -813,27 +813,27 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT_CallBack ]
 [f ]
 "99
-[e $ ! != _INT_InterruptHandler -> -> 0 `i `*F6694 893  ]
+[e $ ! != _INT_InterruptHandler -> -> 0 `i `*F6821 896  ]
 "100
 {
 "101
 [e ( *U _INT_InterruptHandler ..  ]
 "102
 }
-[e :U 893 ]
+[e :U 896 ]
 "103
-[e :UE 892 ]
+[e :UE 895 ]
 }
 "105
-[v _INT_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F6696 ]
+[v _INT_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F6823 ]
 {
 [e :U _INT_SetInterruptHandler ]
-[v _InterruptHandler `*F6698 ~T0 @X0 1 r1 ]
+[v _InterruptHandler `*F6825 ~T0 @X0 1 r1 ]
 [f ]
 "106
 [e = _INT_InterruptHandler _InterruptHandler ]
 "107
-[e :UE 894 ]
+[e :UE 897 ]
 }
 "109
 [v _INT_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
@@ -841,5 +841,5 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT_DefaultInterruptHandler ]
 [f ]
 "112
-[e :UE 895 ]
+[e :UE 898 ]
 }

@@ -1,4 +1,8 @@
 Version 4.0 HI-TECH Software Intermediate Code
+"105 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/mcc_generated_files/system/../adc/adc.h
+[v _ADC_ConversionStart `(v ~T0 @X0 0 ef ]
+"272
+[v _ADC_FilterValueGet `(s ~T0 @X0 0 ef ]
 "38 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [; <" INDF0 equ 00h ;# ">
 "58
@@ -655,72 +659,97 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSL equ 01FEEh ;# ">
 "17927
 [; <" TOSH equ 01FEFh ;# ">
-"5 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+"6 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+[v _tmpBATTvalue `Vs ~T0 @X0 1 e ]
+[i _tmpBATTvalue
+-> -> 0 `i `s
+]
+"7
 [v _IND_FlashCnt `Vus ~T0 @X0 1 e ]
 [i _IND_FlashCnt
 -> -> 0 `i `us
 ]
-"6
+"8
 [v _displayClock `Vuc ~T0 @X0 1 e ]
 [i _displayClock
 -> -> 0 `i `uc
 ]
-"7
+"9
 [v _displayDelay `Vuc ~T0 @X0 1 e ]
 [i _displayDelay
 -> -> 0 `i `uc
 ]
-"8
+"10
+[v _sampleDelayCnt `Vuc ~T0 @X0 1 e ]
+[i _sampleDelayCnt
+-> -> 0 `i `uc
+]
+"11
 [v _num `Vuc ~T0 @X0 1 e ]
 [i _num
 -> -> 0 `i `uc
 ]
-"10
+"12
+[v _sendUART `Va ~T0 @X0 1 e ]
+[i _sendUART
+-> -> 0 `i `a
+]
+"14
 [v _USER_TMR0_ISR `(v ~T0 @X0 1 ef ]
-"11
+"15
 {
 [e :U _USER_TMR0_ISR ]
 [f ]
-"12
-[e ++ _IND_FlashCnt -> -> 1 `i `Vus ]
-"13
-[e $ ! >= -> _IND_FlashCnt `ui -> -> 300 `i `ui 882  ]
-"14
-{
-"15
-[e = _IND_FlashCnt -> -> 0 `i `us ]
+"16
+[e ++ _sampleDelayCnt -> -> 1 `i `Vuc ]
 "17
-[e ++ _num -> -> 1 `i `Vuc ]
+[e $ ! >= -> _sampleDelayCnt `i -> 30 `i 885  ]
 "18
-[e $ ! > -> _num `i -> 100 `i 883  ]
-"19
-[e = _num -> -> 0 `i `uc ]
-[e :U 883 ]
-"20
-}
-[e :U 882 ]
-"22
-[e ++ _displayDelay -> -> 1 `i `Vuc ]
-"23
-[e $ ! >= -> _displayDelay `i -> 2 `i 884  ]
-"24
 {
+"19
+[e = _sampleDelayCnt -> -> 0 `i `uc ]
+"20
+[e ( _ADC_ConversionStart ..  ]
+"21
+}
+[e :U 885 ]
+"23
+[e ++ _IND_FlashCnt -> -> 1 `i `Vus ]
+"24
+[e $ ! >= -> _IND_FlashCnt `ui -> -> 300 `i `ui 886  ]
 "25
-[e = _displayDelay -> -> 0 `i `uc ]
+{
 "26
-[e ++ _displayClock -> -> 1 `i `Vuc ]
-"27
-}
-[e :U 884 ]
+[e = _IND_FlashCnt -> -> 0 `i `us ]
 "28
-[e :UE 881 ]
+[e = _sendUART -> -> 1 `i `a ]
+"34
 }
-"30
+[e :U 886 ]
+"36
+[e ++ _displayDelay -> -> 1 `i `Vuc ]
+"37
+[e $ ! >= -> _displayDelay `i -> 2 `i 887  ]
+"38
+{
+"39
+[e = _displayDelay -> -> 0 `i `uc ]
+"40
+[e ++ _displayClock -> -> 1 `i `Vuc ]
+"41
+}
+[e :U 887 ]
+"42
+[e :UE 884 ]
+}
+"44
 [v _USER_ADC_THRESHOLD_ISR `(v ~T0 @X0 1 ef ]
-"31
+"45
 {
 [e :U _USER_ADC_THRESHOLD_ISR ]
 [f ]
-"33
-[e :UE 885 ]
+"46
+[e = _tmpBATTvalue ( _ADC_FilterValueGet ..  ]
+"47
+[e :UE 888 ]
 }
