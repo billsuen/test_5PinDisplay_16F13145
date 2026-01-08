@@ -12,7 +12,7 @@
 | .vscode\test_5PinDisplay_16F13145.mplab.json | The MPLAB project file, should not be deleted                                                                                       |
 | out                                          | Final build artifacts                                                                                                               |
 
-![5 pin Dispaly](image/5PinDisplay.jpg)
+![5 pin Dispaly](image/5Pin_display.jpg)
 可顯示 188 + % + 充電符的顯使器腳位，本次錦驅動 '%', 未驅動充電符。<br>
 **注意腳位的電阻匹配，以免超出 MCU 電流驅動能力**<br>
 
