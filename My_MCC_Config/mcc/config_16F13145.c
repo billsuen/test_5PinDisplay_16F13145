@@ -25,7 +25,7 @@ void USER_TMR0_ISR()
 	{
 		IND_FlashCnt = 0;
 
-		sendUART = SET;
+		//sendUART = SET;
 		/*
 		num++;	//plus every 300 msec.
 		if(num > 100)

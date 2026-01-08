@@ -447,12 +447,17 @@ void displayTensPlaceNum(uint8_t number)
 		case 6:
 			switch(displayClock){
 				case 0:
+					PIN5_SetDigitalInput();	PIN4_SetDigitalInput();	PIN1_SetDigitalInput();
+					PIN3_SetDigitalOutput();	PIN3_SetLow();
+					PIN2_SetDigitalOutput();	PIN2_SetHigh();
+					break;
+				case 1:
 					PIN5_SetDigitalInput();	PIN1_SetDigitalInput();
 					PIN2_SetDigitalOutput();	PIN2_SetLow();
 					PIN3_SetDigitalOutput();	PIN3_SetLow();
 					PIN4_SetDigitalOutput();	PIN4_SetHigh();
 					break;
-				case 1:
+				case 2:
 					PIN1_SetDigitalInput();
 					PIN4_SetDigitalOutput();	PIN4_SetLow();
 					PIN3_SetDigitalOutput();	PIN3_SetLow();

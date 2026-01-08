@@ -3593,64 +3593,63 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 2257 ]
 [e :U 2261 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2260 ]
-"451
 [e :U 2264 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2263 ]
+"451
 [e :U 2267 ]
-{
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2266 ]
-"452
-[e :U 2270 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 2269 ]
-[e :U 2273 ]
+[e :U 2266 ]
+[e :U 2270 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
+[e :U 2269 ]
+"452
+[e :U 2273 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
 [e :U 2272 ]
-"453
 [e :U 2276 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2275 ]
-[e :U 2279 ]
-{
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2278 ]
-"454
+"453
 [e $U 2253  ]
+"454
+[e :U 2277 ]
 "455
 [e :U 2280 ]
-"456
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2279 ]
 [e :U 2283 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2282 ]
-"457
+"456
 [e :U 2286 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2285 ]
 [e :U 2289 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2288 ]
-"458
+"457
 [e :U 2292 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
@@ -3661,93 +3660,95 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2294 ]
-"459
+"458
 [e :U 2298 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2297 ]
 [e :U 2301 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2300 ]
+"459
+[e $U 2253  ]
 "460
+[e :U 2302 ]
+"461
+[e :U 2305 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
 [e :U 2304 ]
+"462
+[e :U 2308 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2307 ]
+[e :U 2311 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2310 ]
+"463
+[e :U 2314 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2313 ]
+[e :U 2317 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2316 ]
+"464
+[e :U 2320 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2319 ]
+[e :U 2323 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2322 ]
+"465
+[e :U 2326 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 2303 ]
-[e :U 2307 ]
+[e :U 2325 ]
+[e :U 2329 ]
 {
 [e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2306 ]
-"461
+[e :U 2328 ]
+"466
 [e $U 2253  ]
-"462
-[e :U 2308 ]
-"463
+"467
+[e :U 2330 ]
+"468
 [e = _displayClock -> -> 0 `i `uc ]
-"464
+"469
 [e = _placePoint -> -> 0 `i `a ]
-"465
+"470
 }
 [e $U 2253  ]
 [e :U 2254 ]
 [e [\ _displayClock , $ -> 0 `i 2255
- , $ -> 1 `i 2280
- 2308 ]
+ , $ -> 1 `i 2277
+ , $ -> 2 `i 2302
+ 2330 ]
 [e :U 2253 ]
-"466
-[e $U 1862  ]
-"467
-[e :U 2309 ]
-"468
-[e $U 2311  ]
-{
-"469
-[e :U 2312 ]
-"470
-[e :U 2315 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2314 ]
-[e :U 2318 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2317 ]
-[e :U 2321 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
-[e :U 2320 ]
 "471
-[e :U 2324 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2323 ]
-[e :U 2327 ]
-{
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2326 ]
+[e $U 1862  ]
 "472
-[e :U 2330 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2329 ]
-[e :U 2333 ]
-{
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 2332 ]
+[e :U 2331 ]
 "473
-[e $U 2310  ]
+[e $U 2333  ]
+{
 "474
 [e :U 2334 ]
 "475
@@ -3769,27 +3770,27 @@ Version 4.0 HI-TECH Software Intermediate Code
 "476
 [e :U 2346 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2345 ]
 [e :U 2349 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2348 ]
 "477
 [e :U 2352 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2351 ]
 [e :U 2355 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2354 ]
 "478
-[e $U 2310  ]
+[e $U 2332  ]
 "479
 [e :U 2356 ]
 "480
@@ -3800,7 +3801,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 2358 ]
 [e :U 2362 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2361 ]
 [e :U 2365 ]
@@ -3811,91 +3812,91 @@ Version 4.0 HI-TECH Software Intermediate Code
 "481
 [e :U 2368 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2367 ]
 [e :U 2371 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2370 ]
 "482
 [e :U 2374 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2373 ]
 [e :U 2377 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 2376 ]
 "483
-[e $U 2310  ]
+[e $U 2332  ]
 "484
 [e :U 2378 ]
 "485
-[e = _displayClock -> -> 0 `i `uc ]
-"486
-[e = _placePoint -> -> 0 `i `a ]
-"487
-}
-[e $U 2310  ]
-[e :U 2311 ]
-[e [\ _displayClock , $ -> 0 `i 2312
- , $ -> 1 `i 2334
- , $ -> 2 `i 2356
- 2378 ]
-[e :U 2310 ]
-"488
-[e $U 1862  ]
-"489
-[e :U 2379 ]
-"490
-[e $U 2381  ]
-{
-"491
-[e :U 2382 ]
-"492
-[e :U 2385 ]
+[e :U 2381 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
+[e :U 2380 ]
 [e :U 2384 ]
-[e :U 2388 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
+[e :U 2383 ]
 [e :U 2387 ]
-[e :U 2391 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
+[e :U 2386 ]
+"486
 [e :U 2390 ]
-"493
-[e :U 2394 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
+[e :U 2389 ]
 [e :U 2393 ]
-[e :U 2397 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
+[e :U 2392 ]
+"487
 [e :U 2396 ]
-"494
-[e :U 2400 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
+[e :U 2395 ]
 [e :U 2399 ]
-[e :U 2403 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 2402 ]
+[e :U 2398 ]
+"488
+[e $U 2332  ]
+"489
+[e :U 2400 ]
+"490
+[e = _displayClock -> -> 0 `i `uc ]
+"491
+[e = _placePoint -> -> 0 `i `a ]
+"492
+}
+[e $U 2332  ]
+[e :U 2333 ]
+[e [\ _displayClock , $ -> 0 `i 2334
+ , $ -> 1 `i 2356
+ , $ -> 2 `i 2378
+ 2400 ]
+[e :U 2332 ]
+"493
+[e $U 1862  ]
+"494
+[e :U 2401 ]
 "495
-[e $U 2380  ]
+[e $U 2403  ]
+{
 "496
 [e :U 2404 ]
 "497
@@ -3917,27 +3918,27 @@ Version 4.0 HI-TECH Software Intermediate Code
 "498
 [e :U 2416 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2415 ]
 [e :U 2419 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2418 ]
 "499
 [e :U 2422 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2421 ]
 [e :U 2425 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2424 ]
 "500
-[e $U 2380  ]
+[e $U 2402  ]
 "501
 [e :U 2426 ]
 "502
@@ -3948,163 +3949,163 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 2428 ]
 [e :U 2432 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2431 ]
-"503
 [e :U 2435 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2434 ]
+"503
 [e :U 2438 ]
-{
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2437 ]
-"504
-[e :U 2441 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 2440 ]
-[e :U 2444 ]
+[e :U 2437 ]
+[e :U 2441 ]
 {
 [e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
+[e :U 2440 ]
+"504
+[e :U 2444 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
 [e :U 2443 ]
-"505
 [e :U 2447 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 2446 ]
-[e :U 2450 ]
-{
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2449 ]
+"505
+[e $U 2402  ]
 "506
-[e $U 2380  ]
+[e :U 2448 ]
 "507
 [e :U 2451 ]
-"508
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2450 ]
 [e :U 2454 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2453 ]
-"509
+"508
 [e :U 2457 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2456 ]
 [e :U 2460 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2459 ]
-"510
+"509
 [e :U 2463 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2462 ]
 [e :U 2466 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2465 ]
-"511
+"510
 [e :U 2469 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2468 ]
 [e :U 2472 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2471 ]
+"511
+[e $U 2402  ]
 "512
-[e :U 2475 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
-}
-[e :U 2474 ]
-[e :U 2478 ]
-{
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2477 ]
+[e :U 2473 ]
 "513
-[e $U 2380  ]
-"514
-[e :U 2479 ]
-"515
-[e = _displayClock -> -> 0 `i `uc ]
-"516
-[e = _placePoint -> -> 0 `i `a ]
-"517
-}
-[e $U 2380  ]
-[e :U 2381 ]
-[e [\ _displayClock , $ -> 0 `i 2382
- , $ -> 1 `i 2404
- , $ -> 2 `i 2426
- , $ -> 3 `i 2451
- 2479 ]
-[e :U 2380 ]
-"518
-[e $U 1862  ]
-"519
-[e :U 2480 ]
-"520
-[e $U 2482  ]
-{
-"521
-[e :U 2483 ]
-"522
-[e :U 2486 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2485 ]
-[e :U 2489 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-}
-[e :U 2488 ]
-[e :U 2492 ]
+[e :U 2476 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 2491 ]
-"523
-[e :U 2495 ]
+[e :U 2475 ]
+"514
+[e :U 2479 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2478 ]
+[e :U 2482 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2481 ]
+"515
+[e :U 2485 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 2494 ]
-[e :U 2498 ]
+[e :U 2484 ]
+[e :U 2488 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 2497 ]
-"524
-[e :U 2501 ]
+[e :U 2487 ]
+"516
+[e :U 2491 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 2500 ]
-[e :U 2504 ]
+[e :U 2490 ]
+[e :U 2494 ]
 {
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
-[e :U 2503 ]
+[e :U 2493 ]
+"517
+[e :U 2497 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2496 ]
+[e :U 2500 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2499 ]
+"518
+[e $U 2402  ]
+"519
+[e :U 2501 ]
+"520
+[e = _displayClock -> -> 0 `i `uc ]
+"521
+[e = _placePoint -> -> 0 `i `a ]
+"522
+}
+[e $U 2402  ]
+[e :U 2403 ]
+[e [\ _displayClock , $ -> 0 `i 2404
+ , $ -> 1 `i 2426
+ , $ -> 2 `i 2448
+ , $ -> 3 `i 2473
+ 2501 ]
+[e :U 2402 ]
+"523
+[e $U 1862  ]
+"524
+[e :U 2502 ]
 "525
-[e $U 2481  ]
+[e $U 2504  ]
+{
 "526
 [e :U 2505 ]
 "527
@@ -4126,27 +4127,27 @@ Version 4.0 HI-TECH Software Intermediate Code
 "528
 [e :U 2517 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2516 ]
 [e :U 2520 ]
 {
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2519 ]
 "529
 [e :U 2523 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2522 ]
 [e :U 2526 ]
 {
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2525 ]
 "530
-[e $U 2481  ]
+[e $U 2503  ]
 "531
 [e :U 2527 ]
 "532
@@ -4157,7 +4158,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 2529 ]
 [e :U 2533 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
 [e :U 2532 ]
 [e :U 2536 ]
@@ -4168,317 +4169,359 @@ Version 4.0 HI-TECH Software Intermediate Code
 "533
 [e :U 2539 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2538 ]
 [e :U 2542 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
 }
 [e :U 2541 ]
 "534
 [e :U 2545 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2544 ]
 [e :U 2548 ]
 {
-[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 2547 ]
 "535
-[e $U 2481  ]
+[e $U 2503  ]
 "536
 [e :U 2549 ]
 "537
 [e :U 2552 ]
 {
-[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 2551 ]
 [e :U 2555 ]
 {
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
 [e :U 2554 ]
-"538
 [e :U 2558 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 2557 ]
+"538
 [e :U 2561 ]
 {
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2560 ]
-"539
 [e :U 2564 ]
 {
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 2563 ]
+"539
 [e :U 2567 ]
 {
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
 }
 [e :U 2566 ]
-"540
 [e :U 2570 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
-}
-[e :U 2569 ]
-[e :U 2573 ]
-{
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2572 ]
-"541
-[e $U 2481  ]
-"542
-[e :U 2574 ]
-"543
-[e = _displayClock -> -> 0 `i `uc ]
-"544
-[e = _placePoint -> -> 0 `i `a ]
-"545
-}
-[e $U 2481  ]
-[e :U 2482 ]
-[e [\ _displayClock , $ -> 0 `i 2483
- , $ -> 1 `i 2505
- , $ -> 2 `i 2527
- , $ -> 3 `i 2549
- 2574 ]
-[e :U 2481 ]
-"546
-[e $U 1862  ]
-"547
-[e :U 2575 ]
-"548
-[e $U 2577  ]
-{
-"549
-[e :U 2578 ]
-"550
-[e :U 2581 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2580 ]
-[e :U 2584 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
-[e :U 2583 ]
-"551
-[e :U 2587 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
-}
-[e :U 2586 ]
-[e :U 2590 ]
-{
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
-}
-[e :U 2589 ]
-"552
-[e :U 2593 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2592 ]
-[e :U 2596 ]
-{
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2595 ]
-"553
-[e :U 2599 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2598 ]
-[e :U 2602 ]
-{
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 2601 ]
-"554
-[e $U 2576  ]
-"555
-[e :U 2603 ]
-"556
-[e :U 2606 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2605 ]
-[e :U 2609 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
-[e :U 2608 ]
-"557
-[e :U 2612 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
-}
-[e :U 2611 ]
-[e :U 2615 ]
-{
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
-}
-[e :U 2614 ]
-"558
-[e :U 2618 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2617 ]
-[e :U 2621 ]
-{
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2620 ]
-"559
-[e :U 2624 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2623 ]
-[e :U 2627 ]
-{
-[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 2626 ]
-"560
-[e $U 2576  ]
-"561
-[e :U 2628 ]
-"562
-[e :U 2631 ]
-{
-[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 2630 ]
-[e :U 2634 ]
-{
-[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
-}
-[e :U 2633 ]
-"563
-[e :U 2637 ]
-{
-[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2636 ]
-[e :U 2640 ]
-{
-[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 2639 ]
-"564
-[e :U 2643 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2642 ]
-[e :U 2646 ]
-{
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2645 ]
-"565
-[e :U 2649 ]
-{
-[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
-}
-[e :U 2648 ]
-[e :U 2652 ]
 {
 [e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 2651 ]
-"566
-[e $U 2576  ]
-"567
-[e :U 2653 ]
-"568
-[e :U 2656 ]
+[e :U 2569 ]
+"540
+[e $U 2503  ]
+"541
+[e :U 2571 ]
+"542
+[e :U 2574 ]
 {
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 2655 ]
-[e :U 2659 ]
+[e :U 2573 ]
+[e :U 2577 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 2658 ]
-"569
-[e :U 2662 ]
+[e :U 2576 ]
+"543
+[e :U 2580 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2579 ]
+[e :U 2583 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2582 ]
+"544
+[e :U 2586 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 2661 ]
-[e :U 2665 ]
+[e :U 2585 ]
+[e :U 2589 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 2664 ]
-"570
-[e :U 2668 ]
-{
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2667 ]
-[e :U 2671 ]
-{
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
-}
-[e :U 2670 ]
-"571
-[e :U 2674 ]
+[e :U 2588 ]
+"545
+[e :U 2592 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 2673 ]
-[e :U 2677 ]
+[e :U 2591 ]
+[e :U 2595 ]
 {
 [e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2676 ]
+[e :U 2594 ]
+"546
+[e $U 2503  ]
+"547
+[e :U 2596 ]
+"548
+[e = _displayClock -> -> 0 `i `uc ]
+"549
+[e = _placePoint -> -> 0 `i `a ]
+"550
+}
+[e $U 2503  ]
+[e :U 2504 ]
+[e [\ _displayClock , $ -> 0 `i 2505
+ , $ -> 1 `i 2527
+ , $ -> 2 `i 2549
+ , $ -> 3 `i 2571
+ 2596 ]
+[e :U 2503 ]
+"551
+[e $U 1862  ]
+"552
+[e :U 2597 ]
+"553
+[e $U 2599  ]
+{
+"554
+[e :U 2600 ]
+"555
+[e :U 2603 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2602 ]
+[e :U 2606 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2605 ]
+"556
+[e :U 2609 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2608 ]
+[e :U 2612 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2611 ]
+"557
+[e :U 2615 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2614 ]
+[e :U 2618 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2617 ]
+"558
+[e :U 2621 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2620 ]
+[e :U 2624 ]
+{
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 2623 ]
+"559
+[e $U 2598  ]
+"560
+[e :U 2625 ]
+"561
+[e :U 2628 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2627 ]
+[e :U 2631 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2630 ]
+"562
+[e :U 2634 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2633 ]
+[e :U 2637 ]
+{
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2636 ]
+"563
+[e :U 2640 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2639 ]
+[e :U 2643 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2642 ]
+"564
+[e :U 2646 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2645 ]
+[e :U 2649 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 2648 ]
+"565
+[e $U 2598  ]
+"566
+[e :U 2650 ]
+"567
+[e :U 2653 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2652 ]
+[e :U 2656 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2655 ]
+"568
+[e :U 2659 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2658 ]
+[e :U 2662 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2661 ]
+"569
+[e :U 2665 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2664 ]
+[e :U 2668 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2667 ]
+"570
+[e :U 2671 ]
+{
+[e = . . _TRISCbits 0 3 -> -> 0 `i `uc ]
+}
+[e :U 2670 ]
+[e :U 2674 ]
+{
+[e = . . _LATCbits 0 3 -> -> 1 `i `uc ]
+}
+[e :U 2673 ]
+"571
+[e $U 2598  ]
 "572
-[e $U 2576  ]
+[e :U 2675 ]
 "573
 [e :U 2678 ]
-"574
-[e = _displayClock -> -> 0 `i `uc ]
-"575
-[e = _placePoint -> -> 0 `i `a ]
-"576
+{
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e $U 2576  ]
-[e :U 2577 ]
-[e [\ _displayClock , $ -> 0 `i 2578
- , $ -> 1 `i 2603
- , $ -> 2 `i 2628
- , $ -> 3 `i 2653
- 2678 ]
-[e :U 2576 ]
+[e :U 2677 ]
+[e :U 2681 ]
+{
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 2680 ]
+"574
+[e :U 2684 ]
+{
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2683 ]
+[e :U 2687 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 2686 ]
+"575
+[e :U 2690 ]
+{
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2689 ]
+[e :U 2693 ]
+{
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 2692 ]
+"576
+[e :U 2696 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 2695 ]
+[e :U 2699 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 2698 ]
 "577
-[e $U 1862  ]
+[e $U 2598  ]
 "578
-[e :U 2679 ]
+[e :U 2700 ]
 "579
-[e ( _AllHighZ ..  ]
+[e = _displayClock -> -> 0 `i `uc ]
 "580
 [e = _placePoint -> -> 0 `i `a ]
 "581
-[e $U 1862  ]
+}
+[e $U 2598  ]
+[e :U 2599 ]
+[e [\ _displayClock , $ -> 0 `i 2600
+ , $ -> 1 `i 2625
+ , $ -> 2 `i 2650
+ , $ -> 3 `i 2675
+ 2700 ]
+[e :U 2598 ]
 "582
+[e $U 1862  ]
+"583
+[e :U 2701 ]
+"584
+[e ( _AllHighZ ..  ]
+"585
+[e = _placePoint -> -> 0 `i `a ]
+"586
+[e $U 1862  ]
+"587
 }
 [e $U 1862  ]
 [e :U 1863 ]
@@ -4488,51 +4531,51 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 4 `i 2102
  , $ -> 5 `i 2175
  , $ -> 6 `i 2252
- , $ -> 7 `i 2309
- , $ -> 8 `i 2379
- , $ -> 9 `i 2480
- , $ -> 10 `i 2575
- 2679 ]
+ , $ -> 7 `i 2331
+ , $ -> 8 `i 2401
+ , $ -> 9 `i 2502
+ , $ -> 10 `i 2597
+ 2701 ]
 [e :U 1862 ]
-"583
+"588
 [e :UE 1861 ]
 }
-"585
+"590
 [v _AllHighZ `(v ~T0 @X0 1 ef ]
-"586
+"591
 {
 [e :U _AllHighZ ]
 [f ]
-"587
-[e :U 2683 ]
+"592
+[e :U 2705 ]
 {
 [e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 2682 ]
-"588
-[e :U 2686 ]
+[e :U 2704 ]
+"593
+[e :U 2708 ]
 {
 [e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
 }
-[e :U 2685 ]
-"589
-[e :U 2689 ]
+[e :U 2707 ]
+"594
+[e :U 2711 ]
 {
 [e = . . _TRISCbits 0 2 -> -> 1 `i `uc ]
 }
-[e :U 2688 ]
-"590
-[e :U 2692 ]
+[e :U 2710 ]
+"595
+[e :U 2714 ]
 {
 [e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
 }
-[e :U 2691 ]
-"591
-[e :U 2695 ]
+[e :U 2713 ]
+"596
+[e :U 2717 ]
 {
 [e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
 }
-[e :U 2694 ]
-"592
-[e :UE 2680 ]
+[e :U 2716 ]
+"597
+[e :UE 2702 ]
 }

@@ -721,8 +721,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "26
 [e = _IND_FlashCnt -> -> 0 `i `us ]
-"28
-[e = _sendUART -> -> 1 `i `a ]
 "34
 }
 [e :U 886 ]

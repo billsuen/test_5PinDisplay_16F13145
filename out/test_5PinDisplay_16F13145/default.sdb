@@ -100,7 +100,7 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v _displayOncePlaceNum displayOncePlaceNum `(v  1 e 1 0 ]
 "321
 [v _displayTensPlaceNum displayTensPlaceNum `(v  1 e 1 0 ]
-"585
+"590
 [v _AllHighZ AllHighZ `(v  1 e 1 0 ]
 "47 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\main.c
 [v _main main `(i  1 e 2 0 ]
@@ -680,7 +680,7 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v displayTensPlaceNum@number number `uc  1 p 1 wreg ]
 [v displayTensPlaceNum@number number `uc  1 p 1 wreg ]
 [v displayTensPlaceNum@number number `uc  1 p 1 8 ]
-"583
+"588
 } 1
 "6
 [v _displayOncePlaceNum displayOncePlaceNum `(v  1 e 1 0 ]
@@ -690,10 +690,10 @@ ADC_TRIGGER_SOURCE_CLB1OUT7 41
 [v displayOncePlaceNum@number number `uc  1 p 1 8 ]
 "319
 } 1
-"585
+"590
 [v _AllHighZ AllHighZ `(v  1 e 1 0 ]
 {
-"592
+"597
 } 0
 "15 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
