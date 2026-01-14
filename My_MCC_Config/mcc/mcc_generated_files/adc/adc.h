@@ -44,7 +44,7 @@
  * @ingroup adc
  * @brief Defines the Custom Name pin mapping for channels in @ref adc_channel_t
  */
-#define VIN ADC_CHANNEL_ANA2
+#define BATT ADC_CHANNEL_ANA2
 
 /**
  * @ingroup adc

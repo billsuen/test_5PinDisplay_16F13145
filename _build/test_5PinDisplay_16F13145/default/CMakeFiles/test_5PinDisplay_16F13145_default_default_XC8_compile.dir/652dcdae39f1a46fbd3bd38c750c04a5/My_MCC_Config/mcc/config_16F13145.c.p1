@@ -1,8 +1,21 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"105 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/mcc_generated_files/system/../adc/adc.h
+"27 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+[c E40 3 58 59 60 62 63 2 4 .. ]
+[n E40 . ADC_CHANNEL_ADCG1 ADC_CHANNEL_VSS ADC_CHANNEL_TEMP ADC_CHANNEL_DAC1 ADC_CHANNEL_FVR_BUF1 ADC_CHANNEL_FVR_BUF2 ADC_CHANNEL_ANA2 ADC_CHANNEL_ANA4  ]
+"95 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc/mcc_generated_files/system/../adc/adc.h
+[v _ADC_ChannelSelect `(v ~T0 @X0 0 ef1`E40 ]
+"105
 [v _ADC_ConversionStart `(v ~T0 @X0 0 ef ]
 "272
 [v _ADC_FilterValueGet `(s ~T0 @X0 0 ef ]
+"677 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
+[s S45 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S45 . LATA0 LATA1 LATA2 . LATA4 LATA5 ]
+"676
+[u S44 `S45 1 ]
+[n S44 . . ]
+"686
+[v _LATAbits `VS44 ~T0 @X0 0 e@24 ]
 "38 C:/Users/bills/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.29.444/xc8\pic\include\proc/pic16f13145.h
 [; <" INDF0 equ 00h ;# ">
 "58
@@ -659,95 +672,155 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSL equ 01FEEh ;# ">
 "17927
 [; <" TOSH equ 01FEFh ;# ">
-"6 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
+"8 D:\Dropbox\Program\ForMicrochip\test\test_5PinDisplay_16F13145\My_MCC_Config\mcc\config_16F13145.c
 [v _tmpBATTvalue `Vs ~T0 @X0 1 e ]
 [i _tmpBATTvalue
 -> -> 0 `i `s
 ]
-"7
+"9
+[v _tmpVRvalue `Vs ~T0 @X0 1 e ]
+[i _tmpVRvalue
+-> -> 0 `i `s
+]
+"10
 [v _IND_FlashCnt `Vus ~T0 @X0 1 e ]
 [i _IND_FlashCnt
 -> -> 0 `i `us
 ]
-"8
+"11
 [v _displayClock `Vuc ~T0 @X0 1 e ]
 [i _displayClock
 -> -> 0 `i `uc
 ]
-"9
+"12
 [v _displayDelay `Vuc ~T0 @X0 1 e ]
 [i _displayDelay
 -> -> 0 `i `uc
 ]
-"10
+"13
 [v _sampleDelayCnt `Vuc ~T0 @X0 1 e ]
 [i _sampleDelayCnt
 -> -> 0 `i `uc
 ]
-"11
+"14
 [v _num `Vuc ~T0 @X0 1 e ]
 [i _num
 -> -> 0 `i `uc
 ]
-"12
+"15
+[v _ADC_pointer `Vuc ~T0 @X0 1 e ]
+[i _ADC_pointer
+-> -> 0 `i `uc
+]
+"16
 [v _sendUART `Va ~T0 @X0 1 e ]
 [i _sendUART
 -> -> 0 `i `a
 ]
-"14
+"19
 [v _USER_TMR0_ISR `(v ~T0 @X0 1 ef ]
-"15
+"20
 {
 [e :U _USER_TMR0_ISR ]
 [f ]
-"16
-[e ++ _sampleDelayCnt -> -> 1 `i `Vuc ]
-"17
-[e $ ! >= -> _sampleDelayCnt `i -> 30 `i 885  ]
-"18
-{
-"19
-[e = _sampleDelayCnt -> -> 0 `i `uc ]
-"20
-[e ( _ADC_ConversionStart ..  ]
 "21
-}
-[e :U 885 ]
+[e ++ _sampleDelayCnt -> -> 1 `i `Vuc ]
+"22
+[e $ ! >= -> _sampleDelayCnt `i -> 10 `i 885  ]
 "23
-[e ++ _IND_FlashCnt -> -> 1 `i `Vus ]
-"24
-[e $ ! >= -> _IND_FlashCnt `ui -> -> 300 `i `ui 886  ]
-"25
 {
+"24
+[e = _sampleDelayCnt -> -> 0 `i `uc ]
+"25
+[e $ ! == -> _ADC_pointer `i -> 0 `i 886  ]
 "26
-[e = _IND_FlashCnt -> -> 0 `i `us ]
+{
+"27
+[e ( _ADC_ChannelSelect (1 . `E40 7 ]
+"28
+[e ( _ADC_ConversionStart ..  ]
+"29
+}
+[e $U 887  ]
+"30
+[e :U 886 ]
+"31
+{
+"32
+[e ( _ADC_ChannelSelect (1 . `E40 6 ]
+"33
+[e ( _ADC_ConversionStart ..  ]
 "34
 }
-[e :U 886 ]
-"36
-[e ++ _displayDelay -> -> 1 `i `Vuc ]
-"37
-[e $ ! >= -> _displayDelay `i -> 2 `i 887  ]
-"38
-{
-"39
-[e = _displayDelay -> -> 0 `i `uc ]
-"40
-[e ++ _displayClock -> -> 1 `i `Vuc ]
-"41
-}
 [e :U 887 ]
-"42
+"35
+}
+[e :U 885 ]
+"37
+[e ++ _IND_FlashCnt -> -> 1 `i `Vus ]
+"38
+[e $ ! >= -> _IND_FlashCnt `ui -> -> 100 `i `ui 888  ]
+"39
+{
+"40
+[e = _IND_FlashCnt -> -> 0 `i `us ]
+"49
+}
+[e :U 888 ]
+"51
+[e ++ _displayDelay -> -> 1 `i `Vuc ]
+"52
+[e $ ! >= -> _displayDelay `i -> 2 `i 889  ]
+"53
+{
+"54
+[e = _displayDelay -> -> 0 `i `uc ]
+"55
+[e ++ _displayClock -> -> 1 `i `Vuc ]
+"56
+}
+[e :U 889 ]
+"57
 [e :UE 884 ]
 }
-"44
+"59
 [v _USER_ADC_THRESHOLD_ISR `(v ~T0 @X0 1 ef ]
-"45
+"60
 {
 [e :U _USER_ADC_THRESHOLD_ISR ]
 [f ]
-"46
+"64
+[e $U 892  ]
+"65
+{
+"66
+[e :U 893 ]
+"67
+[e = _tmpVRvalue ( _ADC_FilterValueGet ..  ]
+"68
+[e = _ADC_pointer -> -> 1 `i `uc ]
+"69
+[e = _sendUART -> -> 1 `i `a ]
+"70
+[e = . . _LATAbits 0 0 -> -> 0 `i `uc ]
+"71
+[e $U 891  ]
+"73
+[e :U 894 ]
+"74
 [e = _tmpBATTvalue ( _ADC_FilterValueGet ..  ]
-"47
-[e :UE 888 ]
+"75
+[e = _ADC_pointer -> -> 0 `i `uc ]
+"76
+[e $U 891  ]
+"79
+}
+[e $U 891  ]
+[e :U 892 ]
+[e [\ _ADC_pointer , $ -> 0 `i 893
+ , $ -> 1 `i 894
+ 891 ]
+[e :U 891 ]
+"81
+[e :UE 890 ]
 }

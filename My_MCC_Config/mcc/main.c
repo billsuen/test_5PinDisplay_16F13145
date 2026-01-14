@@ -70,6 +70,7 @@ int main(void)
 
     while(1)
     {
+		/*
 		if(IND_FlashCnt < IND_FLASH_DUTY)
 		{
 			IND_R_LAT = IND_ON;
@@ -80,6 +81,7 @@ int main(void)
 			IND_R_LAT = IND_OFF;
 			IND_Y_LAT = IND_ON;
 		}
+		*/
 
 		num = (((tmpBATTvalue - 665)*100)/335);
 
@@ -88,18 +90,21 @@ int main(void)
 		else
 			displayTensPlaceNum(num / 10);
 
-		/*
+		
 		if(sendUART)
 		{
 			sendUART = CLEAR;
-
-			sprintf(buffer, "%d\r\n", tmpBATTvalue);
+			//EUSART1_Write(tmpBATTvalue);
+			//*
+			sprintf(buffer, "%d\r\n", tmpVRvalue);
 			for(uint8_t i=0; buffer[i] != '\0'; ++i)
 			{
 				while(!EUSART1_IsTxReady());   // 等待 Buffer 可傳送
 				EUSART1_Write(buffer[i]);
 			}
+			//*/
+			IND_R_LAT = IND_OFF;
 		}
-		*/
+		
     }    
 }

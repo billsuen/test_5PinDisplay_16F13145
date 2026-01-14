@@ -54,9 +54,9 @@ void ADC_Initialize(void)
 			|(0 << _ADCON1_ADGPOL_POSITION)	/* ADGPOL digital_low(0) */
 			|(0 << _ADCON1_ADIPEN_POSITION)	/* ADIPEN disabled(0) */
 			|(0 << _ADCON1_ADPPOL_POSITION);	/* ADPPOL VSS(0) */
-    ADCON2 = (4 << _ADCON2_ADMD_POSITION)	/* ADMD Low_pass_filter_mode(4) */
+    ADCON2 = (2 << _ADCON2_ADMD_POSITION)	/* ADMD Average_mode(2) */
 			|(1 << _ADCON2_ADACLR_POSITION)	/* ADACLR enabled(1) */
-			|(5 << _ADCON2_ADCRS_POSITION)	/* ADCRS 0x5(5) */
+			|(4 << _ADCON2_ADCRS_POSITION)	/* ADCRS 0x4(4) */
 			|(0 << _ADCON2_ADPSIS_POSITION);	/* ADPSIS ADRES(0) */
     ADCON3 = (2 << _ADCON3_ADTMD_POSITION)	/* ADTMD ADERR >= ADLTH(2) */
 			|(0 << _ADCON3_ADSOI_POSITION)	/* ADSOI ADGO not cleared(0) */
@@ -90,7 +90,7 @@ void ADC_Initialize(void)
     ADRESH = (0 << _ADRESH_ADRES_POSITION);	/* ADRES 0x0(0) */
     ADRESL = (0 << _ADRESL_ADRES_POSITION);	/* ADRES 0x0(0) */
     ADCNT = (0 << _ADCNT_ADCNT_POSITION);	/* ADCNT 0x0(0) */ 
-    ADRPT = (8 << _ADRPT_ADRPT_POSITION);	/* ADRPT 0x8(8) */       
+    ADRPT = (16 << _ADRPT_ADRPT_POSITION);	/* ADRPT 0x10(16) */       
     ADCAP = (0 << _ADCAP_CAP_POSITION);	/* CAP Additional uC disabled(0) */
     ADPCH = (2 << _ADPCH_PCH_POSITION);	/* PCH ANA2(2) */ 
     ADACQL = (0 << _ADACQL_ACQ_POSITION);	/* ACQ 0x0(0) */  

@@ -88,24 +88,24 @@
 #define IND_Y_SetAnalogMode()      do { ANSELAbits.ANSA1 = 1; } while(0)
 #define IND_Y_SetDigitalMode()     do { ANSELAbits.ANSA1 = 0; } while(0)
 // get/set IO_RA2 aliases
-#define VIN_TRIS                 TRISAbits.TRISA2
-#define VIN_LAT                  LATAbits.LATA2
-#define VIN_PORT                 PORTAbits.RA2
-#define VIN_WPU                  WPUAbits.WPUA2
-#define VIN_OD                   ODCONAbits.ODCA2
-#define VIN_ANS                  ANSELAbits.ANSA2
-#define VIN_SetHigh()            do { LATAbits.LATA2 = 1; } while(0)
-#define VIN_SetLow()             do { LATAbits.LATA2 = 0; } while(0)
-#define VIN_Toggle()             do { LATAbits.LATA2 = ~LATAbits.LATA2; } while(0)
-#define VIN_GetValue()           PORTAbits.RA2
-#define VIN_SetDigitalInput()    do { TRISAbits.TRISA2 = 1; } while(0)
-#define VIN_SetDigitalOutput()   do { TRISAbits.TRISA2 = 0; } while(0)
-#define VIN_SetPullup()          do { WPUAbits.WPUA2 = 1; } while(0)
-#define VIN_ResetPullup()        do { WPUAbits.WPUA2 = 0; } while(0)
-#define VIN_SetPushPull()        do { ODCONAbits.ODCA2 = 0; } while(0)
-#define VIN_SetOpenDrain()       do { ODCONAbits.ODCA2 = 1; } while(0)
-#define VIN_SetAnalogMode()      do { ANSELAbits.ANSA2 = 1; } while(0)
-#define VIN_SetDigitalMode()     do { ANSELAbits.ANSA2 = 0; } while(0)
+#define BATT_TRIS                 TRISAbits.TRISA2
+#define BATT_LAT                  LATAbits.LATA2
+#define BATT_PORT                 PORTAbits.RA2
+#define BATT_WPU                  WPUAbits.WPUA2
+#define BATT_OD                   ODCONAbits.ODCA2
+#define BATT_ANS                  ANSELAbits.ANSA2
+#define BATT_SetHigh()            do { LATAbits.LATA2 = 1; } while(0)
+#define BATT_SetLow()             do { LATAbits.LATA2 = 0; } while(0)
+#define BATT_Toggle()             do { LATAbits.LATA2 = ~LATAbits.LATA2; } while(0)
+#define BATT_GetValue()           PORTAbits.RA2
+#define BATT_SetDigitalInput()    do { TRISAbits.TRISA2 = 1; } while(0)
+#define BATT_SetDigitalOutput()   do { TRISAbits.TRISA2 = 0; } while(0)
+#define BATT_SetPullup()          do { WPUAbits.WPUA2 = 1; } while(0)
+#define BATT_ResetPullup()        do { WPUAbits.WPUA2 = 0; } while(0)
+#define BATT_SetPushPull()        do { ODCONAbits.ODCA2 = 0; } while(0)
+#define BATT_SetOpenDrain()       do { ODCONAbits.ODCA2 = 1; } while(0)
+#define BATT_SetAnalogMode()      do { ANSELAbits.ANSA2 = 1; } while(0)
+#define BATT_SetDigitalMode()     do { ANSELAbits.ANSA2 = 0; } while(0)
 // get/set IO_RA4 aliases
 #define VR_TRIS                 TRISAbits.TRISA4
 #define VR_LAT                  LATAbits.LATA4

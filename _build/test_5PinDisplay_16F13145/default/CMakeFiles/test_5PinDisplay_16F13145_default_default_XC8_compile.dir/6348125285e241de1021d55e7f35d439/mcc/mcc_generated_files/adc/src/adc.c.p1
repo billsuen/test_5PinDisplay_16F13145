@@ -867,7 +867,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "52
 [e = _ADCON1 -> | | | | << -> 0 `i -> 0 `i << -> 0 `i -> 1 `i << -> 0 `i -> 5 `i << -> 0 `i -> 6 `i << -> 0 `i -> 7 `i `uc ]
 "57
-[e = _ADCON2 -> | | | << -> 4 `i -> 0 `i << -> 1 `i -> 3 `i << -> 5 `i -> 4 `i << -> 0 `i -> 7 `i `uc ]
+[e = _ADCON2 -> | | | << -> 2 `i -> 0 `i << -> 1 `i -> 3 `i << -> 4 `i -> 4 `i << -> 0 `i -> 7 `i `uc ]
 "61
 [e = _ADCON3 -> | | << -> 2 `i -> 0 `i << -> 0 `i -> 3 `i << -> 5 `i -> 4 `i `uc ]
 "64
@@ -903,7 +903,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "92
 [e = _ADCNT -> << -> 0 `i -> 0 `i `uc ]
 "93
-[e = _ADRPT -> << -> 8 `i -> 0 `i `uc ]
+[e = _ADRPT -> << -> 16 `i -> 0 `i `uc ]
 "94
 [e = _ADCAP -> << -> 0 `i -> 0 `i `uc ]
 "95
